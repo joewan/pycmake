@@ -75,6 +75,7 @@ function(pycm_cmake_print_info)
 
     message("PYCM_PROJECT_VERSION: " ${PYCM_PROJECT_VERSION})
     message("PYCM_BUILD_TYPE: " ${PYCM_BUILD_TYPE})
+    message("PYCM_SYSTEM_STRING:" "${PYCM_SYSTEM_STRING}")
 endfunction(pycm_cmake_print_info)
 
 function(pycm_cmake_project_registry)
