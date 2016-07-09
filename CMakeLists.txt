@@ -36,6 +36,10 @@ if (NOT PYCM_BUILD_TYPE)
   endif(DEBUG_MODE)
 endif(NOT PYCM_BUILD_TYPE)
 
+include(CocosBuildHelpers)
+
+message(${BUILDING_STRING})
+
 function(pycm_func_log param)
     message("====pycm function call: [" ${param} "]====")
 endfunction(pycm_func_log)

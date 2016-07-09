@@ -14,13 +14,13 @@
 #
 
 find_path(FLATBUFFERS_INCLUDE_DIR
-	NAMES flatbuffers.h
-	PATH_SUFFIXES include include/flatbuffers
+    NAMES flatbuffers.h
+    PATH_SUFFIXES include include/flatbuffers
 )
 
-find_library(FLATBUFFERS_LIBRARY 
-	NAMES flatbuffers
-	PATH_SUFFIXES lib
+find_library(FLATBUFFERS_LIBRARY
+    NAMES flatbuffers
+    PATH_SUFFIXES lib
 )
 
 set(FLATBUFFERS_INCLUDE_DIRS "${FLATBUFFERS_INCLUDE_DIR}")

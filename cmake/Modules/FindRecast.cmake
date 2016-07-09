@@ -14,13 +14,13 @@
 #
 
 find_path(RECAST_INCLUDE_DIR
-	NAMES Recast/Recast.h
-	PATH_SUFFIXES include
+    NAMES Recast/Recast.h
+    PATH_SUFFIXES include
 )
 
-find_library(RECAST_LIBRARY 
-	NAMES Recast
-	PATH_SUFFIXES lib
+find_library(RECAST_LIBRARY
+    NAMES Recast
+    PATH_SUFFIXES lib
 )
 
 set(RECAST_INCLUDE_DIRS "${RECAST_INCLUDE_DIR}")

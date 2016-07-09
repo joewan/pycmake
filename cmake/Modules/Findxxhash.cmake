@@ -14,13 +14,13 @@
 #
 
 find_path(XXHASH_INCLUDE_DIR
-	NAMES xxhash.h xxhash.h
-	PATH_SUFFIXES include include/xxhash
+    NAMES xxhash.h xxhash.h
+    PATH_SUFFIXES include include/xxhash
 )
 
-find_library(XXHASH_LIBRARY 
-	NAMES xxhash
-	PATH_SUFFIXES lib
+find_library(XXHASH_LIBRARY
+    NAMES xxhash
+    PATH_SUFFIXES lib
 )
 
 set(XXHASH_INCLUDE_DIRS "${XXHASH_INCLUDE_DIR}")
