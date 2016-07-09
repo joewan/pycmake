@@ -59,7 +59,7 @@ endmacro()
 # Also if BUILD_SHARED_LIBS variable off, it is try to use <pkg>_STATIC_* vars before
 function(cocos_use_pkg target pkg)
   set(prefix ${pkg})
-  
+
   set(_include_dirs)
   if(NOT _include_dirs)
     set(_include_dirs ${${prefix}_INCLUDE_DIRS})
@@ -72,7 +72,7 @@ function(cocos_use_pkg target pkg)
     include_directories(${_include_dirs})
     message(STATUS "${pkg} add to include_dirs: ${_include_dirs}")
   endif()
-  
+
   set(_library_dirs)
   if(NOT _library_dirs)
     set(_library_dirs ${${prefix}_LIBRARY_DIRS})
@@ -81,7 +81,7 @@ function(cocos_use_pkg target pkg)
     link_directories(${_library_dirs})
     message(STATUS "${pkg} add to link_dirs: ${_library_dirs}")
   endif()
-  
+
   set(_libs)
   if(NOT _libs)
     set(_libs ${${prefix}_LIBRARIES})
@@ -93,7 +93,7 @@ function(cocos_use_pkg target pkg)
     target_link_libraries(${target} ${_libs})
     message(STATUS "${pkg} libs added to '${target}': ${_libs}")
   endif()
-  
+
   set(_defs)
   if(NOT _defs)
     set(_defs ${${prefix}_DEFINITIONS})
@@ -107,13 +107,13 @@ endfunction()
 #cmake has some strange defaults, this should help us a lot
 #Please use them everywhere
 
-#WINDOWS 	= 	Windows Desktop
-#WINRT 		= 	Windows RT
-#WP8 	  	= 	Windows Phone 8
-#ANDROID    =	Android
-#IOS		=	iOS
-#MACOSX		=	MacOS X
-#LINUX      =   Linux
+#WINDOWS  =   Windows Desktop
+#WINRT    =   Windows RT
+#WP8      =   Windows Phone 8
+#ANDROID  =   Android
+#IOS      =   iOS
+#MACOSX   =   MacOS X
+#LINUX    =   Linux
 
 if (${CMAKE_SYSTEM_NAME} MATCHES "Windows")
   if(WINRT)
