@@ -26,6 +26,16 @@ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${PROJECT_SOURCE_DIR}/cmake/Modules/
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${PROJECT_SOURCE_DIR}/cmake/Modules2/")
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${PROJECT_SOURCE_DIR}/cmake/Modules3/")
 
+# PYCM_BUILD_TYPE has precedence over DEBUG_MODE
+# Still supporting DEBUG_MODE for backwards compatibility
+if (NOT PYCM_BUILD_TYPE)
+  if(DEBUG_MODE)
+    set(PYCM_BUILD_TYPE DEBUG)
+  else(DEBUG_MODE)
+    set(PYCM_BUILD_TYPE RELEASE)
+  endif(DEBUG_MODE)
+endif(NOT PYCM_BUILD_TYPE)
+
 function(pycm_func_log param)
     message("====pycm function call: [" ${param} "]====")
 endfunction(pycm_func_log)
@@ -49,7 +59,6 @@ endfunction(pycm_cmake_policy_cook)
 
 function(pycm_cmake_print_info)
     pycm_func_log("pycm_cmake_print_info")
-    message("PYCMAKE_VERSION: " ${PYCMAKE_VERSION})
     message("PROJECT_NAME: " ${PROJECT_NAME})
     message("PROJECT_BINARY_DIR: " ${PROJECT_BINARY_DIR})
     message("PROJECT_SOURCE_DIR: " ${PROJECT_SOURCE_DIR})
@@ -58,8 +67,10 @@ function(pycm_cmake_print_info)
     message("CMAKE_MAJOR_VERSION: " ${CMAKE_MAJOR_VERSION})
     message("CMAKE_MINOR_VERSION: " ${CMAKE_MINOR_VERSION})
     message("CMAKE_SYSTEM_VERSION: " ${CMAKE_SYSTEM_VERSION})
-
     message("CMAKE_CURRENT_SOURCE_DIR: " ${CMAKE_CURRENT_SOURCE_DIR})
+
+    message("PYCM_PROJECT_VERSION: " ${PYCM_PROJECT_VERSION})
+    message("PYCM_BUILD_TYPE: " ${PYCM_BUILD_TYPE})
 endfunction(pycm_cmake_print_info)
 
 function(pycm_cmake_project_registry)
