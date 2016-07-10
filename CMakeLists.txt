@@ -3,6 +3,7 @@
 # cmake qt
 # variable case sensitive
 # cmake function usage
+# cmake macro usage()
 # function message print function
 # function set
 # variable CMAKE_MODULE_PATH
@@ -111,8 +112,13 @@ function(pycm_cmake_module_path_info)
     endforeach()
 endfunction(pycm_cmake_module_path_info)
 
+macro(pycm_macro_registry)
+    set(PYCM_PROJECT_VERSION 0.04)
+endmacro(pycm_macro_registry)
+
 pycm_cmake_version_cook()
 pycm_cmake_policy_cook()
+pycm_macro_registry()
 pycm_cmake_project_registry()
 pycm_cmake_print_info()
 pycm_cmake_architecture_info()
