@@ -27,17 +27,3 @@
       "ISelectionTreeManager.h",
       "VisionMapTypes.h",
     ],
-    "CryAnimation":[
-      "ICryAnimation.h",
-      "IAnimationPoseModifier.h",
-      "IAnimEventPlayer.h",
-      "IFacialAnimation.h",
-      "IAttachment.h",
-      "CryCharAnimationParams.h",
-      "CryCharMorphParams.h",
-      "IVertexAnimation.h",
-      "ILipSync.h",
-      "ILipSyncProvider.h",
-      "InterpolationHelpers.h",
-      "IDebugHistory.h"
-    ],
