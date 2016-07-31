@@ -1,30 +1,4 @@
 
-    "CryPlatform":[
-      "CryPlatform.h",
-      "CryPlatformDefines.h",
-      "CryWindows.h",
-      "CryAtlMfc.h",
-      "CryDLMalloc.h",
-      "CryLibrary.h",
-      "LevelHeap.h",
-      "platform.h",
-      "platform_impl.inl",
-      "WindowsUtils.h",
-      "CryStlConfig.h",
-      "WinBase.inl"
-    ],
-    "CryCompiler":[
-      "MSVCspecific.h",
-      "GCCspecific.h",
-      "Clangspecific.h"
-    ],
-    "CryProject":[
-      "ProjectDefines.h",
-      "ProjectDefinesInclude.h",
-      "CryModuleDefs.h",
-      "Version.h",
-      "Version_override.h"
-    ],
     "CrySystem":[
       "IEngineModule.h",
       "Timer.h",
