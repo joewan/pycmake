@@ -468,12 +468,6 @@
       "IGameWebDebug.h",
       "Options.h"
     ],
-    "CryLiveCreate":[
-      "ILiveCreatePlatform.h",
-      "ILiveCreateCommon.h",
-      "ILiveCreateHost.h",
-      "ILiveCreateManager.h"
-    ],
     "CryNetwork":[
       "INetwork.h",
       "INetworkService.h",
@@ -503,13 +497,6 @@
         ]
       }
     ],
-    "CryInput":[
-      "IInput.h",
-      "IJoystick.h",
-      "IHardwareMouse.h",
-      "IHMDManager.h",
-      "IHMDDevice.h"
-    ],
     "CryPhysics":[
       "CryPhysics.h",
       "IPhysics.h",
@@ -518,10 +505,6 @@
       "IDeferredCollisionEvent.h",
       "primitives.h",
       "primitives_info.h"
-    ],
-    "CryScripting":[
-      "IScriptSystem.h",
-      "ScriptHelpers.h"
     ],
     "CrySerialization":[
       "ISerialize.h",
