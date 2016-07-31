@@ -179,30 +179,6 @@
         ]
       }
     ],
-    "CryMath":[
-
-      "AABBSV.h",
-      "CryHalf_info.h",
-      "GeomQuery.h",
-      "CryHalf.inl",
-      "QTangent.h",
-      "ISplines.h",
-      "ISplineSerialization_impl.h",
-      "Bezier.h",
-      "Bezier_impl.h",
-      "FinalizingSpline.h",
-      "TCBSpline.h",
-      "Range.h",
-      "CryRandomInternal.h",
-      "Random.h",
-      "LCGRandom.h",
-      "MTPseudoRandom.h",
-      "PNoise3.h",
-      "SNoise.h",
-      "SimpleHashLookUp.h",
-      "RadixSort.h",
-      "RadixSortImpl.h"
-    ],
     "CryThreading":[
       "IJobManager.h",
       "IJobManager_JobDelegator.h",
