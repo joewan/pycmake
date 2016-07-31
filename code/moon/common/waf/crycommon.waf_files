@@ -132,25 +132,5 @@
       "branchmask.h",
       "IFlares.h",
       "IColorGradingController.h",
-      {
-        "RenderElements":[
-          "CREBreakableGlass.h",
-          "CREBreakableGlassConfig.h",
-          "CREBreakableGlassHelpers.h",
-          "CRELightPropagationVolume.h",
-          "CREBaseCloud.h",
-          "CREFarTreeSprites.h",
-          "CREFogVolume.h",
-          "CREGameEffect.h",
-          "CREImposter.h",
-          "CREMesh.h",
-          "CREOcclusionQuery.h",
-          "CREParticle.h",
-          "CREPostProcess.h",
-          "CRESky.h",
-          "CREVolumeObject.h",
-          "CREWaterOcean.h",
-          "CREWaterVolume.h",
-          "RendElement.h"
         ]
     ],
