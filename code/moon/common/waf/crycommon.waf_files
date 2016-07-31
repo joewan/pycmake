@@ -193,33 +193,6 @@
       "CryThreadSafeRendererContainer.h",
       "Synchronization.h"
     ],
-
-    "CryCinematics":[
-      "IMovieSystem.h",
-      "AnimKey.h",
-      "AnimKey_impl.h",
-      "AnimTime.h"
-    ],
-    "CryProfiling":[
-      "IDiskProfiler.h",
-      "ThreadProfilerSupport.h",
-      "CryMemReplay.h",
-      "CryMemReplayTrackedPtr.h",
-      "IPerfHud.h",
-      "IStatoscope.h",
-      "ProfileLog.h",
-      {
-        "FrameProfiler":[
-          "FrameProfiler/FrameProfiler.h",
-          "FrameProfiler/FrameProfiler_Brofiler.h",
-          "FrameProfiler/FrameProfiler_Platform.h",
-          "FrameProfiler/FrameProfiler_Internal.h",
-          "FrameProfiler/FrameProfiler_JobSystem.h",
-          "FrameProfiler/FrameProfiler_Shared.h",
-          "FrameProfiler/FrameProfiler_impl.h"
-        ]
-      }
-    ],
     "CryAI":[
       "IAIMannequin.h",
       "IClusterDetector.h",
