@@ -1,0 +1,15 @@
+{
+  "NoUberFile":{
+    "CryPlatform":[
+      "WinBase_posix.inl"
+    ],
+    "CryThreading":[
+      "CryAtomics_posix.h",
+      "CryThread_posix.h",
+      "CryThreadImpl_posix.h"
+    ],
+    "CryNetwork":[
+      "CrySocks_posix.h"
+    ]
+  }
+}

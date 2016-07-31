@@ -1,0 +1,13 @@
+{
+  "NoUberFile":{
+    "CryAssert":[
+      "CryAssert_Mac.h",
+      "CryAssert_IOS.h"
+    ],
+    "CryPlatform":[
+      "IPlatformOS.h",
+      "AppleSpecific.h",
+      "MacSpecific.h"
+    ]
+  }
+}

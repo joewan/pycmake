@@ -1,0 +1,13 @@
+{
+  "NoUberFile":{
+    "CryThreading":[
+      "CryAtomics_win32.h",
+      "CryAtomics_impl_win32.h",
+      "CryThread_win32.h",
+      "CryThreadImpl_win32.h"
+    ],
+    "CryNetwork":[
+      "CrySocks_win32.h"
+    ]
+  }
+}
