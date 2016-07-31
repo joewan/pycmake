@@ -1,19 +1,4 @@
 
-    "CryMemory":[
-      "Allocator.h",
-      "IDefragAllocator.h",
-      "MemoryAccess.h",
-      "FixedAllocator.h",
-      "IMemory.h",
-      "IGeneralMemoryHeap.h",
-      "ILocalMemoryUsage.h",
-      "PoolAllocator.h",
-      "StlDbgAlloc.h",
-      "HeapAllocator.h",
-      "CryMemBlock.h",
-      "CrySizer.h",
-    ],
-
     "CryAI":[
       "IClusterDetector.h",
       "INavigationSystem.h",
@@ -77,15 +62,6 @@
       "IMeshObj.h",
       "CryHeaders.h",
       "CryHeaders_info.h",
-      {
-        "Particles":[
-          "IParticles.h",
-          "ParticleParams.h",
-          "ParticleParams_info.h",
-          "ParticleParams_TypeInfo.h",
-          "IParticlesPfx2.h"
-        ]
-      }
     ],
     "CryRendering":[
       "IRenderer.h",
