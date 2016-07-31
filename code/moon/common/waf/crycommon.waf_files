@@ -162,22 +162,6 @@
       "HeapAllocator.h",
       "CryMemBlock.h",
       "CrySizer.h",
-      {
-        "CryPool":[
-          "CryPool/PAUnitTest.cpp",
-          "CryPool/Allocator.h",
-          "CryPool/Container.h",
-          "CryPool/Defrag.h",
-          "CryPool/example.h",
-          "CryPool/Fallback.h",
-          "CryPool/Inspector.h",
-          "CryPool/List.h",
-          "CryPool/Memory.h",
-          "CryPool/PoolAlloc.h",
-          "CryPool/STLWrapper.h",
-          "CryPool/ThreadSafe.h"
-        ]
-      }
     ],
     "CryThreading":[
       "IJobManager.h",
@@ -237,21 +221,6 @@
       "ITacticalPointSystem.h",
       "ISelectionTreeManager.h",
       "VisionMapTypes.h",
-      {
-        "BehaviorTree":[
-          "BehaviorTree/IBehaviorTree.h",
-          "BehaviorTree/IBehaviorTreeGraft.h",
-          "BehaviorTree/Action.h",
-          "BehaviorTree/Composite.h",
-          "BehaviorTree/Decorator.h",
-          "BehaviorTree/NodeFactory.h",
-          "BehaviorTree/Node.h",
-          "BehaviorTree/XmlLoader.h",
-          "BehaviorTree/Readme.txt",
-          "BehaviorTree/TimestampCollection.h",
-          "BehaviorTree/SerializationSupport.h"
-        ]
-      }
     ],
     "CryAudio":[
       "IAudioInterfacesCommonData.h",
@@ -348,85 +317,4 @@
           "CREWaterVolume.h",
           "RendElement.h"
         ]
-      }
     ],
-    "CryEntitySystem":[
-      "IComponent.h",
-      "IEntitySystem.h",
-      "IEntity.h",
-      "IEntityAttributesProxy.h",
-      "IEntityClass.h",
-      "IEntityLayer.h",
-      "IEntityPoolManager.h",
-      "IEntityProxy.h",
-      "IEntityRenderState.h",
-      "IEntityRenderState_info.h",
-      "IEntitySerialize.h",
-      "EntityDesc.h",
-      "IBreakableManager.h",
-      "IBreakableGlassSystem.h"
-    ],
-    "CryDynamicResponseSystem":[
-      "IDynamicResponseSystem.h",
-      "IDynamicResponseAction.h",
-      "IDynamicResponseCondition.h"
-    ],
-    "CryExtensionSystem":[
-      "CryExtension/CryCreateClassInstance.h",
-      "CryExtension/CryGUID.h",
-      "CryExtension/CryTypeID.h",
-      "CryExtension/ICryFactory.h",
-      "CryExtension/ICryFactoryRegistry.h",
-      "CryExtension/ICryUnknown.h",
-      "CryExtension/Impl/Conversion.h",
-      "CryExtension/Impl/ClassWeaver.h",
-      "CryExtension/Impl/CryGUIDHelper.h",
-      "CryExtension/Impl/ICryFactoryRegistryImpl.h",
-      "CryExtension/Impl/RegFactoryNode.h",
-      "CryExtension/Impl/TypeList.h"
-    ],
-    "CryGame":[
-      "IGame.h",
-      "IGameFramework.h",
-      "IGameFrameworkExtension.h",
-      "IGameRef.h",
-      "IGameStartup.h",
-      "IGameStatistics.h",
-      "IGameTokens.h",
-      "IGameVolumes.h",
-      "GameUtils.h",
-      "ExtensionDefines.h",
-      "IGameWebDebug.h",
-      "Options.h"
-    ],
-    "CryNetwork":[
-      "INetwork.h",
-      "INetworkService.h",
-      "INotificationNetwork.h",
-      "INetworkingState.h",
-      "IServiceNetwork.h",
-      "NetHelpers.h",
-      "CrySocks.h",
-      "IRemoteControl.h",
-      "IRemoteCommand.h",
-      "ICryOnlineStorage.h",
-      "ISimpleHttpServer.h",
-      {
-        "Lobby":[
-          "ICryLobby.h",
-          "CryLobbyPacket.h",
-          "ICryLobbyUI.h",
-          "CryLobbyEvent.h",
-          "ICryFriends.h",
-          "ICryFriendsManagement.h",
-          "ICryReward.h",
-          "ICrySignIn.h",
-          "ICryStats.h",
-          "ICryTCPService.h",
-          "ICryVoice.h",
-          "ICryMatchMaking.h"
-        ]
-      }
-    ],
-  }
-}
