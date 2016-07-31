@@ -1,31 +1,4 @@
 
-    "CrySystem":[
-
-      {
-        "File":[
-
-          "IZLibCompressor.h",
-          "IZlibDecompressor.h",
-          "ILZ4Decompressor.h",
-          "IAVI_Reader.h",
-          "XMLAttrReader.h",
-          "XMLBinaryHeaders.h",
-          "IReadWriteXMLSink.h",
-          "IFileChangeMonitor.h",
-          "IXml.h",
-          "IChunkFile.h",
-          "CryVersion.h"
-        ]
-      },
-      {
-        "Streaming":[
-          "IStreamEngine.h",
-          "IStreamEngineDefs.h",
-          "IStreamPersist.h",
-          "IBitStream.h"
-        ]
-      }
-    ],
     "CryMemory":[
       "Allocator.h",
       "IDefragAllocator.h",
@@ -50,20 +23,7 @@
       "CryMemBlock.h",
       "CrySizer.h",
     ],
-    "CryThreading":[
-      "IJobManager.h",
-      "IJobManager_JobDelegator.h",
-      "IThreadConfigManager.h",
-      "IThreadManager.h",
-      "CryThread.h",
-      "CryThreadImpl.h",
-      "CryAtomics.h",
-      "MultiThread_Containers.h",
-      "CryThread_dummy.h",
-      "CryThreadSafeWorkerContainer.h",
-      "CryThreadSafeRendererContainer.h",
-      "Synchronization.h"
-    ],
+
     "CryAI":[
       "IAIMannequin.h",
       "IClusterDetector.h",
