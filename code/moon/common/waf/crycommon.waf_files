@@ -3,30 +3,6 @@
     "Root":[
       "CryEngine.natvis"
     ],
-    "CryString":[
-      "CryFixedString.h",
-      "CryString.h",
-      "CryStringUtils.h",
-      "StringUtils.h",
-      "StlUtils.h",
-      "HashedString.h",
-      "Name_TypeInfo.h",
-      "CryName.h",
-      "CryPath.h",
-      "UnicodeBinding.h",
-      "UnicodeEncoding.h",
-      "UnicodeFunctions.h",
-      "UnicodeIterator.h",
-      "CryCrc32.h",
-      "NameCRCHelper.h",
-      "CrtDebugStats.h"
-    ],
-    "CryAssert":[
-      "CryAssert_impl.h",
-      "CryAssert.h",
-      "CompileTimeUtils.h",
-      "CompileTimeAssert.h"
-    ],
     "CryCore":[
       "BaseTypes.h",
       "Octree.h",
@@ -259,20 +235,12 @@
       "CryThreadSafeRendererContainer.h",
       "Synchronization.h"
     ],
-    "CryFont":[
-      "IFont.h"
-    ],
+
     "CryCinematics":[
       "IMovieSystem.h",
       "AnimKey.h",
       "AnimKey_impl.h",
       "AnimTime.h"
-    ],
-    "CryMono":[
-      "IMonoRuntime.h"
-    ],
-    "CrySchematyc":[
-      "IFlashPlayer.h"
     ],
     "CryProfiling":[
       "IDiskProfiler.h",
@@ -485,11 +453,6 @@
       "CryExtension/Impl/ICryFactoryRegistryImpl.h",
       "CryExtension/Impl/RegFactoryNode.h",
       "CryExtension/Impl/TypeList.h"
-    ],
-    "CryUI":[
-      "IUIFramework.h",
-      "IFlashUI.h",
-      "ICryMiniGUI.h"
     ],
     "CryGame":[
       "IGame.h",
