@@ -1,22 +1,6 @@
 
     "CrySystem":[
-      "IEngineModule.h",
-      "Timer.h",
-      "TimeValue.h",
-      "TimeValue_info.h",
-      "ISystem.h",
-      "CryUnitTest.h",
-      "CryUtils.h",
-      "ILog.h",
-      "IMiniLog.h",
-      "Pipe.h",
-      "ICmdLine.h",
-      "IConsole.h",
-      "ITextModeConsole.h",
-      "ParseEngineConfig.h",
-      "IResourceCollector.h",
-      "IOverloadSceneManager.h",
-      "ISystemScheduler.h",
+
       "IWindowMessageHandler.h",
       "ILocalizationManager.h",
       "IBudgetingSystem.h",
