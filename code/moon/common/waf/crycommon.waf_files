@@ -1,22 +1,9 @@
 
     "CrySystem":[
 
-      "IWindowMessageHandler.h",
-      "ILocalizationManager.h",
-      "IBudgetingSystem.h",
-      "IProcess.h",
-      "ICodeCheckpointMgr.h",
-      "InplaceFactory.h",
-      "ITestSystem.h",
-      "ITimer.h",
-      "IValidator.h",
       {
         "File":[
-          "LineStreamBuffer.h",
-          "CryFile.h",
-          "CryBufferedFileReader.h",
-          "IResourceManager.h",
-          "ICryPak.h",
+
           "IZLibCompressor.h",
           "IZlibDecompressor.h",
           "ILZ4Decompressor.h",
