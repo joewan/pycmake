@@ -1,26 +1,9 @@
-{
-  "NoUberFile":{
-    "Root":[
-      "CryEngine.natvis"
-    ],
     "CryCore":[
-      "BaseTypes.h",
-      "Octree.h",
-      "OctreeDebug.h",
       "smartptr.h",
       "FixedPoint.h",
       "stridedptr.h",
       "CountedValue.h",
       "CoherentValue.h",
-      "CryFlags.h",
-      "CryTypeInfo.h",
-      "CryTypeInfo.inl",
-      "Common_TypeInfo2.h",
-      "Common_TypeInfo.h",
-      "TypeInfo_decl.h",
-      "TypeInfo_impl.h",
-      "Typelist.h",
-      "TypelistUtils.h",
       "Wrapper.h",
       "CryEndian.h",
       "BitFiddling.h",
@@ -53,7 +36,6 @@
       "FunctorBaseMember.h",
       "functor.h",
       "Base64.h",
-      "MetaUtils.h",
       "BoostHelpers.h",
       "CryCustomTypes.h"
     ],
@@ -221,17 +203,6 @@
       "ITacticalPointSystem.h",
       "ISelectionTreeManager.h",
       "VisionMapTypes.h",
-    ],
-    "CryAudio":[
-      "IAudioInterfacesCommonData.h",
-      "IAudioSystem.h",
-      "IAudioSystem.h",
-      "IAudioInterfacesCommonData.h",
-      {
-        "Dialog (Deprecated)":[
-          "IDialogSystem.h"
-        ]
-      }
     ],
     "CryAnimation":[
       "ICryAnimation.h",
