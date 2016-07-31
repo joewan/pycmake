@@ -63,22 +63,4 @@
       "CryHeaders.h",
       "CryHeaders_info.h",
     ],
-    "CryRendering":[
-      "IRenderer.h",
-      "IRenderMesh.h",
-      "IRenderAuxGeom.h",
-      "IStereoRenderer.h",
-      "RenderObject.h",
-      "IMeshBaking.h",
-      "IShader.h",
-      "IShaderParamCallback.h",
-      "IShader_info.h",
-      "IImage.h",
-      "IMaterial.h",
-      "ITexture.h",
-      "IMaterialEffects.h",
-      "branchmask.h",
-      "IFlares.h",
-      "IColorGradingController.h",
-        ]
-    ],
+
