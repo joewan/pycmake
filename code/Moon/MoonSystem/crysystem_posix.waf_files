@@ -1,0 +1,12 @@
+{
+  "CrySystem_uber_2.cpp":{
+    "MemoryManager":[
+      "CryMemoryManager_sce.h"
+    ]
+  },
+    "CrySystem_uber_6.cpp":{
+	"Threading":[
+	   "CryThreadUtil_posix.h"
+		]
+	}
+}
