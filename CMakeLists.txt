@@ -41,6 +41,10 @@ include(CocosBuildHelpers)
 
 message(${BUILDING_STRING})
 
+include_directories(
+  ${CMAKE_CURRENT_SOURCE_DIR}/code/Cry/CryCommon
+)
+
 function(pycm_func_log param)
     message("====pycm function call: [" ${param} "]====")
 endfunction(pycm_func_log)
@@ -123,4 +127,8 @@ pycm_cmake_project_registry()
 pycm_cmake_print_info()
 pycm_cmake_architecture_info()
 pycm_cmake_platform_info()
+
+add_subdirectory(code/Cry/CryCommon)
+#include(code/Cry/CryCommon/CMakeLists.txt)
+
 pycm_cmake_module_path_info()
