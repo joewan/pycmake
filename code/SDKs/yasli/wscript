@@ -1,0 +1,13 @@
+# Copyright (c) 2015 Crytek.
+# WAF-based build system
+
+def build(bld):	
+
+	bld.CryEngineStaticModule( 
+		target     = 'yasli', 
+		vs_filter  = 'Libs',
+		file_list  = 'yasli.waf_files',
+		use_module = [ ],
+		includes   = [ Path('Code/Libs/yasli') ],
+		defines    = [],
+	)
