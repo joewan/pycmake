@@ -61,7 +61,7 @@ class CSyslogStats
 // Define if you wish to enable the player count feature.
 // Note: The player count feature can not be used when building
 // Windows-style DLLs!
-		#if CRY_PLATFORM_LINUX || CRY_PLATFORM_ANDROID || CRY_PLATFORM_MAC
+		#if CRY_PLATFORM_LINUX || CRY_PLATFORM_ANDROID// || CRY_PLATFORM_MAC
 			#define UC_ENABLE_PLAYER_COUNT 1
 		#else
 			#undef UC_ENABLE_PLAYER_COUNT

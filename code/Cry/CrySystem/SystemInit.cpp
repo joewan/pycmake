@@ -2514,7 +2514,7 @@ bool CSystem::Init(const SSystemInitParams &startupParams)
 	{
 		string headerName;
 		#if defined(USE_UNIXCONSOLE)
-		CUNIXConsole* pConsole = pUnixConsole = new CUNIXConsole();
+		CUNIXConsole* pConsole = /*pUnixConsole = */new CUNIXConsole();
 		headerName = "Unix ";
 		#elif defined(USE_IOSCONSOLE)
 		CIOSConsole* pConsole = new CIOSConsole();

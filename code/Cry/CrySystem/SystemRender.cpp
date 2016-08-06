@@ -29,7 +29,7 @@
 #include <IMovieSystem.h>
 #include <IJobManager.h>
 #include <IPlatformOS.h>
-
+#include "IGame.h"
 #include "CrySizerStats.h"
 #include "CrySizerImpl.h"
 #include "ITestSystem.h"   // ITestSystem
@@ -39,7 +39,7 @@
 #include "ITextModeConsole.h"
 #include "HardwareMouse.h"
 #include <IEntitySystem.h> // <> required for Interfuscator
-#include "../CryAction/IActorSystem.h"
+//#include "../CryAction/IActorSystem.h"
 #include "NullImplementation/NULLRenderAuxGeom.h"
 
 #include "MiniGUI/MiniGUI.h"

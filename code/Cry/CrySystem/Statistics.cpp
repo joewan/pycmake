@@ -26,7 +26,7 @@
 // Access to some game info.
 #include "IGame.h"                     // IGame
 #include "IGameFramework.h"            // IGameFramework
-#include "../CryAction/ILevelSystem.h" // IGameFramework
+//#include "../CryAction/ILevelSystem.h" // IGameFramework
 
 const std::vector<const char*>& GetModuleNames()
 {
