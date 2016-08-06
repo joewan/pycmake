@@ -283,7 +283,7 @@ set (SourceGroup_FlowSystem_Nodes
 	FlowSystem/Nodes/FlowInterpolNodes.cpp
 	FlowSystem/Nodes/FlowInventoryNodes.cpp
 	FlowSystem/Nodes/FlowKinectNodes.cpp
-	FlowSystem/Nodes/FlowKinectNodesDurango.cpp
+	###FlowSystem/Nodes/FlowKinectNodesDurango.cpp
 	FlowSystem/Nodes/FlowLogInput.cpp
 	FlowSystem/Nodes/FlowLogNode.cpp
 	FlowSystem/Nodes/FlowLogNode.h
@@ -818,13 +818,13 @@ set (SourceGroup_PlayerProfiles
 	PlayerProfiles/PlayerProfile.h
 	PlayerProfiles/PlayerProfileImplConsole.cpp
 	PlayerProfiles/PlayerProfileImplConsole.h
-	PlayerProfiles/PlayerProfileImplDurango.cpp
-	PlayerProfiles/PlayerProfileImplDurango.h
+	###PlayerProfiles/PlayerProfileImplDurango.cpp
+	###PlayerProfiles/PlayerProfileImplDurango.h
 	PlayerProfiles/PlayerProfileImplFS.cpp
 	PlayerProfiles/PlayerProfileImplFS.h
 	PlayerProfiles/PlayerProfileImplNoSave.h
-	PlayerProfiles/PlayerProfileImplOrbis.cpp
-	PlayerProfiles/PlayerProfileImplOrbis.h
+	###PlayerProfiles/PlayerProfileImplOrbis.cpp
+	###PlayerProfiles/PlayerProfileImplOrbis.h
 	PlayerProfiles/PlayerProfileImplRSFHelper.cpp
 	PlayerProfiles/PlayerProfileImplRSFHelper.h
 	PlayerProfiles/PlayerProfileManager.cpp
@@ -1264,82 +1264,101 @@ source_group("View System" FILES ${SourceGroup_ViewSystem})
 
 
 # Support unity build with uber files
-set(CryAction_animgraph_uber_cpp ${SourceGroup_AnimationGraph_GameObject} ${SourceGroup_AnimationGraph_SystemFiles}  )
-enable_unity_build( "CryAction_animgraph_uber.cpp" CryAction_animgraph_uber_cpp )
+###set(CryAction_animgraph_uber_cpp ${SourceGroup_AnimationGraph_GameObject} ${SourceGroup_AnimationGraph_SystemFiles}  )
+###enable_unity_build( "CryAction_animgraph_uber.cpp" CryAction_animgraph_uber_cpp )
 
-set(CryAction_dialogsystem_uber_cpp ${SourceGroup_DialogSystem}  )
-enable_unity_build( "CryAction_dialogsystem_uber.cpp" CryAction_dialogsystem_uber_cpp )
+###set(CryAction_dialogsystem_uber_cpp ${SourceGroup_DialogSystem}  )
+###enable_unity_build( "CryAction_dialogsystem_uber.cpp" CryAction_dialogsystem_uber_cpp )
 
-set(CryAction_flashui_uber_cpp ${SourceGroup_FlashUI}  )
-enable_unity_build( "CryAction_flashui_uber.cpp" CryAction_flashui_uber_cpp )
+###set(CryAction_flashui_uber_cpp ${SourceGroup_FlashUI}  )
+###enable_unity_build( "CryAction_flashui_uber.cpp" CryAction_flashui_uber_cpp )
 
-set(CryAction_flowsystem_nodes_uber_cpp ${SourceGroup_FlowSystem_Nodes} ${SourceGroup_FlowSystem_Nodes_Vehicle} ${SourceGroup_FlowSystem_UnitTests}  )
-enable_unity_build( "CryAction_flowsystem_nodes_uber.cpp" CryAction_flowsystem_nodes_uber_cpp )
+###set(CryAction_flowsystem_nodes_uber_cpp ${SourceGroup_FlowSystem_Nodes} ${SourceGroup_FlowSystem_Nodes_Vehicle} ${SourceGroup_FlowSystem_UnitTests}  )
+###enable_unity_build( "CryAction_flowsystem_nodes_uber.cpp" CryAction_flowsystem_nodes_uber_cpp )
 
-set(CryAction_flowsystem_uber_cpp ${SourceGroup_FlowSystem} ${SourceGroup_FlowSystem_Inspectors} ${SourceGroup_FlowSystem_Modules}  )
-enable_unity_build( "CryAction_flowsystem_uber.cpp" CryAction_flowsystem_uber_cpp )
+###set(CryAction_flowsystem_uber_cpp ${SourceGroup_FlowSystem} ${SourceGroup_FlowSystem_Inspectors} ${SourceGroup_FlowSystem_Modules}  )
+###enable_unity_build( "CryAction_flowsystem_uber.cpp" CryAction_flowsystem_uber_cpp )
 
-set(CryAction_game_objects_uber_cpp ${SourceGroup_GameObjects} ${SourceGroup_GameRules} ${SourceGroup_GameSession} ${SourceGroup_GameTokens} ${SourceGroup_GameVolumes} ${SourceGroup_GameVolumes_VolumeClasses} ${SourceGroup_GameplayRecorder} ${SourceGroup_GameplayRecorder_GameplayAnalyst}  )
-enable_unity_build( "CryAction_game_objects_uber.cpp" CryAction_game_objects_uber_cpp )
+###set(CryAction_game_objects_uber_cpp ${SourceGroup_GameObjects} ${SourceGroup_GameRules} ${SourceGroup_GameSession} ${SourceGroup_GameTokens} ${SourceGroup_GameVolumes} ${SourceGroup_GameVolumes_VolumeClasses} ${SourceGroup_GameplayRecorder} ${SourceGroup_GameplayRecorder_GameplayAnalyst}  )
+###enable_unity_build( "CryAction_game_objects_uber.cpp" CryAction_game_objects_uber_cpp )
 
-set(CryAction_main_uber_0_cpp ${SourceGroup_Animation} ${SourceGroup_Animation_PoseAligner} ${SourceGroup_Animation_PoseModifier} ${SourceGroup_Checkpoint} ${SourceGroup_CustomEvents} ${SourceGroup_PhysicsHelpers} ${SourceGroup_TestSystem}  )
-enable_unity_build( "CryAction_main_uber_0.cpp" CryAction_main_uber_0_cpp )
+###set(CryAction_main_uber_0_cpp ${SourceGroup_Animation} ${SourceGroup_Animation_PoseAligner} ${SourceGroup_Animation_PoseModifier} ${SourceGroup_Checkpoint} ${SourceGroup_CustomEvents} ${SourceGroup_PhysicsHelpers} ${SourceGroup_TestSystem}  )
+###enable_unity_build( "CryAction_main_uber_0.cpp" CryAction_main_uber_0_cpp )
 
-set(CryAction_main_uber_1_cpp ${SourceGroup_ActionFiles} ${SourceGroup_ActorFiles} ${SourceGroup_ItemFiles}  )
-enable_unity_build( "CryAction_main_uber_1.cpp" CryAction_main_uber_1_cpp )
+###set(CryAction_main_uber_1_cpp ${SourceGroup_ActionFiles} ${SourceGroup_ActorFiles} ${SourceGroup_ItemFiles}  )
+###enable_unity_build( "CryAction_main_uber_1.cpp" CryAction_main_uber_1_cpp )
 
-set(CryAction_main_uber_2_cpp ${SourceGroup_DebugHelpers} ${SourceGroup_LevelFiles} ${SourceGroup_MetadataRecorder} ${SourceGroup_ViewSystem}  )
-enable_unity_build( "CryAction_main_uber_2.cpp" CryAction_main_uber_2_cpp )
+###set(CryAction_main_uber_2_cpp ${SourceGroup_DebugHelpers} ${SourceGroup_LevelFiles} ${SourceGroup_MetadataRecorder} ${SourceGroup_ViewSystem}  )
+###enable_unity_build( "CryAction_main_uber_2.cpp" CryAction_main_uber_2_cpp )
 
-set(CryAction_main_uber_3_cpp ${SourceGroup_CooperativeAnimationManager} ${SourceGroup_CustomActions} ${SourceGroup_RangeSignaling} ${SourceGroup_RemoteControl} ${SourceGroup_SignalTimers} ${SourceGroup_SimpleHTTPServer} ${SourceGroup_Statistics} ${SourceGroup_UIDraw}  )
-enable_unity_build( "CryAction_main_uber_3.cpp" CryAction_main_uber_3_cpp )
+###set(CryAction_main_uber_3_cpp ${SourceGroup_CooperativeAnimationManager} ${SourceGroup_CustomActions} ${SourceGroup_RangeSignaling} ${SourceGroup_RemoteControl} ${SourceGroup_SignalTimers} ${SourceGroup_SimpleHTTPServer} ${SourceGroup_Statistics} ${SourceGroup_UIDraw}  )
+###enable_unity_build( "CryAction_main_uber_3.cpp" CryAction_main_uber_3_cpp )
 
-set(CryAction_main_uber_4_cpp ${SourceGroup_AIFiles} ${SourceGroup_EffectSystem} ${SourceGroup_ForceFeedbackSystem} ${SourceGroup_LipSync} ${SourceGroup_LivePreview} ${SourceGroup_Root} ${SourceGroup_SegmentedWorld} ${SourceGroup_SharedParams}  )
-enable_unity_build( "CryAction_main_uber_4.cpp" CryAction_main_uber_4_cpp )
+###set(CryAction_main_uber_4_cpp ${SourceGroup_AIFiles} ${SourceGroup_EffectSystem} ${SourceGroup_ForceFeedbackSystem} ${SourceGroup_LipSync} ${SourceGroup_LivePreview} ${SourceGroup_Root} ${SourceGroup_SegmentedWorld} ${SourceGroup_SharedParams}  )
+###enable_unity_build( "CryAction_main_uber_4.cpp" CryAction_main_uber_4_cpp )
 
-set(CryAction_main_uber_durango_cpp  )
-enable_unity_build( "CryAction_main_uber_durango.cpp" CryAction_main_uber_durango_cpp )
+###set(CryAction_main_uber_durango_cpp  )
+###enable_unity_build( "CryAction_main_uber_durango.cpp" CryAction_main_uber_durango_cpp )
 
-set(CryAction_main_uber_orbis_cpp ${SourceGroup_PlayerProfiles}  )
-enable_unity_build( "CryAction_main_uber_orbis.cpp" CryAction_main_uber_orbis_cpp )
+###set(CryAction_main_uber_orbis_cpp ${SourceGroup_PlayerProfiles}  )
+###enable_unity_build( "CryAction_main_uber_orbis.cpp" CryAction_main_uber_orbis_cpp )
 
-set(CryAction_mannequin_uber_cpp ${SourceGroup_Interfaces} ${SourceGroup_Mannequin} ${SourceGroup_Mannequin_Experimental} ${SourceGroup_Mannequin_MannequinAG} ${SourceGroup_Mannequin_ProceduralClips} ${SourceGroup_Mannequin_Xml}  )
-enable_unity_build( "CryAction_mannequin_uber.cpp" CryAction_mannequin_uber_cpp )
+###set(CryAction_mannequin_uber_cpp ${SourceGroup_Interfaces} ${SourceGroup_Mannequin} ${SourceGroup_Mannequin_Experimental} ${SourceGroup_Mannequin_MannequinAG} ${SourceGroup_Mannequin_ProceduralClips} ${SourceGroup_Mannequin_Xml}  )
+###enable_unity_build( "CryAction_mannequin_uber.cpp" CryAction_mannequin_uber_cpp )
 
-set(CryAction_material_effects_uber_cpp ${SourceGroup_MaterialEffects} ${SourceGroup_MaterialEffects_Effects} ${SourceGroup_MaterialEffects_Subcomponents} ${SourceGroup_MaterialEffects_Utils}  )
-enable_unity_build( "CryAction_material_effects_uber.cpp" CryAction_material_effects_uber_cpp )
+###set(CryAction_material_effects_uber_cpp ${SourceGroup_MaterialEffects} ${SourceGroup_MaterialEffects_Effects} ${SourceGroup_MaterialEffects_Subcomponents} ${SourceGroup_MaterialEffects_Utils}  )
+###enable_unity_build( "CryAction_material_effects_uber.cpp" CryAction_material_effects_uber_cpp )
 
-set(CryAction_network_uber_cpp ${SourceGroup_Network} ${SourceGroup_Network_Breakability} ${SourceGroup_Network_ContextEstablishmentTasks} ${SourceGroup_Network_Core} ${SourceGroup_Network_GameSpy} ${SourceGroup_Network_Helpers} ${SourceGroup_Network_Voice}  )
-enable_unity_build( "CryAction_network_uber.cpp" CryAction_network_uber_cpp )
+###set(CryAction_network_uber_cpp ${SourceGroup_Network} ${SourceGroup_Network_Breakability} ${SourceGroup_Network_ContextEstablishmentTasks} ${SourceGroup_Network_Core} ${SourceGroup_Network_GameSpy} ${SourceGroup_Network_Helpers} ${SourceGroup_Network_Voice}  )
+###enable_unity_build( "CryAction_network_uber.cpp" CryAction_network_uber_cpp )
 
-set(CryAction_serialization_uber_cpp ${SourceGroup_Serialization} ${SourceGroup_Serialization_BinarySaveGames} ${SourceGroup_Serialization_BinarySaveGames_XMLCPBin} ${SourceGroup_Serialization_BinarySaveGames_XMLCPBin_Reader} ${SourceGroup_Serialization_BinarySaveGames_XMLCPBin_Writer} ${SourceGroup_Serialization_ScriptXMLHelpers} ${SourceGroup_Serialization_Serializetoscript} ${SourceGroup_Serialization_XMLSaveGames}  )
-enable_unity_build( "CryAction_serialization_uber.cpp" CryAction_serialization_uber_cpp )
+###set(CryAction_serialization_uber_cpp ${SourceGroup_Serialization} ${SourceGroup_Serialization_BinarySaveGames} ${SourceGroup_Serialization_BinarySaveGames_XMLCPBin} ${SourceGroup_Serialization_BinarySaveGames_XMLCPBin_Reader} ${SourceGroup_Serialization_BinarySaveGames_XMLCPBin_Writer} ${SourceGroup_Serialization_ScriptXMLHelpers} ${SourceGroup_Serialization_Serializetoscript} ${SourceGroup_Serialization_XMLSaveGames}  )
+###enable_unity_build( "CryAction_serialization_uber.cpp" CryAction_serialization_uber_cpp )
 
-set(CryAction_vehicle_uber_cpp ${SourceGroup_VehicleFiles} ${SourceGroup_VehicleFiles_Actions} ${SourceGroup_VehicleFiles_Animation} ${SourceGroup_VehicleFiles_Damages} ${SourceGroup_VehicleFiles_Damages_DamageBehaviors} ${SourceGroup_VehicleFiles_Main} ${SourceGroup_VehicleFiles_Network} ${SourceGroup_VehicleFiles_Parts} ${SourceGroup_VehicleFiles_Script} ${SourceGroup_VehicleFiles_SeatActions} ${SourceGroup_VehicleFiles_Views}  )
-enable_unity_build( "CryAction_vehicle_uber.cpp" CryAction_vehicle_uber_cpp )
+###set(CryAction_vehicle_uber_cpp ${SourceGroup_VehicleFiles} ${SourceGroup_VehicleFiles_Actions} ${SourceGroup_VehicleFiles_Animation} ${SourceGroup_VehicleFiles_Damages} ${SourceGroup_VehicleFiles_Damages_DamageBehaviors} ${SourceGroup_VehicleFiles_Main} ${SourceGroup_VehicleFiles_Network} ${SourceGroup_VehicleFiles_Parts} ${SourceGroup_VehicleFiles_Script} ${SourceGroup_VehicleFiles_SeatActions} ${SourceGroup_VehicleFiles_Views}  )
+###enable_unity_build( "CryAction_vehicle_uber.cpp" CryAction_vehicle_uber_cpp )
 
-set(NoUberFile ${SourceGroup_PlayerProfiles_jsmn}  )
+set(NoUberFile
+	${SourceGroup_AnimationGraph_GameObject} ${SourceGroup_AnimationGraph_SystemFiles}
+	${SourceGroup_DialogSystem}
+	${SourceGroup_FlashUI}
+	${SourceGroup_FlowSystem_Nodes} ${SourceGroup_FlowSystem_Nodes_Vehicle} ${SourceGroup_FlowSystem_UnitTests}
+	${SourceGroup_FlowSystem} ${SourceGroup_FlowSystem_Inspectors} ${SourceGroup_FlowSystem_Modules}
+	${SourceGroup_GameObjects} ${SourceGroup_GameRules} ${SourceGroup_GameSession} ${SourceGroup_GameTokens} ${SourceGroup_GameVolumes} ${SourceGroup_GameVolumes_VolumeClasses} ${SourceGroup_GameplayRecorder} ${SourceGroup_GameplayRecorder_GameplayAnalyst}
+	${SourceGroup_Animation} ${SourceGroup_Animation_PoseAligner} ${SourceGroup_Animation_PoseModifier} ${SourceGroup_Checkpoint} ${SourceGroup_CustomEvents} ${SourceGroup_PhysicsHelpers} ${SourceGroup_TestSystem}
+	${SourceGroup_ActionFiles} ${SourceGroup_ActorFiles} ${SourceGroup_ItemFiles}
+	${SourceGroup_DebugHelpers} ${SourceGroup_LevelFiles} ${SourceGroup_MetadataRecorder} ${SourceGroup_ViewSystem}
+	${SourceGroup_CooperativeAnimationManager} ${SourceGroup_CustomActions} ${SourceGroup_RangeSignaling} ${SourceGroup_RemoteControl} ${SourceGroup_SignalTimers} ${SourceGroup_SimpleHTTPServer} ${SourceGroup_Statistics} ${SourceGroup_UIDraw}
+	${SourceGroup_AIFiles} ${SourceGroup_EffectSystem} ${SourceGroup_ForceFeedbackSystem} ${SourceGroup_LipSync} ${SourceGroup_LivePreview} ${SourceGroup_Root} ${SourceGroup_SegmentedWorld} ${SourceGroup_SharedParams}
+    ${SourceGroup_PlayerProfiles}
+	${SourceGroup_Interfaces} ${SourceGroup_Mannequin} ${SourceGroup_Mannequin_Experimental} ${SourceGroup_Mannequin_MannequinAG} ${SourceGroup_Mannequin_ProceduralClips} ${SourceGroup_Mannequin_Xml}
+	${SourceGroup_MaterialEffects} ${SourceGroup_MaterialEffects_Effects} ${SourceGroup_MaterialEffects_Subcomponents} ${SourceGroup_MaterialEffects_Utils}
+	${SourceGroup_Network} ${SourceGroup_Network_Breakability} ${SourceGroup_Network_ContextEstablishmentTasks} ${SourceGroup_Network_Core} ${SourceGroup_Network_GameSpy} ${SourceGroup_Network_Helpers} ${SourceGroup_Network_Voice}
+	${SourceGroup_Serialization} ${SourceGroup_Serialization_BinarySaveGames} ${SourceGroup_Serialization_BinarySaveGames_XMLCPBin} ${SourceGroup_Serialization_BinarySaveGames_XMLCPBin_Reader} ${SourceGroup_Serialization_BinarySaveGames_XMLCPBin_Writer} ${SourceGroup_Serialization_ScriptXMLHelpers} ${SourceGroup_Serialization_Serializetoscript} ${SourceGroup_Serialization_XMLSaveGames}
+	${SourceGroup_VehicleFiles} ${SourceGroup_VehicleFiles_Actions} ${SourceGroup_VehicleFiles_Animation} ${SourceGroup_VehicleFiles_Damages} ${SourceGroup_VehicleFiles_Damages_DamageBehaviors} ${SourceGroup_VehicleFiles_Main} ${SourceGroup_VehicleFiles_Network} ${SourceGroup_VehicleFiles_Parts} ${SourceGroup_VehicleFiles_Script} ${SourceGroup_VehicleFiles_SeatActions} ${SourceGroup_VehicleFiles_Views}
+	${SourceGroup_PlayerProfiles_jsmn}
+)
 
 
 set (SOURCES
-	${CryAction_animgraph_uber_cpp}
-	${CryAction_dialogsystem_uber_cpp}
-	${CryAction_flashui_uber_cpp}
-	${CryAction_flowsystem_nodes_uber_cpp}
-	${CryAction_flowsystem_uber_cpp}
-	${CryAction_game_objects_uber_cpp}
-	${CryAction_main_uber_0_cpp}
-	${CryAction_main_uber_1_cpp}
-	${CryAction_main_uber_2_cpp}
-	${CryAction_main_uber_3_cpp}
-	${CryAction_main_uber_4_cpp}
-	${CryAction_main_uber_durango_cpp}
-	${CryAction_main_uber_orbis_cpp}
-	${CryAction_mannequin_uber_cpp}
-	${CryAction_material_effects_uber_cpp}
-	${CryAction_network_uber_cpp}
-	${CryAction_serialization_uber_cpp}
-	${CryAction_vehicle_uber_cpp}
+	###${CryAction_animgraph_uber_cpp}
+	###${CryAction_dialogsystem_uber_cpp}
+	###${CryAction_flashui_uber_cpp}
+	###${CryAction_flowsystem_nodes_uber_cpp}
+	###${CryAction_flowsystem_uber_cpp}
+	###${CryAction_game_objects_uber_cpp}
+	###${CryAction_main_uber_0_cpp}
+	###${CryAction_main_uber_1_cpp}
+	###${CryAction_main_uber_2_cpp}
+	###${CryAction_main_uber_3_cpp}
+	###${CryAction_main_uber_4_cpp}
+	###${CryAction_main_uber_durango_cpp}
+	###${CryAction_main_uber_orbis_cpp}
+	###${CryAction_mannequin_uber_cpp}
+	###${CryAction_material_effects_uber_cpp}
+	###${CryAction_network_uber_cpp}
+	###${CryAction_serialization_uber_cpp}
+	###${CryAction_vehicle_uber_cpp}
 	${NoUberFile}
 )
 #END-FILE-LIST
@@ -1350,8 +1369,8 @@ include_directories( ${CMAKE_CURRENT_SOURCE_DIR} )
 add_library( ${THIS_PROJECT} ${SOURCES})
 target_link_libraries( ${THIS_PROJECT} md5 )
 
-SET_PLATFORM_TARGET_PROPERTIES( ${THIS_PROJECT} )
+###SET_PLATFORM_TARGET_PROPERTIES( ${THIS_PROJECT} )
 
-USE_MSVC_PRECOMPILED_HEADER( ${THIS_PROJECT} "StdAfx.h" "StdAfx.cpp" )
+###USE_MSVC_PRECOMPILED_HEADER( ${THIS_PROJECT} "StdAfx.h" "StdAfx.cpp" )
 
-SET_PLATFORM_TARGET_PROPERTIES( ${THIS_PROJECT} )
+###SET_PLATFORM_TARGET_PROPERTIES( ${THIS_PROJECT} )
