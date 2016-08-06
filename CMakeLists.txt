@@ -30,6 +30,7 @@ add_definitions(-w)
 
 add_subdirectory("code/Cry/CryCommon")
 add_subdirectory("code/Cry/CrySystem")
+add_subdirectory("code/Cry/CryAction")
 #add_subdirectory("code/Cry/CryFont")
 #add_subdirectory("code/Cry/CryEntitySystem")
 #add_subdirectory("code/Cry/CryInput")
