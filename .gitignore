@@ -4,3 +4,17 @@ CMakeFiles/*
 CMakeCache.txt
 cmake_install.cmake
 Makefile
+code/Cry/CryCommon/CMakeFiles/*
+code/Cry/CrySystem/CMakeFiles/*
+code/Cry/CryFont/CMakeFiles/*
+code/Cry/CryInput/CMakeFiles/*
+code/Cry/CryEntitySystem/CMakeFiles/*
+code/Cry/CryScriptSystem/CMakeFiles/*
+
+code/SDKs/freetype/*
+code/SDKs/ncurses/*
+code/SDKs/boost/*
+code/SDKs/SDL2/*
+
+*.cbp
+*.txt.user
