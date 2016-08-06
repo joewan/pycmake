@@ -28,19 +28,21 @@ include_directories(
 ### disable all compile warnings
 add_definitions(-w)
 
-SET(TOOLCHAIN_DIR "/usr/bin")
-SET(CMAKE_C_COMPILER ${TOOLCHAIN_DIR}/clang)
-SET(CMAKE_CXX_COMPILER ${TOOLCHAIN_DIR}/clang++)
+set(TOOLCHAIN_DIR "/usr/bin")
+set(CMAKE_C_COMPILER ${TOOLCHAIN_DIR}/clang)
+set(CMAKE_CXX_COMPILER ${TOOLCHAIN_DIR}/clang++)
 
-set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/Lib)
-set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/Lib)
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/Bin)
+set(CMAKE_BUILD_TYPE "Release")
+
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/Lib/${CMAKE_BUILD_TYPE})
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/Lib/${CMAKE_BUILD_TYPE})
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/Bin/${CMAKE_BUILD_TYPE})
 
 add_subdirectory("code/Cry/CryCommon")
 #add_subdirectory("code/Cry/CrySystem")
 #add_subdirectory("code/Cry/CryAction")
-add_subdirectory("code/Cry/CryFont")
-add_subdirectory("code/Cry/CryEntitySystem")
+#add_subdirectory("code/Cry/CryFont")
+#add_subdirectory("code/Cry/CryEntitySystem")
 add_subdirectory("code/Cry/CryInput")
 add_subdirectory("code/Cry/CryScriptSystem")
 
