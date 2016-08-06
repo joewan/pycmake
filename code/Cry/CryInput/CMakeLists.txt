@@ -100,8 +100,8 @@ source_group("SDL" FILES ${SourceGroup_SDL})
 set (SourceGroup_Shared
 	BaseInput.cpp
 	BaseInput.h
-	DurangoInputDevice.cpp
-	DurangoInputDevice.h
+	###DurangoInputDevice.cpp
+	###DurangoInputDevice.h
 	InputDevice.cpp
 	InputDevice.h
 	XInputDevice.cpp
@@ -128,10 +128,22 @@ source_group("TrackIR" FILES ${SourceGroup_TrackIR})
 
 
 # Support unity build with uber files
-set(CryInput_Uber_0_cpp ${SourceGroup_DX} ${SourceGroup_Durango} ${SourceGroup_Durango_Kinect} ${SourceGroup_Kinect} ${SourceGroup_Kinect_Filters} ${SourceGroup_Linux} ${SourceGroup_Orbis} ${SourceGroup_Root} ${SourceGroup_SDL} ${SourceGroup_Shared} ${SourceGroup_Synergy} ${SourceGroup_TrackIR}  )
-enable_unity_build( "CryInput_Uber_0.cpp" CryInput_Uber_0_cpp )
+###set(CryInput_Uber_0_cpp ${SourceGroup_DX} ${SourceGroup_Durango} ${SourceGroup_Durango_Kinect} ${SourceGroup_Kinect} ${SourceGroup_Kinect_Filters} ${SourceGroup_Linux} ${SourceGroup_Orbis} ${SourceGroup_Root} ${SourceGroup_SDL} ${SourceGroup_Shared} ${SourceGroup_Synergy} ${SourceGroup_TrackIR}  )
+###enable_unity_build( "CryInput_Uber_0.cpp" CryInput_Uber_0_cpp )
 
-set(NoUberFile  )
+set(NoUberFile
+		${SourceGroup_DX}
+		#${SourceGroup_Durango}
+		#${SourceGroup_Durango_Kinect}
+		#${SourceGroup_Kinect} ${SourceGroup_Kinect_Filters}
+		${SourceGroup_Linux}
+		#${SourceGroup_Orbis}
+		${SourceGroup_Root}
+		${SourceGroup_SDL}
+		${SourceGroup_Shared}
+		${SourceGroup_Synergy}
+		${SourceGroup_TrackIR}
+        )
 
 
 set (SOURCES
@@ -152,7 +164,7 @@ elseif (WIN64)
 	target_link_libraries( ${THIS_PROJECT} dxguid dinput8 )
 	#target_link_libraries( ${THIS_PROJECT} ${WINSDK_SDK_LIB_DIR}/x64/XINPUT9_1_0.lib )
 	target_link_libraries( ${THIS_PROJECT} XINPUT9_1_0 )
-	
+
 		# Orbis pad libs
 	target_link_libraries( ${THIS_PROJECT} hid Winmm )
 	if (MSVC_VERSION GREATER 1700)
@@ -167,13 +179,13 @@ elseif (WIN64)
 		target_link_libraries( ${THIS_PROJECT} debug     ${SDK_DIR}/OrbisPad/lib/Debug/libScePad_static_debug_vs2010_md.lib )
 		target_link_libraries( ${THIS_PROJECT} optimized ${SDK_DIR}/OrbisPad/lib/Release/libScePad_static_vs2010_md.lib )
 	endif()
-	
+
 elseif (WIN32)
 	target_link_libraries( ${THIS_PROJECT} dxguid dinput8 )
 	#target_link_libraries( ${THIS_PROJECT} ${WINSDK_SDK_LIB_DIR}/x86/XINPUT9_1_0.lib )
 	target_link_libraries( ${THIS_PROJECT} XINPUT9_1_0 )
 endif()
 
-USE_MSVC_PRECOMPILED_HEADER( ${THIS_PROJECT} "StdAfx.h" "StdAfx.cpp" )
+###USE_MSVC_PRECOMPILED_HEADER( ${THIS_PROJECT} "StdAfx.h" "StdAfx.cpp" )
 
-SET_PLATFORM_TARGET_PROPERTIES( ${THIS_PROJECT} )
+###SET_PLATFORM_TARGET_PROPERTIES( ${THIS_PROJECT} )

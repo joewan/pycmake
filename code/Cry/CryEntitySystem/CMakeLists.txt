@@ -211,22 +211,26 @@ source_group("Source Files" FILES ${SourceGroup_SourceFiles})
 
 
 # Support unity build with uber files
-set(CryEntitySystem_proxy_uber_cpp ${SourceGroup_Proxy_Area} ${SourceGroup_Proxy_Attributes} ${SourceGroup_Proxy_Audio} ${SourceGroup_Proxy_CameraProxy} ${SourceGroup_Proxy_ClipVolume} ${SourceGroup_Proxy_DynamicResponse} ${SourceGroup_Proxy_FlowGraph} ${SourceGroup_Proxy_Physics} ${SourceGroup_Proxy_Render} ${SourceGroup_Proxy_Script} ${SourceGroup_Proxy_SubstitutionProxy} ${SourceGroup_Proxy_TrackView} ${SourceGroup_Proxy_TriggerProxy}  )
-enable_unity_build( "CryEntitySystem_proxy_uber.cpp" CryEntitySystem_proxy_uber_cpp )
+###set(CryEntitySystem_proxy_uber_cpp ${SourceGroup_Proxy_Area} ${SourceGroup_Proxy_Attributes} ${SourceGroup_Proxy_Audio} ${SourceGroup_Proxy_CameraProxy} ${SourceGroup_Proxy_ClipVolume} ${SourceGroup_Proxy_DynamicResponse} ${SourceGroup_Proxy_FlowGraph} ${SourceGroup_Proxy_Physics} ${SourceGroup_Proxy_Render} ${SourceGroup_Proxy_Script} ${SourceGroup_Proxy_SubstitutionProxy} ${SourceGroup_Proxy_TrackView} ${SourceGroup_Proxy_TriggerProxy}  )
+###enable_unity_build( "CryEntitySystem_proxy_uber.cpp" CryEntitySystem_proxy_uber_cpp )
 
-set(CryEntitySystem_uber_0_cpp ${SourceGroup_EntityClass} ${SourceGroup_Root} ${SourceGroup_SourceFiles}  )
-enable_unity_build( "CryEntitySystem_uber_0.cpp" CryEntitySystem_uber_0_cpp )
+###set(CryEntitySystem_uber_0_cpp ${SourceGroup_EntityClass} ${SourceGroup_Root} ${SourceGroup_SourceFiles}  )
+###enable_unity_build( "CryEntitySystem_uber_0.cpp" CryEntitySystem_uber_0_cpp )
 
-set(CryEntitySystem_uber_1_cpp ${SourceGroup_AreaManager} ${SourceGroup_BreakableManager} ${SourceGroup_Loading} ${SourceGroup_PartitionGrid} ${SourceGroup_Pool}  )
-enable_unity_build( "CryEntitySystem_uber_1.cpp" CryEntitySystem_uber_1_cpp )
+###set(CryEntitySystem_uber_1_cpp ${SourceGroup_AreaManager} ${SourceGroup_BreakableManager} ${SourceGroup_Loading} ${SourceGroup_PartitionGrid} ${SourceGroup_Pool}  )
+###enable_unity_build( "CryEntitySystem_uber_1.cpp" CryEntitySystem_uber_1_cpp )
 
-set(NoUberFile  )
+set(NoUberFile
+		${SourceGroup_Proxy_Area} ${SourceGroup_Proxy_Attributes} ${SourceGroup_Proxy_Audio} ${SourceGroup_Proxy_CameraProxy} ${SourceGroup_Proxy_ClipVolume} ${SourceGroup_Proxy_DynamicResponse} ${SourceGroup_Proxy_FlowGraph} ${SourceGroup_Proxy_Physics} ${SourceGroup_Proxy_Render} ${SourceGroup_Proxy_Script} ${SourceGroup_Proxy_SubstitutionProxy} ${SourceGroup_Proxy_TrackView} ${SourceGroup_Proxy_TriggerProxy}
+		${SourceGroup_EntityClass} ${SourceGroup_Root} ${SourceGroup_SourceFiles}
+		${SourceGroup_AreaManager} ${SourceGroup_BreakableManager} ${SourceGroup_Loading} ${SourceGroup_PartitionGrid} ${SourceGroup_Pool}
+        )
 
 
 set (SOURCES
-	${CryEntitySystem_proxy_uber_cpp}
-	${CryEntitySystem_uber_0_cpp}
-	${CryEntitySystem_uber_1_cpp}
+	###${CryEntitySystem_proxy_uber_cpp}
+	###${CryEntitySystem_uber_0_cpp}
+	###${CryEntitySystem_uber_1_cpp}
 	${NoUberFile}
 )
 #END-FILE-LIST
@@ -236,6 +240,6 @@ include_directories( ${CMAKE_CURRENT_SOURCE_DIR} )
 
 add_library( ${THIS_PROJECT} ${SOURCES})
 
-USE_MSVC_PRECOMPILED_HEADER( ${THIS_PROJECT} "stdafx.h" "stdafx.cpp" )
+###USE_MSVC_PRECOMPILED_HEADER( ${THIS_PROJECT} "stdafx.h" "stdafx.cpp" )
 
-SET_PLATFORM_TARGET_PROPERTIES( ${THIS_PROJECT} )
+###SET_PLATFORM_TARGET_PROPERTIES( ${THIS_PROJECT} )

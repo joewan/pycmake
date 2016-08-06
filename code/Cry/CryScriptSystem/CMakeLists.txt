@@ -100,10 +100,12 @@ source_group("Source Files" FILES ${SourceGroup_SourceFiles})
 
 
 # Support unity build with uber files
-set(CryScriptSystem_uber_0_cpp ${SourceGroup_HeaderFiles} ${SourceGroup_LuaDebugger} ${SourceGroup_LuaRemoteDebug} ${SourceGroup_ResourceFiles} ${SourceGroup_ScriptBindings}  )
-enable_unity_build( "CryScriptSystem_uber_0.cpp" CryScriptSystem_uber_0_cpp )
+###set(CryScriptSystem_uber_0_cpp ${SourceGroup_HeaderFiles} ${SourceGroup_LuaDebugger} ${SourceGroup_LuaRemoteDebug} ${SourceGroup_ResourceFiles} ${SourceGroup_ScriptBindings}  )
+###enable_unity_build( "CryScriptSystem_uber_0.cpp" CryScriptSystem_uber_0_cpp )
 
-set(NoUberFile ${SourceGroup_Root} ${SourceGroup_SourceFiles}  )
+set(NoUberFile ${SourceGroup_Root} ${SourceGroup_SourceFiles}
+		${SourceGroup_HeaderFiles} ${SourceGroup_LuaDebugger} ${SourceGroup_LuaRemoteDebug} ${SourceGroup_ResourceFiles} ${SourceGroup_ScriptBindings}
+		)
 
 
 set (SOURCES
@@ -119,6 +121,6 @@ include_directories( ${SDK_DIR}/Lua/src )
 add_library( ${THIS_PROJECT} ${SOURCES})
 target_link_libraries(${THIS_PROJECT} lua)
 
-USE_MSVC_PRECOMPILED_HEADER( ${THIS_PROJECT} "StdAfx.h" "StdAfx.cpp" )
+###USE_MSVC_PRECOMPILED_HEADER( ${THIS_PROJECT} "StdAfx.h" "StdAfx.cpp" )
 
-SET_PLATFORM_TARGET_PROPERTIES( ${THIS_PROJECT} )
+###SET_PLATFORM_TARGET_PROPERTIES( ${THIS_PROJECT} )

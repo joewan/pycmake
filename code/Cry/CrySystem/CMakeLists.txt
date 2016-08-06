@@ -49,7 +49,7 @@ set (SourceGroup_HeaderFiles
 	CrySizerStats.h
 	CryWaterMark.h
 	DebugCallStack.h
-	DurangoDebugCallstack.h
+	###DurangoDebugCallstack.h
 	GeneralMemoryHeap.h
 	HardwareMouse.h
 	HotUpdate.h
@@ -135,8 +135,8 @@ source_group("Mac" FILES ${SourceGroup_Mac})
 
 set (SourceGroup_MemoryManager
 	CryMemoryManager.cpp
-	CryMemoryManager_sce.h
-	CryMemoryManager_sce.h
+	###CryMemoryManager_sce.h
+	###CryMemoryManager_sce.h
 	CustomMemoryHeap.cpp
 	CustomMemoryHeap.h
 	DefragAllocator.cpp
@@ -190,22 +190,22 @@ source_group("OverloadSceneManager" FILES ${SourceGroup_OverloadSceneManager})
 
 
 set (SourceGroup_PlatformOS
-	PlatformOS/PlatformOS_Durango.cpp
-	PlatformOS/PlatformOS_Durango.h
-	PlatformOS/PlatformOS_Orbis.cpp
-	PlatformOS/PlatformOS_Orbis.h
+	###PlatformOS/PlatformOS_Durango.cpp
+	###PlatformOS/PlatformOS_Durango.h
+	###PlatformOS/PlatformOS_Orbis.cpp
+	###PlatformOS/PlatformOS_Orbis.h
 	PlatformOS/PlatformOS_PC.cpp
 	PlatformOS/PlatformOS_PC.h
 	PlatformOS/SaveReaderWriter_CryPak.cpp
 	PlatformOS/SaveReaderWriter_CryPak.h
-	PlatformOS/SaveReaderWriter_Durango.cpp
-	PlatformOS/SaveReaderWriter_Durango.h
+	###PlatformOS/SaveReaderWriter_Durango.cpp
+	###PlatformOS/SaveReaderWriter_Durango.h
 	PlatformOS/SaveReaderWriter_Memory.cpp
 	PlatformOS/SaveReaderWriter_Memory.h
 	PlatformOS/SaveReaderWriter_Steam.cpp
 	PlatformOS/SaveReaderWriter_Steam.h
-	PlatformOS/StreamingInstall_Durango.cpp
-	PlatformOS/StreamingInstall_Durango.h
+	###PlatformOS/StreamingInstall_Durango.cpp
+	###PlatformOS/StreamingInstall_Durango.h
 )
 source_group("PlatformOS" FILES ${SourceGroup_PlatformOS})
 
@@ -331,7 +331,7 @@ set (SourceGroup_SourceFiles
 	CrySizerStats.cpp
 	DebugCallStack.cpp
 	DllMain.cpp
-	DurangoDebugCallstack.cpp
+	###DurangoDebugCallstack.cpp
 	DxDiag.h
 	FileIOWrapper.cpp
 	FileIOWrapper.h
@@ -347,9 +347,9 @@ set (SourceGroup_SourceFiles
 	LevelHeap.cpp
 	Log.cpp
 	MemReplay.cpp
-	MemReplay_Orbis.cpp
+	###MemReplay_Orbis.cpp
 	NotificationNetwork.cpp
-	OrbisDebugCallStack.cpp
+	###OrbisDebugCallStack.cpp
 	PhysRenderer.cpp
 	PhysRenderer.h
 	ResourceManager.cpp
@@ -436,7 +436,7 @@ source_group("TestSystem" FILES ${SourceGroup_TestSystem})
 
 set (SourceGroup_Threading
 	CryThreadUtil_posix.h
-	CryThreadUtil_sce.h
+	###CryThreadUtil_sce.h
 	CryThreadUtil_win32.h
 	SystemThreading.cpp
 	ThreadConfigManager.cpp
@@ -570,50 +570,60 @@ source_group("ZipDir" FILES ${SourceGroup_ZipDir})
 
 
 # Support unity build with uber files
-set(CrySystem_uber_0_cpp ${SourceGroup_HeaderFiles}  )
-enable_unity_build( "CrySystem_uber_0.cpp" CrySystem_uber_0_cpp )
+###set(CrySystem_uber_0_cpp ${SourceGroup_HeaderFiles}  )
+###enable_unity_build( "CrySystem_uber_0.cpp" CrySystem_uber_0_cpp )
 
-set(CrySystem_uber_1_cpp  )
-enable_unity_build( "CrySystem_uber_1.cpp" CrySystem_uber_1_cpp )
+###set(CrySystem_uber_1_cpp  )
+###enable_unity_build( "CrySystem_uber_1.cpp" CrySystem_uber_1_cpp )
 
-set(CrySystem_uber_2_cpp ${SourceGroup_MemoryManager} ${SourceGroup_ResourceFiles} ${SourceGroup_StreamEngine}  )
-enable_unity_build( "CrySystem_uber_2.cpp" CrySystem_uber_2_cpp )
+###set(CrySystem_uber_2_cpp ${SourceGroup_MemoryManager} ${SourceGroup_ResourceFiles} ${SourceGroup_StreamEngine}  )
+###enable_unity_build( "CrySystem_uber_2.cpp" CrySystem_uber_2_cpp )
 
-set(CrySystem_uber_3_cpp ${SourceGroup_XML} ${SourceGroup_XML_XMLSink} ${SourceGroup_ZipDir}  )
-enable_unity_build( "CrySystem_uber_3.cpp" CrySystem_uber_3_cpp )
+###set(CrySystem_uber_3_cpp ${SourceGroup_XML} ${SourceGroup_XML_XMLSink} ${SourceGroup_ZipDir}  )
+###enable_unity_build( "CrySystem_uber_3.cpp" CrySystem_uber_3_cpp )
 
-set(CrySystem_uber_4_cpp ${SourceGroup_HTTPDownloader} ${SourceGroup_Localization} ${SourceGroup_Profiler} ${SourceGroup_Windows}  )
-enable_unity_build( "CrySystem_uber_4.cpp" CrySystem_uber_4_cpp )
+###set(CrySystem_uber_4_cpp ${SourceGroup_HTTPDownloader} ${SourceGroup_Localization} ${SourceGroup_Profiler} ${SourceGroup_Windows}  )
+###enable_unity_build( "CrySystem_uber_4.cpp" CrySystem_uber_4_cpp )
 
-set(CrySystem_uber_5_cpp ${SourceGroup_Scaleform} ${SourceGroup_TestSystem}  )
-enable_unity_build( "CrySystem_uber_5.cpp" CrySystem_uber_5_cpp )
+###set(CrySystem_uber_5_cpp ${SourceGroup_Scaleform} ${SourceGroup_TestSystem}  )
+###enable_unity_build( "CrySystem_uber_5.cpp" CrySystem_uber_5_cpp )
 
-set(CrySystem_uber_6_cpp ${SourceGroup_ExtensionSystem} ${SourceGroup_ExtensionSystem_TestCases} ${SourceGroup_MiniGUI} ${SourceGroup_NullImplementation} ${SourceGroup_Threading}  )
-enable_unity_build( "CrySystem_uber_6.cpp" CrySystem_uber_6_cpp )
+###set(CrySystem_uber_6_cpp ${SourceGroup_ExtensionSystem} ${SourceGroup_ExtensionSystem_TestCases} ${SourceGroup_MiniGUI} ${SourceGroup_NullImplementation} ${SourceGroup_Threading}  )
+###enable_unity_build( "CrySystem_uber_6.cpp" CrySystem_uber_6_cpp )
 
-set(CrySystem_uber_7_cpp ${SourceGroup_CodeCoverage} ${SourceGroup_Statistics} ${SourceGroup_Statoscope} ${SourceGroup_ZLibCompressor}  )
-enable_unity_build( "CrySystem_uber_7.cpp" CrySystem_uber_7_cpp )
+###set(CrySystem_uber_7_cpp ${SourceGroup_CodeCoverage} ${SourceGroup_Statistics} ${SourceGroup_Statoscope} ${SourceGroup_ZLibCompressor}  )
+###enable_unity_build( "CrySystem_uber_7.cpp" CrySystem_uber_7_cpp )
 
-set(CrySystem_uber_8_cpp ${SourceGroup_HuffmanEncoding} ${SourceGroup_JobManager} ${SourceGroup_JobManager_BlockingBackend} ${SourceGroup_JobManager_FallbackBackend} ${SourceGroup_JobManager_ThreadBackEnd} ${SourceGroup_OverloadSceneManager}  )
-enable_unity_build( "CrySystem_uber_8.cpp" CrySystem_uber_8_cpp )
+###set(CrySystem_uber_8_cpp ${SourceGroup_HuffmanEncoding} ${SourceGroup_JobManager} ${SourceGroup_JobManager_BlockingBackend} ${SourceGroup_JobManager_FallbackBackend} ${SourceGroup_JobManager_ThreadBackEnd} ${SourceGroup_OverloadSceneManager}  )
+###enable_unity_build( "CrySystem_uber_8.cpp" CrySystem_uber_8_cpp )
 
-set(CrySystem_uber_9_cpp ${SourceGroup_LZ4Decompressor} ${SourceGroup_RemoteConsole} ${SourceGroup_Serialization} ${SourceGroup_Services} ${SourceGroup_Stroboscope} ${SourceGroup_VR} ${SourceGroup_VR_Oculus} ${SourceGroup_VR_OpenVR} ${SourceGroup_VR_Osvr} ${SourceGroup_ZLibDecompressor}  )
-enable_unity_build( "CrySystem_uber_9.cpp" CrySystem_uber_9_cpp )
+###set(CrySystem_uber_9_cpp ${SourceGroup_LZ4Decompressor} ${SourceGroup_RemoteConsole} ${SourceGroup_Serialization} ${SourceGroup_Services} ${SourceGroup_Stroboscope} ${SourceGroup_VR} ${SourceGroup_VR_Oculus} ${SourceGroup_VR_OpenVR} ${SourceGroup_VR_Osvr} ${SourceGroup_ZLibDecompressor}  )
+###enable_unity_build( "CrySystem_uber_9.cpp" CrySystem_uber_9_cpp )
 
-set(NoUberFile ${SourceGroup_Mac} ${SourceGroup_PlatformOS} ${SourceGroup_Root} ${SourceGroup_SourceFiles}  )
-
+set(NoUberFile
+		${SourceGroup_HeaderFiles}
+		${SourceGroup_MemoryManager} ${SourceGroup_ResourceFiles} ${SourceGroup_StreamEngine}
+		${SourceGroup_XML} ${SourceGroup_XML_XMLSink} ${SourceGroup_ZipDir}
+		${SourceGroup_HTTPDownloader} ${SourceGroup_Localization} ${SourceGroup_Profiler} ${SourceGroup_Windows}
+		${SourceGroup_Scaleform} ${SourceGroup_TestSystem}
+		${SourceGroup_ExtensionSystem} ${SourceGroup_ExtensionSystem_TestCases} ${SourceGroup_MiniGUI} ${SourceGroup_NullImplementation} ${SourceGroup_Threading}
+		${SourceGroup_CodeCoverage} ${SourceGroup_Statistics} ${SourceGroup_Statoscope} ${SourceGroup_ZLibCompressor}
+		${SourceGroup_HuffmanEncoding} ${SourceGroup_JobManager} ${SourceGroup_JobManager_BlockingBackend} ${SourceGroup_JobManager_FallbackBackend} ${SourceGroup_JobManager_ThreadBackEnd} ${SourceGroup_OverloadSceneManager}
+		${SourceGroup_LZ4Decompressor} ${SourceGroup_RemoteConsole} ${SourceGroup_Serialization} ${SourceGroup_Services} ${SourceGroup_Stroboscope} ${SourceGroup_VR} ${SourceGroup_VR_Oculus} ${SourceGroup_VR_OpenVR} ${SourceGroup_VR_Osvr} ${SourceGroup_ZLibDecompressor}
+        ${SourceGroup_Mac} ${SourceGroup_PlatformOS} ${SourceGroup_Root} ${SourceGroup_SourceFiles}
+		)
 
 set (SOURCES
-	${CrySystem_uber_0_cpp}
-	${CrySystem_uber_1_cpp}
-	${CrySystem_uber_2_cpp}
-	${CrySystem_uber_3_cpp}
-	${CrySystem_uber_4_cpp}
-	${CrySystem_uber_5_cpp}
-	${CrySystem_uber_6_cpp}
-	${CrySystem_uber_7_cpp}
-	${CrySystem_uber_8_cpp}
-	${CrySystem_uber_9_cpp}
+	###${CrySystem_uber_0_cpp}
+	###${CrySystem_uber_1_cpp}
+	###${CrySystem_uber_2_cpp}
+	###${CrySystem_uber_3_cpp}
+	###${CrySystem_uber_4_cpp}
+	###${CrySystem_uber_5_cpp}
+	###${CrySystem_uber_6_cpp}
+	###${CrySystem_uber_7_cpp}
+	###${CrySystem_uber_8_cpp}
+	###${CrySystem_uber_9_cpp}
 	${NoUberFile}
 )
 #END-FILE-LIST
@@ -671,6 +681,7 @@ add_definitions( -DCRY_NO_PRAGMA_LIB )
 add_definitions( -DLTM_DESC ) # Forces to use libtommath together with libtomcrypt
 
 add_library( ${THIS_PROJECT} ${SOURCES})
+
 target_link_libraries( ${THIS_PROJECT} zlib )
 target_link_libraries( ${THIS_PROJECT} expat )
 target_link_libraries( ${THIS_PROJECT} lz4 )
@@ -724,9 +735,9 @@ if (OPTION_ENABLE_SDK_OCULUS)
 	target_link_libraries( ${THIS_PROJECT} oculus )
 endif()
 
-USE_MSVC_PRECOMPILED_HEADER( ${THIS_PROJECT} "StdAfx.h" "StdAfx.cpp" )
+###USE_MSVC_PRECOMPILED_HEADER( ${THIS_PROJECT} "StdAfx.h" "StdAfx.cpp" )
 
-SET_PLATFORM_TARGET_PROPERTIES( ${THIS_PROJECT} )
+###SET_PLATFORM_TARGET_PROPERTIES( ${THIS_PROJECT} )
 
 if (DURANGO)
 	# add winmd search paths

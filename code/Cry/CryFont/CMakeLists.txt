@@ -40,14 +40,14 @@ source_group("Source Files" FILES ${SourceGroup_SourceFiles})
 
 
 # Support unity build with uber files
-set(CryFont_Uber_0_cpp ${SourceGroup_HeaderFiles} ${SourceGroup_SourceFiles}  )
-enable_unity_build( "CryFont_Uber_0.cpp" CryFont_Uber_0_cpp )
+###set(CryFont_Uber_0_cpp ${SourceGroup_HeaderFiles} ${SourceGroup_SourceFiles}  )
+###enable_unity_build( "CryFont_Uber_0.cpp" CryFont_Uber_0_cpp )
 
-set(NoUberFile ${SourceGroup_Root}  )
+set(NoUberFile ${SourceGroup_Root} ${SourceGroup_HeaderFiles} ${SourceGroup_SourceFiles} )
 
 
 set (SOURCES
-	${CryFont_Uber_0_cpp}
+	###${CryFont_Uber_0_cpp}
 	${NoUberFile}
 )
 #END-FILE-LIST
@@ -59,6 +59,6 @@ include_directories( ${SDK_DIR}/freetype/include )
 add_library( ${THIS_PROJECT} ${SOURCES})
 target_link_libraries(${THIS_PROJECT} freetype)
 
-#USE_MSVC_PRECOMPILED_HEADER( ${THIS_PROJECT} "StdAfx.h" "StdAfx.cpp" )
+###USE_MSVC_PRECOMPILED_HEADER( ${THIS_PROJECT} "StdAfx.h" "StdAfx.cpp" )
 
-SET_PLATFORM_TARGET_PROPERTIES( ${THIS_PROJECT} )
+###SET_PLATFORM_TARGET_PROPERTIES( ${THIS_PROJECT} )
