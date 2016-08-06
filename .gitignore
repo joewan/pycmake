@@ -10,6 +10,7 @@ code/Cry/CryFont/CMakeFiles/*
 code/Cry/CryInput/CMakeFiles/*
 code/Cry/CryEntitySystem/CMakeFiles/*
 code/Cry/CryScriptSystem/CMakeFiles/*
+code/Cry/CryAction/CMakeFiles/*
 
 code/SDKs/freetype/*
 code/SDKs/ncurses/*
