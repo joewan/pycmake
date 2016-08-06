@@ -696,7 +696,14 @@ struct SAllocatorConstruct
 	template<typename T, typename ... Args>
 	static void construct(T* ptr, Args && ... args)
 	{
-		//::new(static_cast<void*>(ptr))T(std::forward<Args>(args) ...);
+		::new(static_cast<void*>(ptr))T(std::forward<Args>(args) ...);
+	}
+
+	template<typename T, typename ... Args>
+	static void construct(const T* ptr, Args && ... args)
+	{
+		T* ptr1 = const_cast<T*>(ptr);
+		::new(static_cast<void*>(ptr1))T(std::forward<Args>(args) ...);
 	}
 #else
 
