@@ -9,6 +9,9 @@ include_directories(
         ${CMAKE_CURRENT_SOURCE_DIR}/code/Cry/CryCommon
 )
 
+### disable all compile warnings
+add_definitions(-w)
+
 add_subdirectory("code/Cry/CryCommon")
 add_subdirectory("code/Cry/CrySystem")
 add_subdirectory("code/Cry/CryFont")
