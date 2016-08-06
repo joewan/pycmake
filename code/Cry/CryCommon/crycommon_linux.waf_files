@@ -1,0 +1,15 @@
+{
+  "NoUberFile":{
+   
+    "CryAssert":[
+      "CryAssert_Linux.h"     
+    ],
+    "CryPlatform":[
+      "CryPlatform.Linux.h",
+      "Linux32Specific.h",
+      "Linux64Specific.h",
+      "Linux_Win32Wrapper.h",
+      "LinuxSpecific.h"     
+    ]
+  }
+}
