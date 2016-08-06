@@ -1,0 +1,1485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Validator.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/SystemInit.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/CryDLMalloc.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ServiceNetwork.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/SystemRender.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Stroboscope/Stroboscope.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Stroboscope/Stroboscope.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/DownloadManager.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/StatoscopeTextureStreamingIntervalGroup.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ThreadInfo.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Huffman.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/IDebugCallStack.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/MemReplay.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/CryPak.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ServerHandler.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/XML/XMLBinaryReader.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/XML/XMLBinaryReader.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/XML/xml.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/XML/ReadWriteXMLSink.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/XML/XMLPatcher.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/XML/xml_string.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/XML/XMLBinaryNode.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/XML/SerializeXMLReader.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/XML/XMLBinaryNode.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/XML/SerializeXMLWriter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/XML/XmlUtils.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/XML/XMLBinaryWriter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/XML/XMLBinaryWriter.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/XML/xml.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/XML/WriteXMLSource.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/XML/XmlUtils.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/XML/XMLPatcher.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/XML/ReadXMLSink.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/XML/SerializeXMLWriter.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/XML/SerializeXMLReader.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ServerThrottle.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/FileIOWrapper.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/UnitTestSystem.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Sampler.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ResourceManager.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/LZ4Decompressor.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/RemoteCommand.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ZipDir.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ConsoleBatchFile.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/HTTPDownloader.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ExtensionSystem/CryFactoryRegistryImpl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ExtensionSystem/CryFactoryRegistryImpl.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ExtensionSystem/TestCases/TestExtensions.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ExtensionSystem/TestCases/TestExtensions.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/DebugCallStack.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/LoadingProfiler.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/MiniGUI/MiniMenu.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/MiniGUI/MiniInfoBox.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/MiniGUI/MiniMenu.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/MiniGUI/MiniTable.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/MiniGUI/MiniButton.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/MiniGUI/MiniGUI.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/MiniGUI/DrawContext.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/MiniGUI/MiniButton.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/MiniGUI/DrawContext.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/MiniGUI/MiniGUI.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/MiniGUI/MiniTable.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/MiniGUI/MiniInfoBox.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/BootProfiler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/LocalizedStringManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/OpenVR/OpenVRDevice.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/OpenVR/OpenVRController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/OpenVR/OpenVRConfig.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/OpenVR/OpenVRController.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/OpenVR/OpenVRDevice.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/OpenVR/OpenVRResources.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/OpenVR/OpenVRResources.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ServerThrottle.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/SystemWin32.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/PageMappingHeap.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/DebugCallStack.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/CrySizerStats.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/CustomMemoryHeap.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/MemoryAddressRange.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/AutoDetectCPUTestSuit.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/SystemEventDispatcher.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/DownloadManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/LoadingProfiler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/CryThreadUtil_posix.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ProfileLogSystem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Oculus/OculusTouchController.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Oculus/OculusTouchController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Oculus/OculusConfig.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Oculus/OculusResources.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Oculus/OculusDevice.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Oculus/OculusDevice.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Oculus/OculusResources.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/WindowsConsole.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/RemoteCommand.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/SystemInit.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/CryWaterMark.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ZipDirTree.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Statistics/LocalMemoryUsage.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Statistics/LocalMemoryUsage.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/StatoscopeTextureStreamingIntervalGroup.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ConsoleHelpGen.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/HandlerBase.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/MemReplay.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ZipDirTree.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ResourceManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/HTTPDownloader.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ExcelExport.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/SystemUtilsApple.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/RemoteCommandHelpers.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/JiraClient.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ZipFileFormat.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/CodeCoverage/CodeCheckpointMgr.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/CodeCoverage/CodeCheckpointMgr.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/JiraClient.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Statistics.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/SystemScheduler.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ThreadConfigManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/FrameProfileRender.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/DefragAllocator.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Statistics.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/VisRegTest.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/HandlerBase.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/FrameProfileSystem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ImeManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/SimpleStringPool.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ThreadProfiler.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/LZ4Decompressor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ZLibDecompressor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ZipDirList.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Osvr/OsvrResources.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Osvr/OsvrDevice.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Osvr/OsvrResources.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Osvr/OsvrDevice.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/HMDCVars.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/TestSystemLegacy.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/SystemEventDispatcher.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/PageMappingHeap.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/XConsoleVariable.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ZipDirStructures.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/MemoryFragmentationProfiler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/CmdLine.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/NotificationNetwork.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/CPUDetect.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ZipDirFindRW.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/CryArchive.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/AsyncPakManager.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/CryAsyncMemcpy.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/PhysRenderer.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/StdAfx.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/UnitTestExcelReporter.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/IDebugCallStack.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/DxDiag.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/PhysRenderer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/TestSystemLegacy.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/MTSafeAllocator.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/WindowsErrorReporting.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/VisRegTest.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/PlatformOS/PlatformOS_PC.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/PlatformOS/SaveReaderWriter_Steam.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/PlatformOS/PlatformOS_PC.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/PlatformOS/SaveReaderWriter_Memory.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/PlatformOS/SaveReaderWriter_CryPak.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/PlatformOS/SaveReaderWriter_Memory.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/PlatformOS/PatternMatcher.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/PlatformOS/SaveReaderWriter_Steam.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/PlatformOS/SaveReaderWriter_CryPak.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ThreadConfigManager.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/UnixConsole.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ZLibCompressor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ZipDirFind.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ConsoleBatchFile.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/BudgetingSystem.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ZipDirCacheFactory.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Statoscope.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/DiskProfiler.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/CPUDetect.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Timer.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/MemoryManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/XConsole.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/XConsole.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Scaleform/SharedStates.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Scaleform/ConfigScaleform.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Scaleform/SharedResources.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Scaleform/FlashPlayerInstance.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Scaleform/GImageInfoXRender.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Scaleform/SharedResources.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Scaleform/GFxVideoWrapper.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Scaleform/FlashPlayerInstance.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Scaleform/GImageInfoXRender.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Scaleform/GImeHelper.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Scaleform/GFxVideoSoundCrySound.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Scaleform/GImeHelper.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Scaleform/GAllocatorCryMem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Scaleform/ConfigScaleform.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Scaleform/GFxVideoWrapper.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Scaleform/GMemorySTLAlloc.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Scaleform/GTextureXRender.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Scaleform/GRendererXRender.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Scaleform/SharedStates.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Scaleform/GAllocatorCryMem.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Scaleform/GTextureXRender.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Scaleform/GFileCryPak.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Scaleform/GRendererXRender.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Scaleform/GFileCryPak.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Scaleform/GFxVideoSoundCrySound.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ClientHandler.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ZipEncrypt.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/HMDManager.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/SystemThreading.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ZipFile.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/NullImplementation/NullLiveCreate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/NullImplementation/NULLRenderAuxGeom.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/NullImplementation/NullResponseSystem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/NullImplementation/NullInput.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/NullImplementation/NULLRenderAuxGeom.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/NullImplementation/NULLAudioSystems.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/MemoryManager.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/AVI_Reader.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/FileIOWrapper.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/UnitTestSystem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/SystemCFG.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/CmdLineArg.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/SystemUtilsApple.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/resource.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/CryThreadUtil_win32.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ZipDirFindRW.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/AutoDetectSpec.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/WindowsConsole.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/AutoDetectSpec.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Log.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/PerfHUD.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/JobManager/BlockingBackend/BlockingBackEnd.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/JobManager/BlockingBackend/BlockingBackEnd.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/JobManager/JobManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/JobManager/FallbackBackend/FallbackBackend.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/JobManager/FallbackBackend/FallBackBackend.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/JobManager/PCBackEnd/ThreadBackEnd.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/JobManager/PCBackEnd/ThreadBackEnd.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/JobManager/JobStructs.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/JobManager/JobManager.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ZipDirFind.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/GeneralMemoryHeap.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ZipDirList.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/DefragAllocator.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ServerHandler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ZLibDecompressor.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ZLibCompressor.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/UnixConsole.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/RemoteCommandServer.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ExcelExport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/SyncLock.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/CrySizerStats.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/HMDCVars.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/AutoDetectCPUTestSuit.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/OverloadSceneManager/OverloadSceneManager.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/OverloadSceneManager/OverloadSceneManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/MTSafeAllocator.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ThreadSampler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/DllMain.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ConsoleHelpGen.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/StreamEngine/StreamIOThread.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/StreamEngine/StreamAsyncFileRequest.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/StreamEngine/StreamReadStream.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/StreamEngine/StreamIOThread.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/StreamEngine/StreamEngine.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/StreamEngine/StreamReadStream.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/StreamEngine/StreamEngine.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/StreamEngine/StreamAsyncFileRequest_Jobs.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/StreamEngine/StreamAsyncFileRequest.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/CmdLine.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/AsyncPakManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/CustomMemoryHeap.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ServiceNetwork.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ZipFileFormat_info.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ZipDirStructures.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/RemoteCommandClient.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ThreadProfiler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/GeneralMemoryHeap.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/CrySizerImpl.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/CompressedFile.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/SyncLock.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/HardwareMouse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/NotificationNetwork.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ZipDirCacheRW.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ZipDirCacheRW.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/BudgetingSystem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/crash_face.bmp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ZipDirCache.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ZipDirCacheFactory.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/CryMemoryManager.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Huffman.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/SystemScheduler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/RemoteConsole/RemoteConsole.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/RemoteConsole/RemoteConsole.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/BootProfiler.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/LocalizedStringManager.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/CmdLineArg.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/LevelHeap.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/StatoscopeStreamingIntervalGroup.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Log.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Sampler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/HardwareMouse.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/XConsoleVariable.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/StdAfx.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ProfileLogSystem.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/HotUpdate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/CryPakHandleCache.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/PakVars.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/StatoscopeStreamingIntervalGroup.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ThreadSampler.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ZipEncrypt.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/AVI_Reader.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ThreadInfo.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/UnitTestExcelReporter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/System.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/MemoryAddressRange.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/RemoteCommandHelpers.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Serialization/XmlOArchive.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Serialization/ArchiveHost.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Serialization/ArchiveHost.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Serialization/Test_ArchiveHost.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Serialization/XmlIArchive.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Serialization/Token.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Serialization/XmlOArchive.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Serialization/XmlIArchive.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/SystemCFG.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/FrameProfileSystem.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/PerfHUD.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/DiskProfiler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/System.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/HMDManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ClientHandler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/CrySizerImpl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/CryPak.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Timer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/CryArchive.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/Statoscope.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ZipDirCache.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/CrashHandler.rc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CrySystem/ImeManager.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryInput/CryInput.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryInput/NaturalPointInputNULL.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryInput/SDLPad.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryInput/BaseInput.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryInput/Mouse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryInput/SDLPad.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryInput/InputDevice.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryInput/DXInput.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryInput/SDLKeyboard.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryInput/InputCVars.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryInput/StdAfx.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryInput/DXInputDevice.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryInput/DXInput.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryInput/resource.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryInput/SDLMouse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryInput/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryInput/Keyboard.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryInput/LinuxInput.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryInput/Mouse.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryInput/InputCVars.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryInput/XInputDevice.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryInput/Synergy/SynergyContext.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryInput/Synergy/SynergyMouse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryInput/Synergy/SynergyKeyboard.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryInput/Synergy/SynergyMouse.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryInput/Synergy/SynergyKeyboard.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryInput/Synergy/SynergyContext.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryInput/LinuxInput.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryInput/SDLKeyboard.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryInput/InputDevice.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryInput/XInputDevice.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryInput/BaseInput.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryInput/Keyboard.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryInput/DXInputDevice.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryInput/StdAfx.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryInput/SDLMouse.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryInput/CryInput.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/EntityNodeProxy.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/AreaManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/Area.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/ScriptBind_Entity.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/TriggerProxy.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/EntityCVars.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/ComponentEventDistributer.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/ScriptProxy.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/EntityClass.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/EntityClass.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/RenderProxy.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/DynamicResponseProxy.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/BreakablePlane.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/ScriptProperties.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/EntityLayer.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/EntityClassRegistry.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/PhysicsProxy.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/BSPTree3D.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/EntityArchetype.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/EntityNodeProxy.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/EntityCVars.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/EntityLayer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/DynamicResponseProxy.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/SubstitutionProxy.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/EntityAttributesProxy.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/CameraProxy.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/Entity.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/EntityPoolManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/PartitionGrid.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/PhysicsEventListener.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/GeomCacheAttachmentManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/EntityScript.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/ProximityTriggerSystem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/ComponentEventDistributer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/AreaSolid.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/PhysicsProxy.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/CharacterBoneAttachmentManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/SaltHandle.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/EntitySystem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/EntityPoolManager.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/ScriptBind_Entity.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/AreaGrid.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/TriggerProxy.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/EntityAudioProxy.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/FlowGraphProxy.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/ClipVolumeProxy.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/EntityLoadManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/ProximityTriggerSystem.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/AffineParts.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/AreaManager.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/CryEntityDLL.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/RopeProxy.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/ScriptProperties.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/EntityPoolSignature.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/EntityTimeoutList.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/RadixSort.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/CameraProxy.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/AreaProxy.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/GeomCacheAttachmentManager.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/ClipVolumeProxy.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/BreakableManager.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/PartitionGrid.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/AreaUtil.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/stdafx.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/RadixSort.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/EntityPool.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/resource.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/RopeProxy.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/EntityPoolDefinition.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/EntityObject.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/EntityPoolSignature.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/EntityTimeoutList.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/CharacterBoneAttachmentManager.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/EntityPool.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/EntityAudioProxy.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/SaltBufferArray.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/Entity.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/BreakableManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/AreaProxy.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/EntityAttributesProxy.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/AreaGrid.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/EntityObject.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/EntityPoolDefinition.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/EntityArchetype.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/BSPTree3D.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/EntityScript.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/EntityClassRegistry.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/PhysicsEventListener.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/stdafx.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/FlowGraphProxy.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/AffineParts.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/EntityIt.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/AreaSolid.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/RenderProxy.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/EntityLoadManager.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/Area.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/ScriptProxy.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/BreakablePlane.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/EntityPoolCommon.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/EntitySystem.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryEntitySystem/SubstitutionProxy.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Octree.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IBitStream.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IBreakableManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IDebugHistory.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IReadWriteXMLSink.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ILipSyncProvider.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Cry_Math.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Name_TypeInfo.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IMovieSystem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/INetworkingState.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CREMesh.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IAIMannequin.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CREGeomCache.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/STLPoolAllocator_ManyElems.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IFuncVariable.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/TypelistUtils.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryPool/PoolAlloc.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryPool/example.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryPool/List.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryPool/Fallback.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryPool/Memory.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryPool/ThreadSafe.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryPool/Allocator.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryPool/PAUnitTest.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryPool/STLWrapper.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryPool/Defrag.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryPool/Inspector.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryPool/Container.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ICryLobby.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/SimpleHashLookUp.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/PoolAllocator.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IFont.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryThreadSafeRendererContainer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/INetwork.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IAIRecorder.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Pipe.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IConsole.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ITacticalPointSystem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Cry_Vector4.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/MovementUpdateContext.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ParticleParams.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IFlashUI.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IPhysics.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IScriptSystem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryFlags.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IInterestSystem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IStreamEngine.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryEndian.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryThreadSafeWorkerContainer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ResourceCompilerHelper.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/HashedString.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Linux_Win32Wrapper.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryDLMalloc.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IGameFramework.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/INavigation.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/TypeInfo_decl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/SettingsManagerHelpers.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryFixedArray.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ICmdLine.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/SimpleSerialize.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ICryOnlineStorage.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/DurangoSpecific.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Durango_Win32Legacy.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/STLPoolAllocator.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IDialogSystem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/BucketAllocatorImpl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/functor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/AppleSpecific.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryPlatform.Win32.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Options.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ITimeOfDay.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryThreadImpl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/UnicodeBinding.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryName.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CREWaterVolume.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CompileTimeUtils.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IntersectionTestQueue.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IInput.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Cry_Matrix33.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Cry_Vector2.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Bezier_impl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryLobbyEvent.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryTypeInfo.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryAssert_Durango.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Orbis_Win32Wrapper.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/TimeValue_info.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IDynamicResponseSystem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IAnimationPoseModifier.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IAudioInterfacesCommonData.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ParticleParams_TypeInfo.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Cry_Camera.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/StackContainer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IEntityRenderState.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IMeshBaking.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IEdgeConnectivityBuilder.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryBufferedFileReader.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IFlares.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/SerializationTypes.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CREBreakableGlass.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/STLAlignedAlloc.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/HeapAllocator.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/HidespotQueryContext.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryAssert_Mac.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryPlatformDefines.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Linux32Specific.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ICryAnimation.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IMemory.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IIndexedMesh.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IRenderAuxGeom.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IJobManager_JobDelegator.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CRELightPropagationVolume.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IDynamicResponseAction.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ILocalizationManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IAIGroupProxy.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryPath.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/SerializeFwd.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryPlatform.Orbis.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/AgentParams.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IResourceCollector.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/BitMask.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IProcess.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CRESky.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CoherentValue.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryEngine.natvis" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/AIFormationDescriptor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IParticlesPfx2.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ICommunicationManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/BoostHelpers.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/NetHelpers.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IAIAction.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CREFarTreeSprites.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/branchmask.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryPlatform.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ITargetTrackManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/smartptr.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryExtension/ICryFactoryRegistry.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryExtension/ICryUnknown.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryExtension/CryGUID.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryExtension/ICryFactory.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryExtension/Impl/CryGUIDHelper.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryExtension/Impl/Conversion.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryExtension/Impl/ClassWeaver.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryExtension/Impl/RegFactoryNode.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryExtension/Impl/TypeList.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryExtension/Impl/ICryFactoryRegistryImpl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryExtension/CryCreateClassInstance.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryExtension/CryTypeID.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Force.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ISystem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/TypeInfo_impl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CREWaterOcean.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryUnitTest.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IFlowGraphModuleManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Random.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IRealtimeRemoteUpdate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryLibrary.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/platform_impl.inl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/StlDbgAlloc.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CREBreakableGlassHelpers.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ISerializeHelper.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryFunction.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IThreadConfigManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/DeferredActionQueue.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IAIActorProxy.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryCustomTypes.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IShader_info.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IFlashPlayer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IZlibDecompressor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IIndexedMesh_info.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Cry_HWMatrix.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/I3DSampler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IHMDManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryHeaders.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IJoystick.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/Serializer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/SmartPtrImpl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/CRCRefImpl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/TypeInfoImpl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/Math.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/STL.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/TypeInfo.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/IArchive.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/SmartPtr.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/CRCRef.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/IClassFactory.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/DynArray.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/NameGeneration.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/IntrusiveFactory.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/Enum.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/IArchiveHost.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/SharedPtr.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/DynArrayImpl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/StringList.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/Color.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/TypeID.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/CryExtension.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/ClassFactory.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/CryStringsImpl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/BlackBox.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/Decorators/ActionButton.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/Decorators/ResourceFolderPath.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/Decorators/ResourceFilePath.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/Decorators/JointNameImpl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/Decorators/Slider.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/Decorators/LocalFrameImpl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/Decorators/OutputFilePathImpl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/Decorators/LocalFrame.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/Decorators/Resources.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/Decorators/BitFlags.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/Decorators/OutputFilePath.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/Decorators/JointName.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/Decorators/BitFlagsImpl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/Decorators/ResourcesAudio.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/Decorators/RangeImpl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/Decorators/TagListImpl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/Decorators/ResourceSelector.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/Decorators/SliderImpl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/Decorators/ResourceFolderPathImpl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/Decorators/ResourceFilePathImpl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/Decorators/Range.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/Decorators/TagList.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/CryExtensionImpl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/MathImpl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/CryNameImpl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/CryName.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/CryStrings.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Serialization/ColorImpl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Timer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/FixedPoint.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ParticleParams_info.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryCharMorphParams.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CREOcclusionQuery.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/VisionMapTypes.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IAIActor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IOffMeshNavigationManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IGameWebDebug.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IEntityLayer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/MovementRequestID.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/VectorSet.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CrySizer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IAIObjectManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IFlowSystem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Range.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ITexture.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/AndroidSpecific.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IOverloadSceneManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/MovementBlock.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Cry_HWVector3.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IUIFramework.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IFlowGraphDebugger.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IHMDDevice.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Typelist.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ILiveCreateCommon.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/OrbisSpecific.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/FinalizingSpline.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/InterpolationHelpers.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IEntity.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IAttachment.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryMemReplayTrackedPtr.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/LineStreamBuffer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/MultiThread_Containers.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/BitmapDilation.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/InplaceFactory.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryMemoryManager_impl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/RendElement.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ILog.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/physinterface.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Cry_MatrixDiag.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/AnimKey_impl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ICryMiniGUI.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IPathfinder.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryThread.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/FixedAllocator.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IGoalPipe.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/SerializeBuffer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/HardwareBreakpoint.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryAssert_impl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/VertexFormats.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Cry_Matrix44.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CREGameEffect.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/BaseTypes.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/RayCastQueue.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ILMSerializationManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ICodeCheckpointMgr.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CrySocks.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/BucketAllocatorPolicy.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/LCGRandom.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/RingBuffer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/AgePriorityQueue.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/RenderObject.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/I3DEngine.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryAtlMfc.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ISystemScheduler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CREPostProcess.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IStatoscope.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IAudioSystem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/GameUtils.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryAssert_Windows.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryMemReplay.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryUtils.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IImage.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IEntityAttributesProxy.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/UnicodeFunctions.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IDefragAllocator.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Tarray.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IMonoRuntime.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/OctreeDebug.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/intrusive_list.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IStreamEngineDefs.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ICustomActions.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IBreakableGlassSystem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ITextModeConsole.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/AnimKey.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ScreenPlotter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryThread_dummy.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ITimer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryString.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IStereoRenderer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IGameStatistics.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryPlatform.Durango.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IMaterialEffects.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IRemoteCommand.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Common_TypeInfo.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryPtrArray.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/AnimTime.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/BucketAllocator.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IRenderMesh.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IEntityRenderState_info.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Cry_ValidNumber.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ISelectionTreeManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IGeomCache.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IAISystem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IFactionMap.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ICryLobbyUI.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/HeapContainer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryLobbyPacket.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/MovementRequest.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/AABBSV.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IShader.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IColorGradingController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryEngineDecalInfo.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Cry_Matrix34.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ITestSystem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryMemoryAllocator.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/BitFiddling.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IEngineModule.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Win32specific.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IAIGroup.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ICryPak.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryInterop.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/INetworkService.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/VectorMap.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryModuleDefs.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Linux64Specific.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IZLibCompressor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/MovementStyle.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IWindowMessageHandler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/FindZeroRanges.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Synchronization.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IFacialAnimation.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IHardwareMouse.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IServiceNetwork.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IAIDebugRenderer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IJobManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IBudgetingSystem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CREBaseCloud.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/BehaviorTree/Action.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/BehaviorTree/Node.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/BehaviorTree/IBehaviorTreeGraft.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/BehaviorTree/Decorator.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/BehaviorTree/XmlLoader.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/BehaviorTree/TimestampCollection.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/BehaviorTree/SerializationSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/BehaviorTree/IBehaviorTree.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/BehaviorTree/Readme.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/BehaviorTree/Composite.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/BehaviorTree/NodeFactory.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryCrc32.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IParticles.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Cry_GeoOverlap.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IEntitySerialize.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/LinuxSpecific.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/MSVCspecific.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryHeaders_info.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IPerfHud.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryAssert_Orbis.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/EntityDesc.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ICustomEvents.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IAIObject.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IMovementActor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/INotificationNetwork.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CrtDebugStats.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ICryMatchMaking.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/XMLAttrReader.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IAIRateOfDeathHandler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryFile.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/StlUtils.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryHalf_info.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/SFunctor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ExtensionDefines.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ScopedVariableSetter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/VariableCollection.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CrySignal.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/MiniQueue.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ILocalMemoryUsage.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryFixedString.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IValidator.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryPlatform.Linux.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ICoverSystem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ICryStats.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IGame.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/UnicodeIterator.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/FunctorBaseFunction.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/StringUtils.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Cry_XOptimise.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/HashGrid.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Version_override.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryWindows.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IGeneralMemoryHeap.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IBlackBoard.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CGFContent_info.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IEntityProxy.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ISurfaceType.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryAssert_iOS.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ILiveCreateManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Version.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/primitives.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryHalf.inl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ICryFriendsManagement.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ScriptHelpers.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Base64.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/GeomQuery.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryArray.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IPerceptionHandlerModifier.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryVersion.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IComponent.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ICryVoice.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Cry_GeoIntersect.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryCharAnimationParams.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IChunkFile.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryPlatform.Win64.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ISimpleHttpServer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/EngineSettingsManager.inl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ResourceCompilerHelper.inl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IAIActionSequence.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Cry_Color.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IVertexAnimation.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ICrySignIn.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/QTangent.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ICryReward.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IShaderParamCallback.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CREVolumeObject.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IMaterial.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryRandomInternal.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/GeomCacheFileFormat.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryTypeInfo.inl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Cry_GeoDistance.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ParseEngineConfig.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryAssert_Linux.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryPlatform.Darwin.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ILiveCreateHost.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IAgent.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IDynamicResponseCondition.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Allocator.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Win64specific.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IResourceManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ISplines.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IEntityPoolManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/EngineSettingsManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IStreamPersist.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IDMap.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/MemoryAccess.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ISerialize.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IStatObj.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryMemoryManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CREParticle.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/I3DEngine_info.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IMovementSystem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CountedValue.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IGameVolumes.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ThreadProfilerSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IEntitySystem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IPlatformOS.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IDiskProfiler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/STLGlobalAllocator.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryPhysics.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/MacSpecific.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Cry_Vector3.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryAssert.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IClusterDetector.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/NameCRCHelper.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/AISystemListener.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IXml.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IGameFrameworkExtension.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IMNM.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IRemoteControl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/stridedptr.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IDeferredCollisionEvent.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IPhysicsDebugRenderer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IAVI_Reader.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IVisionMap.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IGameRef.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IGameStartup.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CompileTimeAssert.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IPerceptionHandler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ILZ4Decompressor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/UnicodeEncoding.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/FunctorBaseMember.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IEditorGame.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Bezier.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IEntityClass.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CREFogVolume.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ICryTCPService.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryListenerSet.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CREBreakableGlassConfig.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryStlConfig.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/PNoise3.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IAnimEventPlayer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CGFContent.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IGameTokens.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/SettingsManagerHelpers.inl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/WindowsUtils.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Common_TypeInfo2.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/INavigationSystem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/primitives_info.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ICryFriends.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IThreadManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/MetaUtils.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IRenderer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/TimeValue.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ProfileLog.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Cry_Geo.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ISerialize_info.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ILiveCreatePlatform.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/XMLBinaryHeaders.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/MTPseudoRandom.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/StaticInstanceList.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IFunctorBase.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IFileChangeMonitor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ProjectDefinesInclude.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IMiniLog.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CREImposter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/Cry_Quat.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/IFaceGen.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ILipSync.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryAssert_Android.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryPodArray.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/ProjectDefines.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/platform.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/LevelHeap.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/CryMemBlock.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryCommon/WinBase.inl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/ScriptTimerMgr.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/ScriptBindings/ScriptBinding.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/ScriptBindings/ScriptBind_Script.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/ScriptBindings/ScriptBind_Sound.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/ScriptBindings/ScriptBind_System.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/ScriptBindings/ScriptBind_Physics.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/ScriptBindings/ScriptBind_Movie.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/ScriptBindings/SurfaceTypes.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/ScriptBindings/ScriptBind_Physics.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/ScriptBindings/SurfaceTypes.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/ScriptBindings/ScriptBind_Sound.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/ScriptBindings/ScriptBind_Script.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/ScriptBindings/ScriptBind_Movie.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/ScriptBindings/ScriptBind_System.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/ScriptBindings/ScriptBinding.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/ScriptBindings/ScriptBind_Particle.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/ScriptBindings/ScriptBind_Particle.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/LuaDebuggerResource.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/StdAfx.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/StdAfx.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/resource.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/ScriptTimerMgr.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/LuaDebugger/res/toolbar1.bmp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/LuaDebugger/res/TreeView.bmp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/LuaDebugger/FileTree.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/LuaDebugger/_TinyImageList.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/LuaDebugger/GoToFuncWnd.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/LuaDebugger/LUADBG.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/LuaDebugger/_TinyFileEnum.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/LuaDebugger/_TinySplitter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/LuaDebugger/_TinyStatusBar.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/LuaDebugger/AboutWnd.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/LuaDebugger/_TinyBrowseFolder.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/LuaDebugger/_TinyWindow.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/LuaDebugger/_TinyMain.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/LuaDebugger/LUADBG.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/LuaDebugger/FileTree.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/LuaDebugger/LUADBG.ico" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/LuaDebugger/_TinyRegistry.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/LuaDebugger/Coverage.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/LuaDebugger/Coverage.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/LuaDebugger/GoToWnd.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/LuaDebugger/_TinyCoolEdit.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/LuaDebugger/_TinyTreeList.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/LuaDebugger/_TinyCaptionWindow.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/LuaDebugger/small.ico" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/FunctionHandler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/ScriptTable.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/LuaRemoteDebug/SerializationHelper.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/LuaRemoteDebug/LuaRemoteDebug.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/LuaRemoteDebug/LuaRemoteDebug.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/StackGuard.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/ScriptSystem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/CryScriptSystem.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/vectorlib.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/LuaDebugger.rc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/ScriptSystem.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/ScriptTable.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/BucketAllocator.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryScriptSystem/FunctionHandler.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryFont/FontRenderer.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryFont/resource.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryFont/StdAfx.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryFont/NullFont.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryFont/FFontXML.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryFont/ICryFont.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryFont/GlyphBitmap.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryFont/StdAfx.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryFont/NullFont.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryFont/FontTexture.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryFont/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryFont/FontTexture.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryFont/GlyphBitmap.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryFont/GlyphCache.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryFont/GlyphCache.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryFont/FFont.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryFont/FFont.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryFont/CryFont.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryFont/CryFont.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryFont/FontRenderer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Cry/CryFont/FBitmap.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Header Search Paths">
+        <CLASSES>
+          <root url="file:///System/Library/Frameworks/AudioToolbox.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/SecurityHI.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/NavigationServices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/CommonPanels.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/Help.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/ImageCapture.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/OpenScripting.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/CarbonSound.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/Ink.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/SpeechRecognition.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/Print.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreImage.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/InstantMessage.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/MapKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/DirectoryService.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ScriptingBridge.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/InstallerPlugins.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ForceFeedback.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreMediaIO.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreWLAN.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/JavaVM.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/JavaVM.framework/Frameworks/JavaNativeFoundation.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/MetalKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Metal.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Security.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Kerberos.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/QuartzCore.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/MediaAccessibility.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AddressBook.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/FWAUserLib.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreFoundation.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/EventKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/vecLib.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/PrintCore.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/LangAnalysis.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/QD.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreText.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/ImageIO.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/ColorSync.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/SpeechSynthesis.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/vmnet.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreMedia.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/GSS.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/SystemConfiguration.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Tcl.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Tcl.framework/PrivateHeaders" />
+          <root url="file:///System/Library/Frameworks/CoreAudioKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Cocoa.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/OpenCL.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Python.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/PubSub.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/GLUT.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreVideo.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/GameKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/OpenGL.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/StoreKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/OpenAL.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CalendarStore.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AVKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/FinderSync.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Contacts.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/WebKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/QuickTime.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/VideoToolbox.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Accounts.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/SyncServices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AVFoundation.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Kernel.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AppKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/InputMethodKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/SecurityInterface.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/DictionaryServices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/SharedFileList.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/FSEvents.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/AE.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/OSServices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/DVComponentGlue.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/OpenDirectory.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/OpenDirectory.framework/Frameworks/CFOpenDirectory.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/IOBluetooth.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/IOBluetooth.framework/Frameworks/CoreBluetooth.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreAudio.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/DiskArbitration.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreBluetooth.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Photos.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/DVDPlayback.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AudioVideoBridging.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AppKitScripting.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/QTKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/GameController.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ModelIO.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/MediaLibrary.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/OSAKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ExceptionHandling.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/IOBluetoothUI.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Ruby.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreMIDI.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/LocalAuthentication.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Foundation.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/NetFS.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/PreferencePanes.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ScreenSaver.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ImageCaptureCore.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/SpriteKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Automator.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreData.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Social.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreText.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/NetworkExtension.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/SceneKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/PhotosUI.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/QuickLook.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Tk.framework/PrivateHeaders" />
+          <root url="file:///System/Library/Frameworks/Tk.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/JavaScriptCore.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/IMServicePlugIn.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AudioUnit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/TWAIN.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/IOKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/IOSurface.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Hypervisor.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/GLKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Quartz.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Quartz.framework/Frameworks/QuickLookUI.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Quartz.framework/Frameworks/QuartzComposer.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Quartz.framework/Frameworks/QuartzFilters.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Quartz.framework/Frameworks/ImageKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Quartz.framework/Frameworks/PDFKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/GameplayKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ImageIO.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AppleScriptObjC.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CFNetwork.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CryptoTokenKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/SecurityFoundation.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/DiscRecordingUI.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Collaboration.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/MediaToolbox.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreGraphics.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreTelephony.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AGL.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/VideoDecodeAcceleration.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ContactsUI.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/NotificationCenter.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreLocation.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/DiscRecording.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/PCSC.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CloudKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/LatentSemanticMapping.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AppleScriptKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/MultipeerConnectivity.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/LDAP.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/JavaFrameEmbedding.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ServiceManagement.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ICADevices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Scripting.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Accelerate.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Accelerate.framework/Frameworks/vImage.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/Headers" />
+          <root url="file:///usr/include" />
+          <root url="file:///usr/local/include" />
+          <root url="file:///Library/Frameworks/Mono.framework/Headers" />
+          <root url="file:///Library/Frameworks/iTunesLibrary.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.3.0/include" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file:///System/Library/Frameworks/AudioToolbox.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/SecurityHI.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/NavigationServices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/CommonPanels.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/Help.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/ImageCapture.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/OpenScripting.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/CarbonSound.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/Ink.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/SpeechRecognition.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Carbon.framework/Frameworks/Print.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreImage.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/InstantMessage.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/MapKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/DirectoryService.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ScriptingBridge.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/InstallerPlugins.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ForceFeedback.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreMediaIO.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreWLAN.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/JavaVM.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/JavaVM.framework/Frameworks/JavaNativeFoundation.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/MetalKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Metal.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Security.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Kerberos.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/QuartzCore.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/MediaAccessibility.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AddressBook.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/FWAUserLib.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreFoundation.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/EventKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/vecLib.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/PrintCore.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/LangAnalysis.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/QD.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreText.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/ImageIO.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/ColorSync.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/SpeechSynthesis.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/vmnet.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreMedia.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/GSS.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/SystemConfiguration.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Tcl.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Tcl.framework/PrivateHeaders" />
+          <root url="file:///System/Library/Frameworks/CoreAudioKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Cocoa.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/OpenCL.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Python.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/PubSub.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/GLUT.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreVideo.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/GameKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/OpenGL.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/StoreKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/OpenAL.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CalendarStore.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AVKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/FinderSync.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Contacts.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/WebKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/QuickTime.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/VideoToolbox.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Accounts.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/SyncServices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AVFoundation.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Kernel.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AppKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/InputMethodKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/SecurityInterface.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/DictionaryServices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/SharedFileList.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/SearchKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/FSEvents.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/AE.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/OSServices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/DVComponentGlue.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/OpenDirectory.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/OpenDirectory.framework/Frameworks/CFOpenDirectory.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/IOBluetooth.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/IOBluetooth.framework/Frameworks/CoreBluetooth.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreAudio.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/DiskArbitration.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreBluetooth.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Photos.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/DVDPlayback.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AudioVideoBridging.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AppKitScripting.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/QTKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/GameController.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ModelIO.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/MediaLibrary.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/OSAKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ExceptionHandling.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/IOBluetoothUI.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Ruby.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreMIDI.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/LocalAuthentication.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Foundation.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/NetFS.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/PreferencePanes.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ScreenSaver.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ImageCaptureCore.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/SpriteKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Automator.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreData.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Social.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreText.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/NetworkExtension.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/SceneKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/PhotosUI.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/QuickLook.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Tk.framework/PrivateHeaders" />
+          <root url="file:///System/Library/Frameworks/Tk.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/JavaScriptCore.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/IMServicePlugIn.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AudioUnit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/TWAIN.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/IOKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/IOSurface.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Hypervisor.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/GLKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Quartz.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Quartz.framework/Frameworks/QuickLookUI.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Quartz.framework/Frameworks/QuartzComposer.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Quartz.framework/Frameworks/QuartzFilters.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Quartz.framework/Frameworks/ImageKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Quartz.framework/Frameworks/PDFKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/GameplayKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ImageIO.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AppleScriptObjC.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CFNetwork.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CryptoTokenKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/SecurityFoundation.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/DiscRecordingUI.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Collaboration.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/MediaToolbox.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreGraphics.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreTelephony.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AGL.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/VideoDecodeAcceleration.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ContactsUI.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/NotificationCenter.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CoreLocation.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/DiscRecording.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/PCSC.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/CloudKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/LatentSemanticMapping.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/AppleScriptKit.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/MultipeerConnectivity.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/LDAP.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/JavaFrameEmbedding.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ServiceManagement.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/ICADevices.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Scripting.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Accelerate.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Accelerate.framework/Frameworks/vImage.framework/Headers" />
+          <root url="file:///System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/Headers" />
+          <root url="file:///usr/include" />
+          <root url="file:///usr/local/include" />
+          <root url="file:///Library/Frameworks/Mono.framework/Headers" />
+          <root url="file:///Library/Frameworks/iTunesLibrary.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.3.0/include" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
