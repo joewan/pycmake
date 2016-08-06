@@ -18,25 +18,31 @@ include_directories(
         ${CMAKE_CURRENT_SOURCE_DIR}/code/SDKs/lz4/lib
         ${CMAKE_CURRENT_SOURCE_DIR}/code/SDKs/ncurses/include
         #CryFont
-        #${CMAKE_CURRENT_SOURCE_DIR}/code/SDKs/freetype/include
+        ${CMAKE_CURRENT_SOURCE_DIR}/code/SDKs/freetype/include
         #CryInput
-        #${CMAKE_CURRENT_SOURCE_DIR}/code/SDKs/SDL2/include/mac
+        ${CMAKE_CURRENT_SOURCE_DIR}/code/SDKs/SDL2/include/mac
         #CryScriptSystem
-        #${CMAKE_CURRENT_SOURCE_DIR}/code/SDKs/lua/src
+        ${CMAKE_CURRENT_SOURCE_DIR}/code/SDKs/lua/src
 )
 
 ### disable all compile warnings
 add_definitions(-w)
 
-add_subdirectory("code/Cry/CryCommon")
-add_subdirectory("code/Cry/CrySystem")
-add_subdirectory("code/Cry/CryAction")
-#add_subdirectory("code/Cry/CryFont")
-#add_subdirectory("code/Cry/CryEntitySystem")
-#add_subdirectory("code/Cry/CryInput")
-#add_subdirectory("code/Cry/CryScriptSystem")
+SET(TOOLCHAIN_DIR "/usr/bin")
+SET(CMAKE_C_COMPILER ${TOOLCHAIN_DIR}/clang)
+SET(CMAKE_CXX_COMPILER ${TOOLCHAIN_DIR}/clang++)
 
-#target_link_libraries(pycmake CrySystem)
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/Lib)
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/Lib)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/Bin)
+
+add_subdirectory("code/Cry/CryCommon")
+#add_subdirectory("code/Cry/CrySystem")
+#add_subdirectory("code/Cry/CryAction")
+add_subdirectory("code/Cry/CryFont")
+add_subdirectory("code/Cry/CryEntitySystem")
+add_subdirectory("code/Cry/CryInput")
+add_subdirectory("code/Cry/CryScriptSystem")
 
 set(SOURCE_FILES main.cpp)
 add_executable(pycmake ${SOURCE_FILES})
