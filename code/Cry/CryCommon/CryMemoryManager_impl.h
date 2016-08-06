@@ -262,7 +262,7 @@ int _CryMemoryManagerPoolHelper::m_bInitialized = 0;
 //////////////////////////////////////////////////////////////////////////
 #if !defined(NOT_USE_CRY_MEMORY_MANAGER)
 //////////////////////////////////////////////////////////////////////////
-void* CryModuleMalloc( size_t size ) throw()
+void* CryModuleMalloc( size_t size ) CRYMM_THROW
 {
 	MEMREPLAY_SCOPE(EMemReplayAllocClass::C_UserPointer, EMemReplayUserPointerClass::C_CryMalloc);
 	void* ret = _CryMemoryManagerPoolHelper::Malloc(size,0);
@@ -271,7 +271,7 @@ void* CryModuleMalloc( size_t size ) throw()
 }
 
 //////////////////////////////////////////////////////////////////////////
-void* CryModuleRealloc( void* ptr,size_t size )  throw()
+void* CryModuleRealloc( void* ptr,size_t size ) CRYMM_THROW
 {
 	MEMREPLAY_SCOPE(EMemReplayAllocClass::C_UserPointer, EMemReplayUserPointerClass::C_CryMalloc);
 	void* ret = _CryMemoryManagerPoolHelper::Realloc(ptr,size, 0);
@@ -280,20 +280,20 @@ void* CryModuleRealloc( void* ptr,size_t size )  throw()
 }
 
 //////////////////////////////////////////////////////////////////////////
-void CryModuleFree( void* ptr ) throw()
+void CryModuleFree( void* ptr ) CRYMM_THROW
 {
 	MEMREPLAY_SCOPE(EMemReplayAllocClass::C_UserPointer, EMemReplayUserPointerClass::C_CryMalloc);
 	_CryMemoryManagerPoolHelper::Free(ptr,0);
 	MEMREPLAY_SCOPE_FREE(ptr);
 }
 
-size_t CryModuleMemSize( void* ptr, size_t sz) throw()
+size_t CryModuleMemSize( void* ptr, size_t sz)
 {
 	return _CryMemoryManagerPoolHelper::MemSize(ptr, sz);
 }
 
 //////////////////////////////////////////////////////////////////////////
-void* CryModuleMemalign( size_t size, size_t alignment ) throw()
+void* CryModuleMemalign( size_t size, size_t alignment )
 {
 	MEMREPLAY_SCOPE(EMemReplayAllocClass::C_UserPointer, EMemReplayUserPointerClass::C_CryMalloc);
 	void* ret = _CryMemoryManagerPoolHelper::Malloc(size, alignment);
@@ -301,14 +301,14 @@ void* CryModuleMemalign( size_t size, size_t alignment ) throw()
 	return ret;
 }
 
-void CryModuleMemalignFree( void* ptr ) throw()
+void CryModuleMemalignFree( void* ptr )
 {
 	MEMREPLAY_SCOPE(EMemReplayAllocClass::C_UserPointer, EMemReplayUserPointerClass::C_CryMalloc);
 	_CryMemoryManagerPoolHelper::Free(ptr,1000); // Free with alignment
 	MEMREPLAY_SCOPE_FREE(ptr);
 }
 
-void* CryModuleCalloc(size_t a, size_t b) throw()
+void* CryModuleCalloc(size_t a, size_t b)
 {
 	void* p = CryModuleMalloc(a * b);
 	memset(p, 0, a * b);
@@ -316,7 +316,7 @@ void* CryModuleCalloc(size_t a, size_t b) throw()
 }
 
 //////////////////////////////////////////////////////////////////////////
-void* CryModuleReallocAlign( void* ptr, size_t size, size_t alignment )  throw()
+void* CryModuleReallocAlign( void* ptr, size_t size, size_t alignment )
 {
 	MEMREPLAY_SCOPE(EMemReplayAllocClass::C_UserPointer, EMemReplayUserPointerClass::C_CryMalloc);
 	void* ret = _CryMemoryManagerPoolHelper::Realloc(ptr,size, alignment);

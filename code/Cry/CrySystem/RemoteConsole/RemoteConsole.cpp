@@ -12,6 +12,8 @@
 #include "StdAfx.h"
 #include "RemoteConsole.h"
 
+#undef USE_REMOTE_CONSOLE
+
 #ifdef USE_REMOTE_CONSOLE
 	#include <IGame.h>
 	#include <IGameFramework.h>
