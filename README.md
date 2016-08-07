@@ -15,3 +15,8 @@ find . -name *.o -exec rm {} \;
 http://www.ibm.com/developerworks/cn/aix/library/au-aix-graphviz/
 
 youdao
+
+
+
+tiff compile on mac
+brew install dos2unix

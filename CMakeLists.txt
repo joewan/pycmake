@@ -41,7 +41,9 @@ set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/output/Lib/${CMAKE_BUILD_
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/output/Lib/${CMAKE_BUILD_TYPE})
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/output/Bin/${CMAKE_BUILD_TYPE})
 
-message("Build Type:" ${CMAKE_BUILD_TYPE} ${CMAKE_CXX_FLAGS})
+message("Build Type:" ${CMAKE_BUILD_TYPE})
+message("Build CXX Flags:" ${CMAKE_CXX_FLAGS})
+message("Build C Flags:" ${CMAKE_C_FLAGS})
 
 ### external libraries
 add_subdirectory("code/Libs/zlib")
