@@ -81,6 +81,8 @@ function(pycm_cmake_print_info)
     message("PYCM_PROJECT_VERSION: " ${PYCM_PROJECT_VERSION})
     message("PYCM_BUILD_TYPE: " ${PYCM_BUILD_TYPE})
     message("PYCM_SYSTEM_STRING:" "${PYCM_SYSTEM_STRING}")
+
+    message("Build Type:" ${CMAKE_BUILD_TYPE} ${CMAKE_CXX_FLAGS})
 endfunction(pycm_cmake_print_info)
 
 function(pycm_cmake_project_registry)
@@ -128,7 +130,5 @@ pycm_cmake_print_info()
 pycm_cmake_architecture_info()
 pycm_cmake_platform_info()
 
-add_subdirectory(code/Cry/CryCommon)
-#include(code/Cry/CryCommon/CMakeLists.txt)
 
 pycm_cmake_module_path_info()

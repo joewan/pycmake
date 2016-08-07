@@ -1,7 +1,7 @@
 
 
-Lib/*
-Bin/*
+output/Lib/*
+output/Bin/*
 
 CMakeFiles/*
 CMakeCache.txt
