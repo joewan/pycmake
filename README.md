@@ -10,6 +10,8 @@ dot -Tgif a -o 1.gif
 
 git clean -d -f -x
 
+find . -name *.o -exec rm {} \;
+
 http://www.ibm.com/developerworks/cn/aix/library/au-aix-graphviz/
 
 youdao

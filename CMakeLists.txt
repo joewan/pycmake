@@ -13,7 +13,7 @@ include_directories(
         ${CMAKE_CURRENT_SOURCE_DIR}/code/SDKs/md5
         ${CMAKE_CURRENT_SOURCE_DIR}/code/SDKs
         ${CMAKE_CURRENT_SOURCE_DIR}/code/SDKs/LibTomCrypt/src/headers
-        ${CMAKE_CURRENT_SOURCE_DIR}/code/SDKs/LibTomMath
+        #${CMAKE_CURRENT_SOURCE_DIR}/code/SDKs/LibTomMath
         ${CMAKE_CURRENT_SOURCE_DIR}/code/SDKs/boost
         ${CMAKE_CURRENT_SOURCE_DIR}/code/SDKs/lz4/lib
         ${CMAKE_CURRENT_SOURCE_DIR}/code/SDKs/ncurses/include
@@ -29,8 +29,8 @@ include_directories(
 add_definitions(-w)
 
 set(TOOLCHAIN_DIR "/usr/bin")
-set(CMAKE_C_COMPILER ${TOOLCHAIN_DIR}/clang)
-set(CMAKE_CXX_COMPILER ${TOOLCHAIN_DIR}/clang++)
+###set(CMAKE_C_COMPILER ${TOOLCHAIN_DIR}/clang)
+###set(CMAKE_CXX_COMPILER ${TOOLCHAIN_DIR}/clang++)
 
 set(CMAKE_BUILD_TYPE "Shipping")
 
@@ -42,13 +42,16 @@ message("Build Type:" ${CMAKE_BUILD_TYPE} ${CMAKE_CXX_FLAGS})
 
 add_subdirectory("code/Libs/zlib")
 add_subdirectory("code/Libs/yasli")
+add_subdirectory("code/Libs/md5")
+add_subdirectory("code/Libs/lz4")
+add_subdirectory("code/Libs/tomcrypt")
 
 add_subdirectory("code/Cry/CryCommon")
-#add_subdirectory("code/Cry/CrySystem")
+add_subdirectory("code/Cry/CrySystem")
 #add_subdirectory("code/Cry/CryAction")
 #add_subdirectory("code/Cry/CryFont")
 #add_subdirectory("code/Cry/CryEntitySystem")
-add_subdirectory("code/Cry/CryInput")
+#add_subdirectory("code/Cry/CryInput")
 add_subdirectory("code/Cry/CryScriptSystem")
 
 set(SOURCE_FILES main.cpp)
