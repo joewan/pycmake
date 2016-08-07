@@ -31,12 +31,14 @@ set (SourceGroup_Root
 	../../SDKs/libstrophe/src/thread.c
 	../../SDKs/libstrophe/src/thread.h
 	../../SDKs/libstrophe/src/tls.h
-	../../SDKs/libstrophe/src/tls_schannel.c
 	../../SDKs/libstrophe/src/util.c
 	../../SDKs/libstrophe/src/util.h
 	../../SDKs/libstrophe/strophe.h
 )
 
+if (WIN32)
+	set(SourceGroup_Root "${SourceGroup_Root} ../../SDKs/libstrophe/src/tls_schannel.c")
+endif()
 
 # Support unity build with uber files
 set(NoUberFile ${SourceGroup_Root}  )
@@ -53,6 +55,8 @@ include_directories( ${SDK_DIR}/expat-2.1.0/lib )
 # assume expat will be a static library
 add_definitions(-DXML_STATIC)
 
+add_definitions(-DHAVE_ARPA_NAMESER_COMPAT_H)
+
 add_library( ${THIS_PROJECT} STATIC ${SOURCES})
 
-SET_PLATFORM_TARGET_PROPERTIES( ${THIS_PROJECT} )
+###SET_PLATFORM_TARGET_PROPERTIES( ${THIS_PROJECT} )

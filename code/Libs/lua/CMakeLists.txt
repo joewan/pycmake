@@ -78,7 +78,6 @@ set (SOURCES
 )
 #END-FILE-LIST
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -DAPPLE")
 
 include_directories( ${CMAKE_CURRENT_SOURCE_DIR} )
 include_directories( ${SDK_DIR}/Lua/src )

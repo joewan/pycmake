@@ -35,6 +35,7 @@ set(TOOLCHAIN_DIR "/usr/bin")
 ###set(CMAKE_CXX_COMPILER ${TOOLCHAIN_DIR}/clang++)
 
 set(CMAKE_BUILD_TYPE "Shipping")
+set(SDK_DIR ${CMAKE_CURRENT_SOURCE_DIR}/code/SDKs)
 
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/output/Lib/${CMAKE_BUILD_TYPE})
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/output/Lib/${CMAKE_BUILD_TYPE})
@@ -53,6 +54,8 @@ add_subdirectory("code/Libs/expat")
 add_subdirectory("code/Libs/tomcrypt")
 add_subdirectory("code/Libs/bigdigits")
 add_subdirectory("code/Libs/lua")
+add_subdirectory("code/Libs/lzss")
+add_subdirectory("code/Libs/strophe")
 
 ### cryengine libraries
 add_subdirectory("code/Cry/CryCommon")
