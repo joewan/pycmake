@@ -40,6 +40,9 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/output/Bin/${CMAKE_BUILD_
 
 message("Build Type:" ${CMAKE_BUILD_TYPE} ${CMAKE_CXX_FLAGS})
 
+add_subdirectory("code/Libs/zlib")
+add_subdirectory("code/Libs/yasli")
+
 add_subdirectory("code/Cry/CryCommon")
 #add_subdirectory("code/Cry/CrySystem")
 #add_subdirectory("code/Cry/CryAction")

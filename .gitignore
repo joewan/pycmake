@@ -7,13 +7,7 @@ CMakeFiles/*
 CMakeCache.txt
 cmake_install.cmake
 Makefile
-code/Cry/CryCommon/CMakeFiles/*
-code/Cry/CrySystem/CMakeFiles/*
-code/Cry/CryFont/CMakeFiles/*
-code/Cry/CryInput/CMakeFiles/*
-code/Cry/CryEntitySystem/CMakeFiles/*
-code/Cry/CryScriptSystem/CMakeFiles/*
-code/Cry/CryAction/CMakeFiles/*
+CMakeFiles/
 
 code/SDKs/freetype/*
 code/SDKs/ncurses/*
