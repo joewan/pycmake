@@ -3,6 +3,7 @@ cmake_minimum_required(VERSION 3.1)
 project(pycmake)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -DAPPLE")
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -DAPPLE")
 
 include_directories(
         ${CMAKE_CURRENT_SOURCE_DIR}/code/Cry
@@ -19,6 +20,7 @@ include_directories(
         ${CMAKE_CURRENT_SOURCE_DIR}/code/SDKs/ncurses/include
         #CryFont
         ${CMAKE_CURRENT_SOURCE_DIR}/code/SDKs/freetype/include
+        ${CMAKE_CURRENT_SOURCE_DIR}/code/Libs/freetype
         #CryInput
         ${CMAKE_CURRENT_SOURCE_DIR}/code/SDKs/SDL2/include/mac
         #CryScriptSystem
@@ -40,12 +42,19 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/output/Bin/${CMAKE_BUILD_
 
 message("Build Type:" ${CMAKE_BUILD_TYPE} ${CMAKE_CXX_FLAGS})
 
+### external libraries
 add_subdirectory("code/Libs/zlib")
 add_subdirectory("code/Libs/yasli")
 add_subdirectory("code/Libs/md5")
 add_subdirectory("code/Libs/lz4")
+add_subdirectory("code/Libs/lzma")
+add_subdirectory("code/Libs/freetype")
+add_subdirectory("code/Libs/expat")
 add_subdirectory("code/Libs/tomcrypt")
+add_subdirectory("code/Libs/bigdigits")
+add_subdirectory("code/Libs/lua")
 
+### cryengine libraries
 add_subdirectory("code/Cry/CryCommon")
 #add_subdirectory("code/Cry/CrySystem")
 #add_subdirectory("code/Cry/CryAction")
