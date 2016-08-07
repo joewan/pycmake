@@ -10,16 +10,16 @@ set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -DAPPLE")
 include_directories(
         ${PROJECT_ROOT}/code/Cry
         ${PROJECT_ROOT}/code/Cry/CryCommon
-#        ${PROJECT_ROOT}/code/SDKs/zlib-1.2.8
-#        ${PROJECT_ROOT}/code/SDKs/yasli
-#        ${PROJECT_ROOT}/code/Libs/yasli
-#        ${PROJECT_ROOT}/code/SDKs/md5
-#        ${PROJECT_ROOT}/code/SDKs
-#        ${PROJECT_ROOT}/code/SDKs/LibTomCrypt/src/headers
-#        ${PROJECT_ROOT}/code/SDKs/LibTomMath
-#        ${PROJECT_ROOT}/code/SDKs/boost
-#        ${PROJECT_ROOT}/code/SDKs/lz4/lib
-#        ${PROJECT_ROOT}/code/SDKs/ncurses/include
+        ${PROJECT_ROOT}/code/SDKs/zlib-1.2.8
+        ${PROJECT_ROOT}/code/SDKs/yasli
+        ${PROJECT_ROOT}/code/Libs/yasli
+        ${PROJECT_ROOT}/code/SDKs/md5
+        ${PROJECT_ROOT}/code/SDKs
+        ${PROJECT_ROOT}/code/SDKs/LibTomCrypt/src/headers
+        ${PROJECT_ROOT}/code/SDKs/LibTomMath
+        ${PROJECT_ROOT}/code/SDKs/boost
+        ${PROJECT_ROOT}/code/SDKs/lz4/lib
+        ${PROJECT_ROOT}/code/SDKs/ncurses/include
 #        #CryFont
 #        ${PROJECT_ROOT}/code/SDKs/freetype/include
 #        ${PROJECT_ROOT}/code/Libs/freetype
@@ -57,10 +57,12 @@ link_directories(${CMAKE_LIBRARY_OUTPUT_DIRECTORY})
 #add_subdirectory("code/Cry/CryInput")
 #add_subdirectory("code/Cry/CryScriptSystem")
 
+add_definitions("-framework CoreServices -framework Security")
+
 set(SOURCE_FILES main.cpp)
 add_executable(${THIS_PROJECT} ${SOURCE_FILES})
 
-#target_link_libraries(${THIS_PROJECT} CrySystem)
+target_link_libraries(${THIS_PROJECT} CrySystem)
 #target_link_libraries(${THIS_PROJECT} tomcrypt )
 #target_link_libraries(${THIS_PROJECT} expat )
 #target_link_libraries(${THIS_PROJECT} md5)
