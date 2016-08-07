@@ -22,6 +22,6 @@ int main()
     //ls.size_ci = 254;
     //std::cout << ls.size_ci << std::endl;
 
-    lua_State* ls2 = luaL_newstate();
+    //lua_State* ls2 = luaL_newstate();
     return 0;
 }
