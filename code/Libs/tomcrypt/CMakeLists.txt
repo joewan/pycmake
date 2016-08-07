@@ -469,6 +469,9 @@ add_definitions(-DLTC_SOURCE) # Meaning we are compiling from sources (ie, not c
 add_definitions(-D_CRT_SECURE_NO_WARNINGS) # For MSVC to not complain about standard C functions
 add_definitions(-Dmalloc=malloc) # This triggers LibTomCrypt to not declare malloc (with an incompatible signature)
 
+###[moon]
+add_definitions(-DLTC_NO_ASM) # Disables some assembly that's not supported in Clang
+
 add_definitions(-DARGTYPE=3)     # Performance/Release: Don't check for function argument problems
 
 if (WIN32)
