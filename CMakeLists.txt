@@ -28,8 +28,6 @@ set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/output/Lib/${CMAKE_BUILD_
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/output/Lib/${CMAKE_BUILD_TYPE})
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/output/Bin/${CMAKE_BUILD_TYPE})
 
-#link_directories(${CMAKE_LIBRARY_OUTPUT_DIRECTORY})
-
 message("Build Type:" ${CMAKE_BUILD_TYPE})
 message("Build CXX Flags:" ${CMAKE_CXX_FLAGS})
 message("Build C Flags:" ${CMAKE_C_FLAGS})
@@ -44,7 +42,7 @@ message("Build C Flags:" ${CMAKE_C_FLAGS})
 #add_subdirectory("code/Libs/expat")
 #add_subdirectory("code/Libs/tomcrypt")
 #add_subdirectory("code/Libs/bigdigits")
-#add_subdirectory("code/Libs/lua")
+add_subdirectory("code/Libs/lua")
 #add_subdirectory("code/Libs/lzss")
 #add_subdirectory("code/Libs/strophe")
 ###error: add_subdirectory("code/Libs/tiff")
@@ -60,12 +58,3 @@ add_subdirectory("code/Cry/CrySystem")
 
 ### demo
 add_subdirectory("code/Demo")
-
-#target_link_libraries(${THIS_PROJECT} CrySystem)
-#target_link_libraries(${THIS_PROJECT} tomcrypt )
-#target_link_libraries(${THIS_PROJECT} expat )
-#target_link_libraries(${THIS_PROJECT} md5)
-#target_link_libraries(${THIS_PROJECT} yasli)
-#target_link_libraries(${THIS_PROJECT} lua)
-#target_link_libraries(${THIS_PROJECT} lz4)
-#target_link_libraries(${THIS_PROJECT} zlib)
