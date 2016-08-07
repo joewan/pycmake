@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.1)
 
-set(THIS_PROJECT pycmake)
+set(THIS_PROJECT moondemo)
 
 project( ${THIS_PROJECT} )
 
