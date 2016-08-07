@@ -66,11 +66,11 @@ set (SOURCES
 
 
 include_directories( ${CMAKE_CURRENT_SOURCE_DIR} )
-include_directories( ${SDK_DIR}/tiff-4.0.3/libtiff )
+include_directories( ${SDK_DIR}/tiff-4.0.4/libtiff )
 include_directories( ${SDK_DIR}/zlib-1.2.8 )
 
 add_library( ${THIS_PROJECT} STATIC ${SOURCES})
 
 #USE_MSVC_PRECOMPILED_HEADER( ${THIS_PROJECT} "StdAfx.h" "StdAfx.cpp" )
 
-SET_PLATFORM_TARGET_PROPERTIES( ${THIS_PROJECT} )
+###SET_PLATFORM_TARGET_PROPERTIES( ${THIS_PROJECT} )

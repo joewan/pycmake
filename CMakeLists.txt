@@ -56,6 +56,7 @@ add_subdirectory("code/Libs/bigdigits")
 add_subdirectory("code/Libs/lua")
 add_subdirectory("code/Libs/lzss")
 add_subdirectory("code/Libs/strophe")
+add_subdirectory("code/Libs/tiff")
 
 ### cryengine libraries
 add_subdirectory("code/Cry/CryCommon")
