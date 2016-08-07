@@ -20,3 +20,4 @@ youdao
 
 tiff compile on mac
 brew install dos2unix
+dos2unix configure
