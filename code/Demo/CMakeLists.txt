@@ -60,7 +60,7 @@ link_directories(${CMAKE_LIBRARY_OUTPUT_DIRECTORY})
 set(SOURCE_FILES main.cpp)
 add_executable(${THIS_PROJECT} ${SOURCE_FILES})
 
-target_link_libraries(${THIS_PROJECT} CrySystem)
+#target_link_libraries(${THIS_PROJECT} CrySystem)
 #target_link_libraries(${THIS_PROJECT} tomcrypt )
 #target_link_libraries(${THIS_PROJECT} expat )
 #target_link_libraries(${THIS_PROJECT} md5)
