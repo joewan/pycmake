@@ -1,0 +1,3 @@
+all:
+	clang -O2 -Wall -DLUA_USE_MACOSX -I/Users/joewanchen/workspace/pycmake/code/SDKs/lua-5.1.1/src -c -o main.o main.c
+	clang -o moon -L/Users/joewanchen/workspace/pycmake/code/SDKs/lua-5.1.1/src main.o -llua -lm
