@@ -1,7 +1,10 @@
 #include <iostream>
-#include "lua.h"
-#include "lstate.h"
-#include "lauxlib.h"
+extern "C"
+{
+    #include "lua.h"
+    #include "lstate.h"
+    #include "lauxlib.h"
+}
 
 //#include "CryCommon/CryModuleDefs.h"
 //#define eCryModule eCryM_Game

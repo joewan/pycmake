@@ -16,8 +16,8 @@ include_directories(
 add_definitions(-w)
 
 set(TOOLCHAIN_DIR "/usr/bin")
-#set(CMAKE_C_COMPILER ${TOOLCHAIN_DIR}/clang)
-#set(CMAKE_CXX_COMPILER ${TOOLCHAIN_DIR}/clang++)
+set(CMAKE_C_COMPILER ${TOOLCHAIN_DIR}/clang)
+set(CMAKE_CXX_COMPILER ${TOOLCHAIN_DIR}/clang++)
 
 set(CMAKE_BUILD_TYPE "Shipping")
 set(SDK_DIR ${CMAKE_CURRENT_SOURCE_DIR}/code/SDKs)
