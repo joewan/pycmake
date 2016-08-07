@@ -2,10 +2,7 @@
 #define eCryModule eCryM_Game
 #include <platform.h>
 #include <platform_impl.inl>
-#include <CryLibrary.h>
-#include <IHardwareMouse.h>
 #include "CryCommon/ISystem.h"
-#include "CryCommon/CrySizer.h"
 #include "CrySystem/CryPak.h"
 
 extern "C"
@@ -15,6 +12,16 @@ extern "C"
     #include "lauxlib.h"
 }
 #include <stdio.h>
+
+class A
+{
+public:
+    A()
+    {
+    }
+};
+
+A a;
 
 int main()
 {
