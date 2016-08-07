@@ -6,7 +6,8 @@ brew install libtool (/opt/local/lib/libltdl.7.dylib missing)
 
 cmake . --graphviz a
 
-dot -Tgif a -o 1.gif
+cmake . --graphviz=moon.viz
+dot -Tpng moon.viz -o moon.png
 
 git clean -d -f -x
 

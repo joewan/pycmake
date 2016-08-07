@@ -640,6 +640,13 @@ include_directories( ${SDK_DIR}/lz4/lib )
 include_directories( ${SDK_DIR}/OculusSDK/LibOVR/Include )
 include_directories( ${SDK_DIR}/OSVR/include )
 
+include_directories( ${SDK_DIR}/yasli )
+include_directories( ${LIB_DIR}/yasli )
+include_directories( ${SDK_DIR}/boost )
+include_directories( ${SDK_DIR}/md5 )
+include_directories( ${SDK_DIR}/ncurses/include )
+include_directories( ${SDK_DIR} )
+
 if(ORBIS)
 	# Exlude files from Build
 	set_source_files_properties(
