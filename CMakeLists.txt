@@ -4,6 +4,12 @@ set(THIS_PROJECT MoonEngine)
 
 project( ${THIS_PROJECT} )
 
+function(moon_cmake_project_registry)
+    set(ENV{MOON_PROJECT_VERSION} "0.01")
+endfunction(moon_cmake_project_registry)
+
+moon_cmake_project_registry()
+
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -DAPPLE")
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -DAPPLE")
 
