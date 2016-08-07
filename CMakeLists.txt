@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.1)
 
 set(THIS_PROJECT MoonEngine)
-
 project( ${THIS_PROJECT} )
+message("PROJECT " ${THIS_PROJECT} "|" ${CMAKE_CURRENT_LIST_DIR})
 
 function(moon_cmake_project_registry)
     set(ENV{MOON_PROJECT_VERSION} "0.01")
