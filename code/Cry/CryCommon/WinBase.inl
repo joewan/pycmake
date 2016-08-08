@@ -1838,7 +1838,7 @@ int CryMessageBox( const char *lpText,const char *lpCaption,unsigned int uType)
 #if CRY_PLATFORM_WINDOWS
 #	error CRY_PLATFORM_WINDOWS is defined in WinBase.cpp (it is a non-Windows file)
 //###[moon]
-#elif CRY_PLATFORM_MAC1
+#elif CRY_PLATFORM_MAC
 	CFStringRef strText = CFStringCreateWithCString(NULL, lpText, strlen(lpText));
 	CFStringRef strCaption = CFStringCreateWithCString(NULL, lpCaption, strlen(lpCaption));
 
