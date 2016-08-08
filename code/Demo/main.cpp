@@ -31,12 +31,32 @@ extern "C"
 
 int main()
 {
-    SSystemInitParams params;
-    CreateSystemInterface(params);
+    SSystemInitParams startupParams;
+    string gameDLLName;
+
+    //startupParams.bShaderCacheGen = true;
+    startupParams.bSkipFont = true;                    //!< Don't load CryFont.dll.
+    startupParams.bSkipRenderer = true;                //!< Don't load Renderer.
+    //startupParams.bSkipConsole = false;                //!< Don't create console.
+    //startupParams.bSkipNetwork = false;                //!< Don't create Network.
+    //startupParams.bSkipLiveCreate = false;             //!< Don't create LiveCreate.
+    //startupParams.bSkipWebsocketServer = false;        //!< Don't create the WebSocket server.
+    startupParams.bDedicatedServer = true;
+    //restart parameters
+    static const char logFileName[] = "Server.log";
+
+
+    startupParams.hInstance = GetModuleHandle(0);
+    startupParams.sLogFileName = logFileName;
+
+    ISystem* pSys = CreateSystemInterface(startupParams);
+
+    pSys->GetRootFolder();
+    ICryPak* pPak = gEnv->pSystem->GetIPak();
 
     printf("Hello World!\n");
 
-    gEnv->pSystem->CreateAVIReader();
+    //gEnv->pSystem->CreateAVIReader();
     //CCryPak* pak = nullptr;
     //pak->GetPakInfo();
 

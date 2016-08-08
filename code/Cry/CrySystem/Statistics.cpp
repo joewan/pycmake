@@ -32,7 +32,7 @@ const std::vector<const char*>& GetModuleNames()
 {
 	static std::vector<const char*> moduleNames;
 
-	if (moduleNames.empty())
+	if (moduleNames.empty() && false)
 	{
 
 #ifdef MODULE_EXTENSION

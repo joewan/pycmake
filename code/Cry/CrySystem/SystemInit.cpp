@@ -2851,8 +2851,8 @@ L_done:;
 		// Stream Engine
 		//////////////////////////////////////////////////////////////////////////
 		CryLogAlways("Stream Engine Initialization");
-		InitStreamEngine();
-		InlineInitializationProcessing("CSystem::Init StreamEngine");
+		//InitStreamEngine();
+		//InlineInitializationProcessing("CSystem::Init StreamEngine");
 
 //	if (!g_sysSpecChanged)
 //		OnSysSpecChange( m_sys_spec );
@@ -2925,8 +2925,8 @@ L_done:;
 		if (!m_bUIFrameworkMode && !startupParams.bShaderCacheGen)
 		{
 			CryLogAlways("Physics initialization");
-			if (!InitPhysics( startupParams ))
-				return false;
+			//if (!InitPhysics( startupParams ))
+			//	return false;
 		}
 
 		InlineInitializationProcessing("CSystem::Init InitPhysics");
@@ -3010,7 +3010,7 @@ L_done:;
 #ifdef DEDICATED_SERVER
 		m_env.pHardwareMouse = NULL;
 #else
-		m_env.pHardwareMouse = new CHardwareMouse(true);
+		//m_env.pHardwareMouse = new CHardwareMouse(true);
 #endif
 		InlineInitializationProcessing("CSystem::Init InitRenderer");
 
@@ -3035,7 +3035,7 @@ L_done:;
 
 		InlineInitializationProcessing("CSystem::Init m_pResourceManager->UnloadFastLoadPaks");
 
-		assert(m_env.pRenderer || gEnv->IsDedicated());
+		//assert(m_env.pRenderer || gEnv->IsDedicated());
 
 		const bool bStartScreensAllowed = !startupParams.bEditor
 		                                  && !startupParams.bShaderCacheGen
@@ -3110,7 +3110,7 @@ L_done:;
 				m_env.pRenderer->StartRenderIntroMovies();
 			}
 		}
-		else if (g_cvars.sys_rendersplashscreen && bStartScreensAllowed)
+		else if (g_cvars.sys_rendersplashscreen && bStartScreensAllowed && false)
 		{
 			LOADING_TIME_PROFILE_SECTION_NAMED("Rendering Splash Screen");
 			ITexture* pTex = m_env.pRenderer->EF_LoadTexture("Libs/UI/textures/startscreen.tif", FT_DONT_STREAM | FT_NOMIPS);
@@ -3199,10 +3199,10 @@ L_done:;
 		{
 			CryLogAlways("Network initialization");
 			INDENT_LOG_DURING_SCOPE();
-			InitNetwork( startupParams );
+			//InitNetwork( startupParams );
 
-			if (gEnv->IsDedicated())
-				m_pServerThrottle.reset( new CServerThrottle(this, m_pCpu->GetCPUCount()));
+			//if (gEnv->IsDedicated())
+			//	m_pServerThrottle.reset( new CServerThrottle(this, m_pCpu->GetCPUCount()));
 		}
 		InlineInitializationProcessing("CSystem::Init InitNetwork");
 
@@ -3222,7 +3222,7 @@ L_done:;
 		if (!startupParams.bPreview && !m_bUIFrameworkMode && !startupParams.bShaderCacheGen)
 		{
 			CryLogAlways("Lobby initialization");
-			InitLobby( startupParams );
+			//InitLobby( startupParams );
 		}
 		InlineInitializationProcessing("CSystem::Init InitLobby");
 
@@ -3233,8 +3233,8 @@ L_done:;
 		{
 			CryLogAlways("MovieSystem initialization");
 			INDENT_LOG_DURING_SCOPE();
-			if (!InitMovieSystem(startupParams))
-				return false;
+			//if (!InitMovieSystem(startupParams))
+			//	return false;
 		}
 
 		InlineInitializationProcessing("CSystem::Init InitMovie");
@@ -3287,11 +3287,11 @@ L_done:;
 		{
 			CryLogAlways("Input initialization");
 			INDENT_LOG_DURING_SCOPE();
-			if (!InitInput(startupParams)) // !!! TODO: FIX ME !!!
-				return false;
+			//if (!InitInput(startupParams)) // !!! TODO: FIX ME !!!
+			//	return false;
 
-			if (m_env.pHardwareMouse)
-				m_env.pHardwareMouse->OnPostInitInput();
+			//if (m_env.pHardwareMouse)
+			//	m_env.pHardwareMouse->OnPostInitInput();
 		}
 
 		InlineInitializationProcessing("CSystem::Init InitInput");
@@ -3320,8 +3320,8 @@ L_done:;
 				CryLogAlways("AI initialization");
 				INDENT_LOG_DURING_SCOPE();
 
-				if (!InitAISystem( startupParams ))
-					return false;
+				//if (!InitAISystem( startupParams ))
+				//	return false;
 			}
 		}
 
@@ -3334,9 +3334,9 @@ L_done:;
 		{
 			CryLogAlways("Initializing Animation System");
 			INDENT_LOG_DURING_SCOPE();
-			if (!m_bUIFrameworkMode && !startupParams.bShaderCacheGen)
-				if (!InitAnimationSystem( startupParams ))
-					return false;
+			//if (!m_bUIFrameworkMode && !startupParams.bShaderCacheGen)
+			//	if (!InitAnimationSystem( startupParams ))
+			//		return false;
 		}
 
 		//////////////////////////////////////////////////////////////////////////
@@ -3394,8 +3394,8 @@ L_done:;
 			CryLogAlways("Entity system initialization");
 			INDENT_LOG_DURING_SCOPE();
 
-			if (!InitEntitySystem(startupParams))
-				return false;
+			//if (!InitEntitySystem(startupParams))
+			//	return false;
 		}
 
 		InlineInitializationProcessing("CSystem::Init InitEntitySystem");
