@@ -4,20 +4,20 @@
 #include "CryCommon/CryModuleDefs.h"
 
 #include <platform.h>
-#include <platform_impl.inl>
+//#include <platform_impl.inl>
 
-#include "CryCommon/ISystem.h"
-#include "yasli/Archive.h"
-#include "yasli/BinArchive.h"
+//#include "CryCommon/ISystem.h"
+//#include "yasli/Archive.h"
+//#include "yasli/BinArchive.h"
 
 //#include <CryAssert.h>
 //#include <CryLibrary.h>
 //#include <IGameStartup.h>
 //#include <IGameFramework.h>
-#include <IConsole.h>
-#include "CrySystem/System.h"
-#include "CrySystem/DebugCallStack.h"
-#include "CrySystem/CryPak.h"
+//#include <IConsole.h>
+//#include "CrySystem/System.h"
+//#include "CrySystem/DebugCallStack.h"
+//#include "CrySystem/CryPak.h"
 
 extern "C"
 {

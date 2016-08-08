@@ -45,12 +45,12 @@ struct SyncPolicyLocked
 
 	static void PushOnto(FreeListHeader &list, AllocHeader* ptr)
 	{
-		CryInterlockedPushEntrySList(list, *reinterpret_cast<SLockFreeSingleLinkedListEntry*>(ptr));
+		//CryInterlockedPushEntrySList(list, *reinterpret_cast<SLockFreeSingleLinkedListEntry*>(ptr));
 	}
 
 	static void PushListOnto(FreeListHeader &list, AllocHeader* head, AllocHeader* tail, size_t count)
 	{
-		CryInterlockedPushListSList(list, *reinterpret_cast<SLockFreeSingleLinkedListEntry*>(head), *reinterpret_cast<SLockFreeSingleLinkedListEntry*>(tail), (uint32)count);
+		//CryInterlockedPushListSList(list, *reinterpret_cast<SLockFreeSingleLinkedListEntry*>(head), *reinterpret_cast<SLockFreeSingleLinkedListEntry*>(tail), (uint32)count);
 	}
 
 	static AllocHeader* PopOff(FreeListHeader &list)
