@@ -8,15 +8,13 @@
 #include "CryCommon/ISystem.h"
 #include "yasli/Archive.h"
 #include "yasli/BinArchive.h"
-
-
-//#include <CryLibrary.h>
-//#include <IGameStartup.h>
-//#include <IGameFramework.h>
-//#include <IConsole.h>
+#include <CryLibrary.h>
+#include <IGameStartup.h>
+#include <IGameFramework.h>
+#include <IConsole.h>
 #include "CrySystem/System.h"
-//#include "CrySystem/DebugCallStack.h"
-//#include "CrySystem/CryPak.h"
+#include "CrySystem/DebugCallStack.h"
+#include "CrySystem/CryPak.h"
 
 extern ISystem* CreateSystemInterface(const SSystemInitParams &startupParams);
 
@@ -60,7 +58,8 @@ int main()
     //CCryPak* pak = nullptr;
     //pak->GetPakInfo();
 
-    //yasli::BinOArchive ar;
+    yasli::BinOArchive ar;
+    ar.clear();
 
     lua_State* ls2 = luaL_newstate();
 
