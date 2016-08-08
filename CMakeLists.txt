@@ -21,7 +21,7 @@ include_directories(
 )
 
 ### disable all compile warnings
-add_definitions(-w)
+add_definitions(-w -DXML_STATIC)
 
 set(TOOLCHAIN_DIR "/usr/bin")
 #set(CMAKE_C_COMPILER ${TOOLCHAIN_DIR}/clang)

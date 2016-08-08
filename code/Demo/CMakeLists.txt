@@ -31,6 +31,7 @@ include_directories(
         ${PROJECT_ROOT}/code/SDKs/lua/src
 )
 
+message("PROJECT ROOT|" "${PROJECT_ROOT}")
 ### disable all compile warnings
 ### add_definitions(-w)
 link_directories(${CMAKE_LIBRARY_OUTPUT_DIRECTORY})
