@@ -53,7 +53,7 @@ void* CryRtlFirstEntrySList(SLockFreeSingleLinkedListHeader &list)
 	// However, we know that the X64 version of the header is used, so just access it directly
 	return (void*)(((PSLIST_HEADER)&list)->HeaderX64.NextEntry << 4);
 #else
-	return reinterpret_cast<void*>(RtlFirstEntrySList(alias_cast<PSLIST_HEADER>(&list)));
+	return nullptr;//reinterpret_cast<void*>(RtlFirstEntrySList(alias_cast<PSLIST_HEADER>(&list)));
 #endif
 }
 
