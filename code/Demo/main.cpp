@@ -1,17 +1,19 @@
 #define eCryModule eCryM_Game
 
 #define USE_CRY_ASSERT
-#include <CryAssert.h>
-
+#include <CryCommon/CryAssert.h>
 #include "CryCommon/CryModuleDefs.h"
-#include "MSVCspecific.h"
+#include "CryCommon/MSVCspecific.h"
 #include "CryCommon/ISystem.h"
+#include <CryCommon/CryLibrary.h>
+#include <CryCommon/IGameStartup.h>
+#include <CryCommon/IEditorGame.h>
+#include <CryCommon/IGameFramework.h>
+#include <CryCommon/IConsole.h>
+
 #include "yasli/Archive.h"
 #include "yasli/BinArchive.h"
-#include <CryLibrary.h>
-#include <IGameStartup.h>
-#include <IGameFramework.h>
-#include <IConsole.h>
+
 #include "CrySystem/System.h"
 #include "CrySystem/DebugCallStack.h"
 #include "CrySystem/CryPak.h"
