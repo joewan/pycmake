@@ -4,8 +4,10 @@ set(THIS_PROJECT MoonDemo)
 project( ${THIS_PROJECT} )
 message("PROJECT " ${THIS_PROJECT} "|" ${CMAKE_CURRENT_LIST_DIR})
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -DAPPLE")
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -DAPPLE")
+#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -DAPPLE")
+#set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -DAPPLE")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -DWIN64")
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -DWIN64")
 
 include_directories(
         ${PROJECT_ROOT}/code/Cry
@@ -57,7 +59,7 @@ link_directories(${CMAKE_LIBRARY_OUTPUT_DIRECTORY})
 #add_subdirectory("code/Cry/CryInput")
 #add_subdirectory("code/Cry/CryScriptSystem")
 
-add_definitions("-framework CoreServices -framework Security")
+#add_definitions("-framework CoreServices -framework Security")
 
 set(SOURCE_FILES main.cpp)
 add_executable(${THIS_PROJECT} ${SOURCE_FILES})

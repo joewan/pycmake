@@ -10,8 +10,10 @@ endfunction(moon_cmake_project_registry)
 
 moon_cmake_project_registry()
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -DAPPLE")
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -DAPPLE")
+#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -DAPPLE")
+#set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -DAPPLE")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -DWIN64")
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -DWIN64")
 
 include_directories(
         ${CMAKE_CURRENT_SOURCE_DIR}/code/Cry
@@ -22,8 +24,8 @@ include_directories(
 add_definitions(-w)
 
 set(TOOLCHAIN_DIR "/usr/bin")
-set(CMAKE_C_COMPILER ${TOOLCHAIN_DIR}/clang)
-set(CMAKE_CXX_COMPILER ${TOOLCHAIN_DIR}/clang++)
+#set(CMAKE_C_COMPILER ${TOOLCHAIN_DIR}/clang)
+#set(CMAKE_CXX_COMPILER ${TOOLCHAIN_DIR}/clang++)
 
 set(CMAKE_BUILD_TYPE "Shipping")
 set(SDK_DIR ${CMAKE_CURRENT_SOURCE_DIR}/code/SDKs)

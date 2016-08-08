@@ -696,26 +696,24 @@ target_link_libraries( ${THIS_PROJECT} md5 )
 
 if (WIN32 OR DURANGO)
 	target_link_libraries( ${THIS_PROJECT} imm32 oleaut32 )
-	#Scaleform Libs
-	target_link_libraries( ${THIS_PROJECT} debug Debug/libgfx )
-	target_link_libraries( ${THIS_PROJECT} debug Debug/libgfx_ime )
-	target_link_libraries( ${THIS_PROJECT} debug Debug/libjpeg )
-
-	target_link_libraries( ${THIS_PROJECT} optimized Release/libgfx )
-	target_link_libraries( ${THIS_PROJECT} optimized Release/libgfx_ime )
-	target_link_libraries( ${THIS_PROJECT} optimized Release/libjpeg )
-
-	if (NOT EXCLUDE_SCALEFORM_VIDEO)
-		target_link_libraries( ${THIS_PROJECT} debug Debug/libgfx_video )
-		target_link_libraries( ${THIS_PROJECT} optimized Release/libgfx_video )
-	endif()
+#	#Scaleform Libs
+#	target_link_libraries( ${THIS_PROJECT} debug Debug/libgfx )
+#	target_link_libraries( ${THIS_PROJECT} debug Debug/libgfx_ime )
+#	target_link_libraries( ${THIS_PROJECT} debug Debug/libjpeg )
+#	target_link_libraries( ${THIS_PROJECT} optimized Release/libgfx )
+#	target_link_libraries( ${THIS_PROJECT} optimized Release/libgfx_ime )
+#	target_link_libraries( ${THIS_PROJECT} optimized Release/libjpeg )
+#	if (NOT EXCLUDE_SCALEFORM_VIDEO)
+#		target_link_libraries( ${THIS_PROJECT} debug Debug/libgfx_video )
+#		target_link_libraries( ${THIS_PROJECT} optimized Release/libgfx_video )
+#	endif()
 endif()
 
-if (WIN32)
-	#Scaleform Libs
-	target_link_libraries( ${THIS_PROJECT} debug Debug/libpng )
-	target_link_libraries( ${THIS_PROJECT} optimized Release/libpng )
-endif()
+#if (WIN32)
+#	#Scaleform Libs
+#	target_link_libraries( ${THIS_PROJECT} debug Debug/libpng )
+#	target_link_libraries( ${THIS_PROJECT} optimized Release/libpng )
+#endif()
 
 if(WIN32)
 	target_link_libraries( ${THIS_PROJECT} wininet Winmm Version ws2_32 Shlwapi Vfw32 Psapi)
