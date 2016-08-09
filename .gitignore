@@ -16,3 +16,16 @@ code/SDKs/SDL2/*
 
 *.cbp
 *.txt.user
+
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.suo
+*.tlog
+*.sdf
+*.opensdf
+*.lib
+*.user
+*.log
+logbackups/

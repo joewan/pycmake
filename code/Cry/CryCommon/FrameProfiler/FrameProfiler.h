@@ -428,7 +428,11 @@ class CFrameProfilerSection
 		if (gEnv->bDeepProfiling || profileDescription == EProfileDescription::REGION)
 		{
 			m_pFrameProfiler = profiler;
-			gEnv->callbackStartSection(this);
+            CRY_ASSERT_MESSAGE(gEnv->callbackStartSection, "gEnv->callbackStartSection is nullptr");
+            if (gEnv->callbackStartSection)
+            {
+                gEnv->callbackStartSection(this);
+            }
 		}
 	}
 

@@ -35,15 +35,15 @@ int main()
     string gameDLLName;
 
     //startupParams.bShaderCacheGen = true;
-    startupParams.bSkipFont = true;                    //!< Don't load CryFont.dll.
-    startupParams.bSkipRenderer = true;                //!< Don't load Renderer.
+    startupParams.bSkipFont = true;                     //!< Don't load CryFont.dll.
+    startupParams.bSkipRenderer = true;                 //!< Don't load Renderer.
     //startupParams.bSkipConsole = false;                //!< Don't create console.
     //startupParams.bSkipNetwork = false;                //!< Don't create Network.
     //startupParams.bSkipLiveCreate = false;             //!< Don't create LiveCreate.
     //startupParams.bSkipWebsocketServer = false;        //!< Don't create the WebSocket server.
-    startupParams.bDedicatedServer = true;
+    startupParams.bDedicatedServer = false;
     //restart parameters
-    static const char logFileName[] = "Server.log";
+    static const char logFileName[] = "moon.log";
 
 
     startupParams.hInstance = GetModuleHandle(0);
