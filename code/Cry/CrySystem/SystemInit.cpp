@@ -3211,10 +3211,10 @@ L_done:;
 			CryLogAlways("Network initialization");
 			INDENT_LOG_DURING_SCOPE();
 			//moon begin
-			//InitNetwork( startupParams );
+			InitNetwork( startupParams );
 
-			//if (gEnv->IsDedicated())
-			//	m_pServerThrottle.reset( new CServerThrottle(this, m_pCpu->GetCPUCount()));
+			if (gEnv->IsDedicated())
+				m_pServerThrottle.reset( new CServerThrottle(this, m_pCpu->GetCPUCount()));
 			//moon end
 		}
 		InlineInitializationProcessing("CSystem::Init InitNetwork");
