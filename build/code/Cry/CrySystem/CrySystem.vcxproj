@@ -1,0 +1,622 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{7A4A89EE-BE18-3BF7-A5F5-F9C4A57468B7}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>CrySystem</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\workspace\pycmake\build\output\Lib\Shipping\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CrySystem.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CrySystem</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\workspace\pycmake\build\output\Lib\Shipping\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CrySystem.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CrySystem</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\workspace\pycmake\build\output\Lib\Shipping\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CrySystem.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CrySystem</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\workspace\pycmake\build\output\Lib\Shipping\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CrySystem.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CrySystem</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions> -w %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\workspace\pycmake\code\Cry;C:\workspace\pycmake\code\Cry\CryCommon;C:\workspace\pycmake\code\Cry\CrySystem;C:\workspace\pycmake\code\SDKs\libtomcrypt\src\headers;C:\workspace\pycmake\code\SDKs\Scaleform\Include;C:\workspace\pycmake\code\SDKs\pdcurses;C:\workspace\pycmake\code\SDKs\Steamworks\public;C:\workspace\pycmake\code\SDKs\zlib-1.2.8;C:\workspace\pycmake\code\SDKs\expat-2.1.0\lib;C:\workspace\pycmake\code\SDKs\lz4\lib;C:\workspace\pycmake\code\SDKs\OculusSDK\LibOVR\Include;C:\workspace\pycmake\code\SDKs\OSVR\include;C:\workspace\pycmake\code\SDKs\yasli;C:\workspace\pycmake\code\Libs\yasli;C:\workspace\pycmake\code\SDKs\boost;C:\workspace\pycmake\code\SDKs\md5;C:\workspace\pycmake\code\SDKs\ncurses\include;C:\workspace\pycmake\code\SDKs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WIN64;_DEBUG;XML_STATIC;NOT_USE_CRY_MEMORY_MANAGER;CRY_PLATFORM_WINAPI;CRY_NO_PRAGMA_LIB;LTM_DESC;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WIN64;_DEBUG;XML_STATIC;NOT_USE_CRY_MEMORY_MANAGER;CRY_PLATFORM_WINAPI;CRY_NO_PRAGMA_LIB;LTM_DESC;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\workspace\pycmake\code\Cry;C:\workspace\pycmake\code\Cry\CryCommon;C:\workspace\pycmake\code\Cry\CrySystem;C:\workspace\pycmake\code\SDKs\libtomcrypt\src\headers;C:\workspace\pycmake\code\SDKs\Scaleform\Include;C:\workspace\pycmake\code\SDKs\pdcurses;C:\workspace\pycmake\code\SDKs\Steamworks\public;C:\workspace\pycmake\code\SDKs\zlib-1.2.8;C:\workspace\pycmake\code\SDKs\expat-2.1.0\lib;C:\workspace\pycmake\code\SDKs\lz4\lib;C:\workspace\pycmake\code\SDKs\OculusSDK\LibOVR\Include;C:\workspace\pycmake\code\SDKs\OSVR\include;C:\workspace\pycmake\code\SDKs\yasli;C:\workspace\pycmake\code\Libs\yasli;C:\workspace\pycmake\code\SDKs\boost;C:\workspace\pycmake\code\SDKs\md5;C:\workspace\pycmake\code\SDKs\ncurses\include;C:\workspace\pycmake\code\SDKs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\workspace\pycmake\code\Cry;C:\workspace\pycmake\code\Cry\CryCommon;C:\workspace\pycmake\code\Cry\CrySystem;C:\workspace\pycmake\code\SDKs\libtomcrypt\src\headers;C:\workspace\pycmake\code\SDKs\Scaleform\Include;C:\workspace\pycmake\code\SDKs\pdcurses;C:\workspace\pycmake\code\SDKs\Steamworks\public;C:\workspace\pycmake\code\SDKs\zlib-1.2.8;C:\workspace\pycmake\code\SDKs\expat-2.1.0\lib;C:\workspace\pycmake\code\SDKs\lz4\lib;C:\workspace\pycmake\code\SDKs\OculusSDK\LibOVR\Include;C:\workspace\pycmake\code\SDKs\OSVR\include;C:\workspace\pycmake\code\SDKs\yasli;C:\workspace\pycmake\code\Libs\yasli;C:\workspace\pycmake\code\SDKs\boost;C:\workspace\pycmake\code\SDKs\md5;C:\workspace\pycmake\code\SDKs\ncurses\include;C:\workspace\pycmake\code\SDKs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions> -w %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\workspace\pycmake\code\Cry;C:\workspace\pycmake\code\Cry\CryCommon;C:\workspace\pycmake\code\Cry\CrySystem;C:\workspace\pycmake\code\SDKs\libtomcrypt\src\headers;C:\workspace\pycmake\code\SDKs\Scaleform\Include;C:\workspace\pycmake\code\SDKs\pdcurses;C:\workspace\pycmake\code\SDKs\Steamworks\public;C:\workspace\pycmake\code\SDKs\zlib-1.2.8;C:\workspace\pycmake\code\SDKs\expat-2.1.0\lib;C:\workspace\pycmake\code\SDKs\lz4\lib;C:\workspace\pycmake\code\SDKs\OculusSDK\LibOVR\Include;C:\workspace\pycmake\code\SDKs\OSVR\include;C:\workspace\pycmake\code\SDKs\yasli;C:\workspace\pycmake\code\Libs\yasli;C:\workspace\pycmake\code\SDKs\boost;C:\workspace\pycmake\code\SDKs\md5;C:\workspace\pycmake\code\SDKs\ncurses\include;C:\workspace\pycmake\code\SDKs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WIN64;NDEBUG;XML_STATIC;NOT_USE_CRY_MEMORY_MANAGER;CRY_PLATFORM_WINAPI;CRY_NO_PRAGMA_LIB;LTM_DESC;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WIN64;NDEBUG;XML_STATIC;NOT_USE_CRY_MEMORY_MANAGER;CRY_PLATFORM_WINAPI;CRY_NO_PRAGMA_LIB;LTM_DESC;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\workspace\pycmake\code\Cry;C:\workspace\pycmake\code\Cry\CryCommon;C:\workspace\pycmake\code\Cry\CrySystem;C:\workspace\pycmake\code\SDKs\libtomcrypt\src\headers;C:\workspace\pycmake\code\SDKs\Scaleform\Include;C:\workspace\pycmake\code\SDKs\pdcurses;C:\workspace\pycmake\code\SDKs\Steamworks\public;C:\workspace\pycmake\code\SDKs\zlib-1.2.8;C:\workspace\pycmake\code\SDKs\expat-2.1.0\lib;C:\workspace\pycmake\code\SDKs\lz4\lib;C:\workspace\pycmake\code\SDKs\OculusSDK\LibOVR\Include;C:\workspace\pycmake\code\SDKs\OSVR\include;C:\workspace\pycmake\code\SDKs\yasli;C:\workspace\pycmake\code\Libs\yasli;C:\workspace\pycmake\code\SDKs\boost;C:\workspace\pycmake\code\SDKs\md5;C:\workspace\pycmake\code\SDKs\ncurses\include;C:\workspace\pycmake\code\SDKs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\workspace\pycmake\code\Cry;C:\workspace\pycmake\code\Cry\CryCommon;C:\workspace\pycmake\code\Cry\CrySystem;C:\workspace\pycmake\code\SDKs\libtomcrypt\src\headers;C:\workspace\pycmake\code\SDKs\Scaleform\Include;C:\workspace\pycmake\code\SDKs\pdcurses;C:\workspace\pycmake\code\SDKs\Steamworks\public;C:\workspace\pycmake\code\SDKs\zlib-1.2.8;C:\workspace\pycmake\code\SDKs\expat-2.1.0\lib;C:\workspace\pycmake\code\SDKs\lz4\lib;C:\workspace\pycmake\code\SDKs\OculusSDK\LibOVR\Include;C:\workspace\pycmake\code\SDKs\OSVR\include;C:\workspace\pycmake\code\SDKs\yasli;C:\workspace\pycmake\code\Libs\yasli;C:\workspace\pycmake\code\SDKs\boost;C:\workspace\pycmake\code\SDKs\md5;C:\workspace\pycmake\code\SDKs\ncurses\include;C:\workspace\pycmake\code\SDKs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalOptions> -w %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\workspace\pycmake\code\Cry;C:\workspace\pycmake\code\Cry\CryCommon;C:\workspace\pycmake\code\Cry\CrySystem;C:\workspace\pycmake\code\SDKs\libtomcrypt\src\headers;C:\workspace\pycmake\code\SDKs\Scaleform\Include;C:\workspace\pycmake\code\SDKs\pdcurses;C:\workspace\pycmake\code\SDKs\Steamworks\public;C:\workspace\pycmake\code\SDKs\zlib-1.2.8;C:\workspace\pycmake\code\SDKs\expat-2.1.0\lib;C:\workspace\pycmake\code\SDKs\lz4\lib;C:\workspace\pycmake\code\SDKs\OculusSDK\LibOVR\Include;C:\workspace\pycmake\code\SDKs\OSVR\include;C:\workspace\pycmake\code\SDKs\yasli;C:\workspace\pycmake\code\Libs\yasli;C:\workspace\pycmake\code\SDKs\boost;C:\workspace\pycmake\code\SDKs\md5;C:\workspace\pycmake\code\SDKs\ncurses\include;C:\workspace\pycmake\code\SDKs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WIN64;NDEBUG;XML_STATIC;NOT_USE_CRY_MEMORY_MANAGER;CRY_PLATFORM_WINAPI;CRY_NO_PRAGMA_LIB;LTM_DESC;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WIN64;NDEBUG;XML_STATIC;NOT_USE_CRY_MEMORY_MANAGER;CRY_PLATFORM_WINAPI;CRY_NO_PRAGMA_LIB;LTM_DESC;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\workspace\pycmake\code\Cry;C:\workspace\pycmake\code\Cry\CryCommon;C:\workspace\pycmake\code\Cry\CrySystem;C:\workspace\pycmake\code\SDKs\libtomcrypt\src\headers;C:\workspace\pycmake\code\SDKs\Scaleform\Include;C:\workspace\pycmake\code\SDKs\pdcurses;C:\workspace\pycmake\code\SDKs\Steamworks\public;C:\workspace\pycmake\code\SDKs\zlib-1.2.8;C:\workspace\pycmake\code\SDKs\expat-2.1.0\lib;C:\workspace\pycmake\code\SDKs\lz4\lib;C:\workspace\pycmake\code\SDKs\OculusSDK\LibOVR\Include;C:\workspace\pycmake\code\SDKs\OSVR\include;C:\workspace\pycmake\code\SDKs\yasli;C:\workspace\pycmake\code\Libs\yasli;C:\workspace\pycmake\code\SDKs\boost;C:\workspace\pycmake\code\SDKs\md5;C:\workspace\pycmake\code\SDKs\ncurses\include;C:\workspace\pycmake\code\SDKs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\workspace\pycmake\code\Cry;C:\workspace\pycmake\code\Cry\CryCommon;C:\workspace\pycmake\code\Cry\CrySystem;C:\workspace\pycmake\code\SDKs\libtomcrypt\src\headers;C:\workspace\pycmake\code\SDKs\Scaleform\Include;C:\workspace\pycmake\code\SDKs\pdcurses;C:\workspace\pycmake\code\SDKs\Steamworks\public;C:\workspace\pycmake\code\SDKs\zlib-1.2.8;C:\workspace\pycmake\code\SDKs\expat-2.1.0\lib;C:\workspace\pycmake\code\SDKs\lz4\lib;C:\workspace\pycmake\code\SDKs\OculusSDK\LibOVR\Include;C:\workspace\pycmake\code\SDKs\OSVR\include;C:\workspace\pycmake\code\SDKs\yasli;C:\workspace\pycmake\code\Libs\yasli;C:\workspace\pycmake\code\SDKs\boost;C:\workspace\pycmake\code\SDKs\md5;C:\workspace\pycmake\code\SDKs\ncurses\include;C:\workspace\pycmake\code\SDKs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalOptions> -w %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\workspace\pycmake\code\Cry;C:\workspace\pycmake\code\Cry\CryCommon;C:\workspace\pycmake\code\Cry\CrySystem;C:\workspace\pycmake\code\SDKs\libtomcrypt\src\headers;C:\workspace\pycmake\code\SDKs\Scaleform\Include;C:\workspace\pycmake\code\SDKs\pdcurses;C:\workspace\pycmake\code\SDKs\Steamworks\public;C:\workspace\pycmake\code\SDKs\zlib-1.2.8;C:\workspace\pycmake\code\SDKs\expat-2.1.0\lib;C:\workspace\pycmake\code\SDKs\lz4\lib;C:\workspace\pycmake\code\SDKs\OculusSDK\LibOVR\Include;C:\workspace\pycmake\code\SDKs\OSVR\include;C:\workspace\pycmake\code\SDKs\yasli;C:\workspace\pycmake\code\Libs\yasli;C:\workspace\pycmake\code\SDKs\boost;C:\workspace\pycmake\code\SDKs\md5;C:\workspace\pycmake\code\SDKs\ncurses\include;C:\workspace\pycmake\code\SDKs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WIN64;NDEBUG;XML_STATIC;NOT_USE_CRY_MEMORY_MANAGER;CRY_PLATFORM_WINAPI;CRY_NO_PRAGMA_LIB;LTM_DESC;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WIN64;NDEBUG;XML_STATIC;NOT_USE_CRY_MEMORY_MANAGER;CRY_PLATFORM_WINAPI;CRY_NO_PRAGMA_LIB;LTM_DESC;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\workspace\pycmake\code\Cry;C:\workspace\pycmake\code\Cry\CryCommon;C:\workspace\pycmake\code\Cry\CrySystem;C:\workspace\pycmake\code\SDKs\libtomcrypt\src\headers;C:\workspace\pycmake\code\SDKs\Scaleform\Include;C:\workspace\pycmake\code\SDKs\pdcurses;C:\workspace\pycmake\code\SDKs\Steamworks\public;C:\workspace\pycmake\code\SDKs\zlib-1.2.8;C:\workspace\pycmake\code\SDKs\expat-2.1.0\lib;C:\workspace\pycmake\code\SDKs\lz4\lib;C:\workspace\pycmake\code\SDKs\OculusSDK\LibOVR\Include;C:\workspace\pycmake\code\SDKs\OSVR\include;C:\workspace\pycmake\code\SDKs\yasli;C:\workspace\pycmake\code\Libs\yasli;C:\workspace\pycmake\code\SDKs\boost;C:\workspace\pycmake\code\SDKs\md5;C:\workspace\pycmake\code\SDKs\ncurses\include;C:\workspace\pycmake\code\SDKs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\workspace\pycmake\code\Cry;C:\workspace\pycmake\code\Cry\CryCommon;C:\workspace\pycmake\code\Cry\CrySystem;C:\workspace\pycmake\code\SDKs\libtomcrypt\src\headers;C:\workspace\pycmake\code\SDKs\Scaleform\Include;C:\workspace\pycmake\code\SDKs\pdcurses;C:\workspace\pycmake\code\SDKs\Steamworks\public;C:\workspace\pycmake\code\SDKs\zlib-1.2.8;C:\workspace\pycmake\code\SDKs\expat-2.1.0\lib;C:\workspace\pycmake\code\SDKs\lz4\lib;C:\workspace\pycmake\code\SDKs\OculusSDK\LibOVR\Include;C:\workspace\pycmake\code\SDKs\OSVR\include;C:\workspace\pycmake\code\SDKs\yasli;C:\workspace\pycmake\code\Libs\yasli;C:\workspace\pycmake\code\SDKs\boost;C:\workspace\pycmake\code\SDKs\md5;C:\workspace\pycmake\code\SDKs\ncurses\include;C:\workspace\pycmake\code\SDKs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\workspace\pycmake\code\Cry\CrySystem\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/workspace/pycmake/code/Cry/CrySystem/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/workspace/pycmake -BC:/workspace/pycmake/build --check-stamp-file C:\workspace\pycmake\build\code\Cry\CrySystem\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/workspace/pycmake/code/Cry/CrySystem/CMakeLists.txt;C:\workspace\pycmake\code\Cry\CrySystem\CMakeLists.txt;C:\workspace\pycmake\code\Cry\CrySystem\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\workspace\pycmake\build\code\Cry\CrySystem\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/workspace/pycmake/code/Cry/CrySystem/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/workspace/pycmake -BC:/workspace/pycmake/build --check-stamp-file C:\workspace\pycmake\build\code\Cry\CrySystem\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/workspace/pycmake/code/Cry/CrySystem/CMakeLists.txt;C:\workspace\pycmake\code\Cry\CrySystem\CMakeLists.txt;C:\workspace\pycmake\code\Cry\CrySystem\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\workspace\pycmake\build\code\Cry\CrySystem\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/workspace/pycmake/code/Cry/CrySystem/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/workspace/pycmake -BC:/workspace/pycmake/build --check-stamp-file C:\workspace\pycmake\build\code\Cry\CrySystem\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/workspace/pycmake/code/Cry/CrySystem/CMakeLists.txt;C:\workspace\pycmake\code\Cry\CrySystem\CMakeLists.txt;C:\workspace\pycmake\code\Cry\CrySystem\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\workspace\pycmake\build\code\Cry\CrySystem\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/workspace/pycmake/code/Cry/CrySystem/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/workspace/pycmake -BC:/workspace/pycmake/build --check-stamp-file C:\workspace\pycmake\build\code\Cry\CrySystem\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/workspace/pycmake/code/Cry/CrySystem/CMakeLists.txt;C:\workspace\pycmake\code\Cry\CrySystem\CMakeLists.txt;C:\workspace\pycmake\code\Cry\CrySystem\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\workspace\pycmake\build\code\Cry\CrySystem\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\BootProfiler.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\BudgetingSystem.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\CPUDetect.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\CmdLine.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\CmdLineArg.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ConsoleBatchFile.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ConsoleHelpGen.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\CryPak.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\CryPakHandleCache.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\CrySizerImpl.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\CrySizerStats.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\CryWaterMark.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\DebugCallStack.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\GeneralMemoryHeap.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\HardwareMouse.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\HotUpdate.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\IDebugCallStack.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Log.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\MemoryFragmentationProfiler.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\NotificationNetwork.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\PakVars.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\PlatformOS\PatternMatcher.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Serialization\ArchiveHost.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\SimpleStringPool.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Statistics\LocalMemoryUsage.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\System.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\SystemCFG.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\SystemEventDispatcher.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\SystemInit.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Timer.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Validator.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\XConsole.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\XConsoleVariable.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\XML\ReadWriteXMLSink.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\resource.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\CustomMemoryHeap.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\DefragAllocator.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\MTSafeAllocator.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\MemReplay.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\MemoryAddressRange.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\MemoryManager.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\PageMappingHeap.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\StreamEngine\StreamAsyncFileRequest.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\StreamEngine\StreamEngine.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\StreamEngine\StreamIOThread.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\StreamEngine\StreamReadStream.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\XML\SerializeXMLReader.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\XML\SerializeXMLWriter.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\XML\XMLBinaryNode.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\XML\XMLBinaryReader.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\XML\XMLBinaryWriter.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\XML\XMLPatcher.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\XML\XmlUtils.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\XML\xml.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\XML\xml_string.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ZipDir.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ZipDirCache.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ZipDirCacheFactory.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ZipDirCacheRW.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ZipDirFind.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ZipDirFindRW.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ZipDirList.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ZipDirStructures.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ZipDirTree.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ZipEncrypt.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ZipFile.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ZipFileFormat.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ZipFileFormat_info.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\DownloadManager.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\HTTPDownloader.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\LocalizedStringManager.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\DiskProfiler.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\FrameProfileSystem.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\LoadingProfiler.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\PerfHUD.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ProfileLogSystem.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Sampler.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\ConfigScaleform.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\FlashPlayerInstance.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\GAllocatorCryMem.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\GFileCryPak.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\GFxVideoSoundCrySound.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\GFxVideoWrapper.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\GImageInfoXRender.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\GImeHelper.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\GMemorySTLAlloc.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\GRendererXRender.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\GTextureXRender.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\SharedResources.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\SharedStates.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ExcelExport.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Statistics.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\TestSystemLegacy.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\UnitTestExcelReporter.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\UnitTestSystem.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\VisRegTest.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ExtensionSystem\CryFactoryRegistryImpl.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ExtensionSystem\TestCases\TestExtensions.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\MiniGUI\DrawContext.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\MiniGUI\MiniButton.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\MiniGUI\MiniGUI.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\MiniGUI\MiniInfoBox.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\MiniGUI\MiniMenu.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\MiniGUI\MiniTable.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\NullImplementation\NULLAudioSystems.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\NullImplementation\NULLRenderAuxGeom.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\NullImplementation\NullInput.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\NullImplementation\NullLiveCreate.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\NullImplementation\NullResponseSystem.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\CryThreadUtil_posix.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\CryThreadUtil_win32.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ThreadConfigManager.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ThreadInfo.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ThreadProfiler.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ThreadSampler.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\CodeCoverage\CodeCheckpointMgr.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Statoscope.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\StatoscopeStreamingIntervalGroup.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\StatoscopeTextureStreamingIntervalGroup.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ZLibCompressor.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Huffman.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\JobManager\JobManager.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\JobManager\JobStructs.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\JobManager\BlockingBackend\BlockingBackEnd.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\JobManager\FallbackBackend\FallBackBackend.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\JobManager\PCBackEnd\ThreadBackEnd.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\OverloadSceneManager\OverloadSceneManager.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\LZ4Decompressor.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\RemoteConsole\RemoteConsole.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Serialization\Token.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Serialization\XmlIArchive.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Serialization\XmlOArchive.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\RemoteCommand.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\RemoteCommandHelpers.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ServiceNetwork.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Stroboscope\Stroboscope.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\HMDCVars.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\HMDManager.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Oculus\OculusConfig.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Oculus\OculusDevice.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Oculus\OculusResources.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Oculus\OculusTouchController.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\OpenVR\OpenVRConfig.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\OpenVR\OpenVRController.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\OpenVR\OpenVRDevice.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\OpenVR\OpenVRResources.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Osvr\OsvrDevice.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Osvr\OsvrResources.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ZLibDecompressor.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\SystemUtilsApple.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\SystemUtilsApple.mm" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\PlatformOS\PlatformOS_PC.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\PlatformOS\SaveReaderWriter_CryPak.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\PlatformOS\SaveReaderWriter_Memory.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\PlatformOS\SaveReaderWriter_Steam.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\StdAfx.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\AVI_Reader.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\AsyncPakManager.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\AutoDetectCPUTestSuit.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\AutoDetectSpec.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ClientHandler.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\CryArchive.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\DxDiag.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\FileIOWrapper.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\HandlerBase.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ImeManager.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\JiraClient.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\PhysRenderer.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ResourceManager.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ServerHandler.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ServerThrottle.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\SyncLock.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\SystemScheduler.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\UnixConsole.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\WindowsConsole.h" />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\CryMemoryManager.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\CustomMemoryHeap.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\DefragAllocator.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\MTSafeAllocator.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\MemoryAddressRange.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\MemoryManager.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\PageMappingHeap.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\StreamEngine\StreamAsyncFileRequest.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\StreamEngine\StreamAsyncFileRequest_Jobs.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\StreamEngine\StreamEngine.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\StreamEngine\StreamIOThread.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\StreamEngine\StreamReadStream.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\XML\SerializeXMLReader.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\XML\SerializeXMLWriter.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\XML\XMLBinaryNode.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\XML\XMLBinaryReader.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\XML\XMLBinaryWriter.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\XML\XMLPatcher.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\XML\XmlUtils.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\XML\xml.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\XML\ReadXMLSink.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\XML\WriteXMLSource.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ZipDirCache.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ZipDirCacheFactory.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ZipDirCacheRW.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ZipDirFind.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ZipDirFindRW.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ZipDirList.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ZipDirStructures.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ZipDirTree.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ZipEncrypt.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\DownloadManager.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\HTTPDownloader.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\LocalizedStringManager.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\DiskProfiler.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\FrameProfileRender.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\FrameProfileSystem.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\LoadingProfiler.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\PerfHUD.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ProfileLogSystem.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Sampler.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\WindowsErrorReporting.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\ConfigScaleform.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\FlashPlayerInstance.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\GAllocatorCryMem.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\GFileCryPak.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\GFxVideoSoundCrySound.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\GFxVideoWrapper.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\GImageInfoXRender.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\GImeHelper.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\GRendererXRender.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\GTextureXRender.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\SharedResources.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\SharedStates.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ExcelExport.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Statistics.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\TestSystemLegacy.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\UnitTestExcelReporter.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\UnitTestSystem.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\VisRegTest.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ExtensionSystem\CryFactoryRegistryImpl.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ExtensionSystem\TestCases\TestExtensions.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\MiniGUI\DrawContext.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\MiniGUI\MiniButton.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\MiniGUI\MiniGUI.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\MiniGUI\MiniInfoBox.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\MiniGUI\MiniMenu.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\MiniGUI\MiniTable.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\NullImplementation\NULLRenderAuxGeom.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\SystemThreading.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ThreadConfigManager.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ThreadInfo.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ThreadProfiler.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ThreadSampler.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\CodeCoverage\CodeCheckpointMgr.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Statistics\LocalMemoryUsage.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Statoscope.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\StatoscopeStreamingIntervalGroup.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\StatoscopeTextureStreamingIntervalGroup.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ZLibCompressor.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Huffman.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\JobManager\JobManager.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\JobManager\BlockingBackend\BlockingBackEnd.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\JobManager\FallbackBackend\FallbackBackend.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\JobManager\PCBackEnd\ThreadBackEnd.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\OverloadSceneManager\OverloadSceneManager.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\LZ4Decompressor.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\RemoteConsole\RemoteConsole.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Serialization\ArchiveHost.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Serialization\Test_ArchiveHost.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Serialization\XmlIArchive.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Serialization\XmlOArchive.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\RemoteCommand.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\RemoteCommandClient.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\RemoteCommandHelpers.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\RemoteCommandServer.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ServiceNetwork.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Stroboscope\Stroboscope.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\HMDCVars.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\HMDManager.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Oculus\OculusDevice.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Oculus\OculusResources.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Oculus\OculusTouchController.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\OpenVR\OpenVRController.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\OpenVR\OpenVRDevice.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\OpenVR\OpenVRResources.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Osvr\OsvrDevice.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Osvr\OsvrResources.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ZLibDecompressor.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\PlatformOS\PlatformOS_PC.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\PlatformOS\SaveReaderWriter_CryPak.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\PlatformOS\SaveReaderWriter_Memory.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\PlatformOS\SaveReaderWriter_Steam.cpp"  />
+    <ResourceCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\CrashHandler.rc"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\StdAfx.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\AVI_Reader.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\AsyncPakManager.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\AutoDetectCPUTestSuit.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\AutoDetectSpec.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\BootProfiler.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\BudgetingSystem.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\CPUDetect.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ClientHandler.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\CmdLine.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\CmdLineArg.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\CompressedFile.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ConsoleBatchFile.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ConsoleHelpGen.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\CryArchive.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\CryAsyncMemcpy.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\CryDLMalloc.c" >
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\CryPak.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\CrySizerImpl.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\CrySizerStats.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\DebugCallStack.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\DllMain.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\FileIOWrapper.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\GeneralMemoryHeap.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\HandlerBase.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\HardwareMouse.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\IDebugCallStack.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ImeManager.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\JiraClient.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\LevelHeap.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Log.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\MemReplay.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\NotificationNetwork.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\PhysRenderer.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ResourceManager.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ServerHandler.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ServerThrottle.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\SyncLock.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\System.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\SystemCFG.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\SystemEventDispatcher.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\SystemInit.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\SystemRender.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\SystemScheduler.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\SystemWin32.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Timer.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\UnixConsole.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\WindowsConsole.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\XConsole.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\XConsoleVariable.cpp"  />
+    <None Include="C:\workspace\pycmake\code\Cry\CrySystem\crash_face.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/workspace/pycmake/build/ZERO_CHECK.vcxproj">
+      <Project>59442FC1-5F1E-34E8-9D91-0CE4C1742C9E</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

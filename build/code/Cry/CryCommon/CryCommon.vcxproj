@@ -1,0 +1,724 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{BAE14A66-E782-3DB9-85F6-98A5FF76D728}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>CryCommon</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\workspace\pycmake\code\Cry;C:\workspace\pycmake\code\Cry\CryCommon;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\workspace\pycmake\code\Cry;C:\workspace\pycmake\code\Cry\CryCommon;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\workspace\pycmake\code\Cry;C:\workspace\pycmake\code\Cry\CryCommon;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\workspace\pycmake\code\Cry;C:\workspace\pycmake\code\Cry\CryCommon;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\workspace\pycmake\code\Cry\CryCommon\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/workspace/pycmake/code/Cry/CryCommon/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/workspace/pycmake -BC:/workspace/pycmake/build --check-stamp-file C:\workspace\pycmake\build\code\Cry\CryCommon\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/workspace/pycmake/code/Cry/CryCommon/CMakeLists.txt;C:\workspace\pycmake\code\Cry\CryCommon\CMakeLists.txt;C:\workspace\pycmake\code\Cry\CryCommon\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\workspace\pycmake\build\code\Cry\CryCommon\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/workspace/pycmake/code/Cry/CryCommon/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/workspace/pycmake -BC:/workspace/pycmake/build --check-stamp-file C:\workspace\pycmake\build\code\Cry\CryCommon\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/workspace/pycmake/code/Cry/CryCommon/CMakeLists.txt;C:\workspace\pycmake\code\Cry\CryCommon\CMakeLists.txt;C:\workspace\pycmake\code\Cry\CryCommon\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\workspace\pycmake\build\code\Cry\CryCommon\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/workspace/pycmake/code/Cry/CryCommon/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/workspace/pycmake -BC:/workspace/pycmake/build --check-stamp-file C:\workspace\pycmake\build\code\Cry\CryCommon\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/workspace/pycmake/code/Cry/CryCommon/CMakeLists.txt;C:\workspace\pycmake\code\Cry\CryCommon\CMakeLists.txt;C:\workspace\pycmake\code\Cry\CryCommon\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\workspace\pycmake\build\code\Cry\CryCommon\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/workspace/pycmake/code/Cry/CryCommon/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/workspace/pycmake -BC:/workspace/pycmake/build --check-stamp-file C:\workspace\pycmake\build\code\Cry\CryCommon\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/workspace/pycmake/code/Cry/CryCommon/CMakeLists.txt;C:\workspace\pycmake\code\Cry\CryCommon\CMakeLists.txt;C:\workspace\pycmake\code\Cry\CryCommon\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\workspace\pycmake\build\code\Cry\CryCommon\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\AIFormationDescriptor.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\AISystemListener.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\AgePriorityQueue.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\AnimKey.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\AnimKey_impl.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\AnimTime.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Base64.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\BaseTypes.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Bezier.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Bezier_impl.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\BitFiddling.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\BitMask.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\BitmapDilation.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\BoostHelpers.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\BucketAllocator.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\BucketAllocatorImpl.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\BucketAllocatorPolicy.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CGFContent.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CGFContent_info.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CREGeomCache.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CoherentValue.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Common_TypeInfo.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Common_TypeInfo2.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CompileTimeAssert.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CompileTimeUtils.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CountedValue.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CrtDebugStats.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryArray.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryAssert.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryBufferedFileReader.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryCharAnimationParams.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryCharMorphParams.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryCrc32.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryCustomTypes.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryEndian.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryEngineDecalInfo.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryFile.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryFixedArray.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryFixedString.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryFlags.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryFunction.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryHeaders.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryHeaders_info.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryListenerSet.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryLobbyPacket.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryMemBlock.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryMemReplay.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryMemReplayTrackedPtr.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryMemoryAllocator.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryMemoryManager.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryModuleDefs.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryName.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryPath.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryPhysics.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryPodArray.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryPtrArray.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryRandomInternal.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CrySignal.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CrySizer.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CrySocks.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryString.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryThread.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryThreadImpl.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryThreadSafeRendererContainer.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryThreadSafeWorkerContainer.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryTypeInfo.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryTypeInfo.inl" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryUnitTest.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryUtils.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryVersion.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\DeferredActionQueue.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\EngineSettingsManager.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\EngineSettingsManager.inl" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\EntityDesc.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ExtensionDefines.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\FindZeroRanges.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\FixedAllocator.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\FixedPoint.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Force.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\FunctorBaseFunction.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\FunctorBaseMember.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\GameUtils.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\GeomCacheFileFormat.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\HardwareBreakpoint.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\HashGrid.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\HashedString.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\HeapAllocator.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\HeapContainer.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\HidespotQueryContext.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IAIActionSequence.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IAVI_Reader.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IAudioInterfacesCommonData.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IAudioSystem.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IBreakableGlassSystem.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IBreakableManager.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IDMap.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IDiskProfiler.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IFaceGen.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IFunctorBase.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IGeomCache.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IGoalPipe.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IHMDDevice.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IHMDManager.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IInterestSystem.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ILZ4Decompressor.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ILipSync.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ILipSyncProvider.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ILiveCreateCommon.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ILiveCreateHost.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ILiveCreateManager.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ILiveCreatePlatform.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IMovementSystem.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IPerceptionHandler.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IPerceptionHandlerModifier.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IRemoteCommand.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IResourceManager.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ISelectionTreeManager.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IServiceNetwork.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IStatoscope.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ITargetTrackManager.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IZlibDecompressor.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\InplaceFactory.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\InterpolationHelpers.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IntersectionTestQueue.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\LCGRandom.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\LineStreamBuffer.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\MTPseudoRandom.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\MemoryAccess.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\MetaUtils.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\MiniQueue.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\MovementBlock.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\MovementRequest.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\MovementRequestID.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\MovementStyle.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\MovementUpdateContext.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\MultiThread_Containers.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\NameCRCHelper.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Name_TypeInfo.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\NetHelpers.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Octree.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\OctreeDebug.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Options.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\PNoise3.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ParseEngineConfig.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ParticleParams_TypeInfo.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Pipe.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\PoolAllocator.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ProfileLog.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ProjectDefines.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ProjectDefinesInclude.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Random.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Range.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\RayCastQueue.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ResourceCompilerHelper.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ResourceCompilerHelper.inl" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\RingBuffer.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\SFunctor.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\STLAlignedAlloc.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\STLGlobalAllocator.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\STLPoolAllocator.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\STLPoolAllocator_ManyElems.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ScopedVariableSetter.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ScreenPlotter.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ScriptHelpers.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\SerializationTypes.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\SerializeBuffer.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\SerializeFwd.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\SettingsManagerHelpers.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\SettingsManagerHelpers.inl" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\SimpleHashLookUp.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\SimpleSerialize.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\StackContainer.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\StaticInstanceList.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\StlDbgAlloc.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\StlUtils.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\StringUtils.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Synchronization.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Tarray.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ThreadProfilerSupport.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\TimeValue.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\TimeValue_info.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Timer.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\TypeInfo_decl.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\TypeInfo_impl.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Typelist.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\TypelistUtils.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\UnicodeBinding.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\UnicodeEncoding.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\UnicodeFunctions.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\UnicodeIterator.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\VariableCollection.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\VectorMap.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\VectorSet.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\VertexFormats.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\VisionMapTypes.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\WinBase.inl" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\XMLAttrReader.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\XMLBinaryHeaders.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\branchmask.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\functor.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\intrusive_list.hpp" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\primitives.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\primitives_info.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\smartptr.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\stridedptr.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\BehaviorTree\Action.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\BehaviorTree\Composite.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\BehaviorTree\Decorator.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\BehaviorTree\Node.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\BehaviorTree\NodeFactory.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\BehaviorTree\Readme.txt" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\BehaviorTree\SerializationSupport.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\BehaviorTree\TimestampCollection.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\BehaviorTree\XmlLoader.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CREBaseCloud.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CREBreakableGlass.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CREBreakableGlassConfig.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CREBreakableGlassHelpers.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CREFarTreeSprites.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CREFogVolume.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CREGameEffect.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CREImposter.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CRELightPropagationVolume.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CREMesh.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CREOcclusionQuery.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CREParticle.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CREPostProcess.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CRESky.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CREVolumeObject.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CREWaterOcean.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CREWaterVolume.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\RendElement.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryExtension\CryCreateClassInstance.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryExtension\CryGUID.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryExtension\CryTypeID.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryExtension\ICryFactory.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryExtension\ICryFactoryRegistry.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryExtension\ICryUnknown.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryExtension\Impl\ClassWeaver.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryExtension\Impl\Conversion.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryExtension\Impl\CryGUIDHelper.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryExtension\Impl\ICryFactoryRegistryImpl.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryExtension\Impl\RegFactoryNode.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryExtension\Impl\TypeList.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryInterop.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryPool\Allocator.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryPool\Container.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryPool\Defrag.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryPool\Fallback.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryPool\Inspector.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryPool\List.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryPool\Memory.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryPool\PAUnitTest.cpp" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryPool\PoolAlloc.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryPool\STLWrapper.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryPool\ThreadSafe.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryPool\example.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\AgentParams.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Allocator.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryLobbyEvent.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\FinalizingSpline.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\I3DEngine.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\I3DEngine_info.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\I3DSampler.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IAnimEventPlayer.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IAnimationPoseModifier.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IAttachment.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IBitStream.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IBudgetingSystem.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IChunkFile.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ICmdLine.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ICodeCheckpointMgr.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IColorGradingController.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IComponent.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IConsole.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ICryAnimation.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ICryFriends.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ICryFriendsManagement.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ICryLobby.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ICryLobbyUI.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ICryMatchMaking.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ICryMiniGUI.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ICryOnlineStorage.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ICryPak.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ICryReward.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ICrySignIn.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ICryStats.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ICryTCPService.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ICryVoice.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ICustomActions.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ICustomEvents.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IDebugHistory.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IDeferredCollisionEvent.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IDefragAllocator.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IDialogSystem.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IDynamicResponseAction.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IDynamicResponseCondition.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IDynamicResponseSystem.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IEdgeConnectivityBuilder.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IEditorGame.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IEngineModule.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IEntity.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IEntityAttributesProxy.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IEntityClass.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IEntityLayer.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IEntityPoolManager.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IEntityProxy.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IEntityRenderState.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IEntityRenderState_info.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IEntitySerialize.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IEntitySystem.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IFacialAnimation.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IFileChangeMonitor.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IFlares.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IFlashPlayer.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IFlashUI.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IFlowGraphDebugger.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IFlowGraphModuleManager.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IFlowSystem.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IFont.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IFuncVariable.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IGame.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IGameFramework.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IGameFrameworkExtension.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IGameRef.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IGameStartup.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IGameStatistics.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IGameTokens.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IGameVolumes.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IGameWebDebug.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IGeneralMemoryHeap.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IHardwareMouse.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IImage.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IIndexedMesh.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IIndexedMesh_info.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IInput.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IJobManager.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IJobManager_JobDelegator.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IJoystick.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ILMSerializationManager.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ILocalMemoryUsage.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ILocalizationManager.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ILog.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IMaterial.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IMaterialEffects.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IMemory.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IMeshBaking.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IMiniLog.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IMonoRuntime.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IMovieSystem.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\INetwork.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\INetworkService.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\INetworkingState.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\INotificationNetwork.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IOverloadSceneManager.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IParticles.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IParticlesPfx2.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IPerfHud.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IPhysics.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IPhysicsDebugRenderer.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IPlatformOS.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IProcess.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IReadWriteXMLSink.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IRealtimeRemoteUpdate.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IRemoteControl.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IRenderAuxGeom.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IRenderMesh.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IRenderer.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IResourceCollector.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IScriptSystem.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ISerialize.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ISerializeHelper.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ISerialize_info.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IShader.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IShaderParamCallback.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IShader_info.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ISimpleHttpServer.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ISplines.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IStatObj.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IStereoRenderer.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IStreamEngine.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IStreamEngineDefs.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IStreamPersist.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ISurfaceType.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ISystem.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ISystemScheduler.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ITacticalPointSystem.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ITestSystem.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ITextModeConsole.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ITexture.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IThreadConfigManager.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IThreadManager.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ITimeOfDay.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ITimer.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IUIFramework.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IValidator.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IVertexAnimation.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IWindowMessageHandler.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IXml.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IZLibCompressor.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ParticleParams.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ParticleParams_info.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\RenderObject.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Version.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Version_override.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\physinterface.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\BehaviorTree\IBehaviorTree.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\BehaviorTree\IBehaviorTreeGraft.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IAIAction.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IAIActor.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IAIActorProxy.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IAIDebugRenderer.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IAIGroup.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IAIGroupProxy.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IAIMannequin.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IAIObject.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IAIObjectManager.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IAIRateOfDeathHandler.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IAIRecorder.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IAISystem.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IAgent.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IBlackBoard.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IClusterDetector.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ICommunicationManager.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ICoverSystem.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IFactionMap.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IMNM.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IMovementActor.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\INavigation.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\INavigationSystem.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IOffMeshNavigationManager.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IPathfinder.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IVisionMap.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\AABBSV.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryHalf.inl" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryHalf_info.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Cry_Camera.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Cry_Color.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Cry_Geo.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Cry_GeoDistance.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Cry_GeoIntersect.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Cry_GeoOverlap.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Cry_Math.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Cry_Matrix33.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Cry_Matrix34.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Cry_Matrix44.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Cry_MatrixDiag.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Cry_Quat.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Cry_ValidNumber.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Cry_Vector2.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Cry_Vector3.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Cry_Vector4.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Cry_XOptimise.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\GeomQuery.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\QTangent.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Cry_HWMatrix.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Cry_HWVector3.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\AndroidSpecific.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\AppleSpecific.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryAssert_Android.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryAssert_Durango.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryAssert_iOS.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryAssert_Linux.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryAssert_Mac.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryAssert_Orbis.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryAssert_Windows.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryAssert_impl.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryAtlMfc.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryDLMalloc.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryLibrary.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryMemoryManager_impl.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryPlatform.Darwin.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryPlatform.Durango.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryPlatform.Linux.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryPlatform.Orbis.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryPlatform.Win32.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryPlatform.Win64.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryPlatform.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryPlatformDefines.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryStlConfig.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryThread_dummy.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryWindows.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\DurangoSpecific.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Durango_Win32Legacy.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\LevelHeap.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Linux32Specific.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Linux64Specific.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\LinuxSpecific.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Linux_Win32Wrapper.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\MSVCspecific.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\MacSpecific.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\OrbisSpecific.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Orbis_Win32Wrapper.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Win32specific.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Win64specific.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\WindowsUtils.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\platform.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\platform_impl.inl" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryEngine.natvis" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\BlackBox.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\CRCRef.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\CRCRefImpl.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\ClassFactory.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Color.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\ColorImpl.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\CryExtension.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\CryExtensionImpl.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\CryName.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\CryNameImpl.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\CryStrings.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\CryStringsImpl.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\DynArray.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\DynArrayImpl.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Enum.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\IArchive.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\IArchiveHost.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\IClassFactory.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\IntrusiveFactory.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Math.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\MathImpl.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\NameGeneration.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\STL.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Serializer.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\SharedPtr.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\SmartPtr.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\SmartPtrImpl.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\StringList.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\TypeID.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\TypeInfo.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\TypeInfoImpl.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Decorators\ActionButton.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Decorators\BitFlags.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Decorators\BitFlagsImpl.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Decorators\JointName.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Decorators\JointNameImpl.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Decorators\LocalFrame.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Decorators\LocalFrameImpl.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Decorators\OutputFilePath.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Decorators\OutputFilePathImpl.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Decorators\Range.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Decorators\RangeImpl.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Decorators\ResourceFilePath.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Decorators\ResourceFilePathImpl.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Decorators\ResourceFolderPath.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Decorators\ResourceFolderPathImpl.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Decorators\ResourceSelector.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Decorators\Resources.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Decorators\ResourcesAudio.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Decorators\Slider.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Decorators\SliderImpl.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Decorators\TagList.h" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Decorators\TagListImpl.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/workspace/pycmake/build/ZERO_CHECK.vcxproj">
+      <Project>59442FC1-5F1E-34E8-9D91-0CE4C1742C9E</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
