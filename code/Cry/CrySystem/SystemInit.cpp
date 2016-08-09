@@ -2851,8 +2851,11 @@ L_done:;
 		// Stream Engine
 		//////////////////////////////////////////////////////////////////////////
 		CryLogAlways("Stream Engine Initialization");
-		//InitStreamEngine();
-		//InlineInitializationProcessing("CSystem::Init StreamEngine");
+
+		//moon begin
+		InitStreamEngine();
+		InlineInitializationProcessing("CSystem::Init StreamEngine");
+		//moon end
 
 //	if (!g_sysSpecChanged)
 //		OnSysSpecChange( m_sys_spec );
@@ -2925,8 +2928,10 @@ L_done:;
 		if (!m_bUIFrameworkMode && !startupParams.bShaderCacheGen)
 		{
 			CryLogAlways("Physics initialization");
+			//moon begin
 			//if (!InitPhysics( startupParams ))
 			//	return false;
+			//moon end
 		}
 
 		InlineInitializationProcessing("CSystem::Init InitPhysics");
@@ -3010,7 +3015,9 @@ L_done:;
 #ifdef DEDICATED_SERVER
 		m_env.pHardwareMouse = NULL;
 #else
+		//moon begin
 		//m_env.pHardwareMouse = new CHardwareMouse(true);
+		//moon end
 #endif
 		InlineInitializationProcessing("CSystem::Init InitRenderer");
 
@@ -3035,7 +3042,9 @@ L_done:;
 
 		InlineInitializationProcessing("CSystem::Init m_pResourceManager->UnloadFastLoadPaks");
 
+		//moon begin
 		//assert(m_env.pRenderer || gEnv->IsDedicated());
+		//moon end
 
 		const bool bStartScreensAllowed = !startupParams.bEditor
 		                                  && !startupParams.bShaderCacheGen
@@ -3110,7 +3119,9 @@ L_done:;
 				m_env.pRenderer->StartRenderIntroMovies();
 			}
 		}
+		//moon begin
 		else if (g_cvars.sys_rendersplashscreen && bStartScreensAllowed && false)
+		//moon end
 		{
 			LOADING_TIME_PROFILE_SECTION_NAMED("Rendering Splash Screen");
 			ITexture* pTex = m_env.pRenderer->EF_LoadTexture("Libs/UI/textures/startscreen.tif", FT_DONT_STREAM | FT_NOMIPS);
@@ -3199,10 +3210,12 @@ L_done:;
 		{
 			CryLogAlways("Network initialization");
 			INDENT_LOG_DURING_SCOPE();
+			//moon begin
 			//InitNetwork( startupParams );
 
 			//if (gEnv->IsDedicated())
 			//	m_pServerThrottle.reset( new CServerThrottle(this, m_pCpu->GetCPUCount()));
+			//moon end
 		}
 		InlineInitializationProcessing("CSystem::Init InitNetwork");
 
@@ -3222,7 +3235,9 @@ L_done:;
 		if (!startupParams.bPreview && !m_bUIFrameworkMode && !startupParams.bShaderCacheGen)
 		{
 			CryLogAlways("Lobby initialization");
+			//moon begin
 			//InitLobby( startupParams );
+			//moon end
 		}
 		InlineInitializationProcessing("CSystem::Init InitLobby");
 
@@ -3233,8 +3248,10 @@ L_done:;
 		{
 			CryLogAlways("MovieSystem initialization");
 			INDENT_LOG_DURING_SCOPE();
+			//moon begin
 			//if (!InitMovieSystem(startupParams))
 			//	return false;
+			//moon end
 		}
 
 		InlineInitializationProcessing("CSystem::Init InitMovie");
@@ -3287,11 +3304,13 @@ L_done:;
 		{
 			CryLogAlways("Input initialization");
 			INDENT_LOG_DURING_SCOPE();
+			//moon begin
 			//if (!InitInput(startupParams)) // !!! TODO: FIX ME !!!
 			//	return false;
 
 			//if (m_env.pHardwareMouse)
 			//	m_env.pHardwareMouse->OnPostInitInput();
+			//moon end
 		}
 
 		InlineInitializationProcessing("CSystem::Init InitInput");
@@ -3317,11 +3336,13 @@ L_done:;
 				;
 			else
 			{
+				//moon begin
 				CryLogAlways("AI initialization");
 				INDENT_LOG_DURING_SCOPE();
 
 				//if (!InitAISystem( startupParams ))
 				//	return false;
+				//moon end
 			}
 		}
 
@@ -3334,9 +3355,11 @@ L_done:;
 		{
 			CryLogAlways("Initializing Animation System");
 			INDENT_LOG_DURING_SCOPE();
+			//moon begin
 			//if (!m_bUIFrameworkMode && !startupParams.bShaderCacheGen)
 			//	if (!InitAnimationSystem( startupParams ))
 			//		return false;
+			//moon end
 		}
 
 		//////////////////////////////////////////////////////////////////////////
@@ -3394,8 +3417,10 @@ L_done:;
 			CryLogAlways("Entity system initialization");
 			INDENT_LOG_DURING_SCOPE();
 
+			//moon begin
 			//if (!InitEntitySystem(startupParams))
 			//	return false;
+			//moon end
 		}
 
 		InlineInitializationProcessing("CSystem::Init InitEntitySystem");
