@@ -2800,7 +2800,7 @@ L_done:;
 
 
 
-		if (!startupParams.bSkipRenderer)
+        if (!startupParams.bSkipRenderer)
 		{
 			m_FrameProfileSystem.Init(m_sys_profile_allThreads->GetIVal());
 			CreateRendererVars(startupParams);
@@ -2899,7 +2899,7 @@ L_done:;
 
 
 #if CRY_PLATFORM_WINDOWS
-		if (!startupParams.bSkipRenderer)
+		if (!startupParams.bSkipRenderer && startupParams.bMoonEnable)
 		{
 			if (stricmp(m_rDriver->GetString(), "Auto") == 0)
 			{
@@ -2979,7 +2979,7 @@ L_done:;
 		//////////////////////////////////////////////////////////////////////////
 		// RENDERER
 		//////////////////////////////////////////////////////////////////////////
-		if (!startupParams.bSkipRenderer && !m_bDedicatedServer)
+		if (!startupParams.bSkipRenderer && !m_bDedicatedServer && startupParams.bMoonEnable)
 		{
 			assert(IsHeapValid());
 			CryLogAlways("Renderer initialization");
@@ -3120,7 +3120,7 @@ L_done:;
 			}
 		}
 		//moon begin
-		else if (g_cvars.sys_rendersplashscreen && bStartScreensAllowed && false)
+		else if (g_cvars.sys_rendersplashscreen && bStartScreensAllowed && startupParams.bMoonEnable)
 		//moon end
 		{
 			LOADING_TIME_PROFILE_SECTION_NAMED("Rendering Splash Screen");
@@ -3191,7 +3191,7 @@ L_done:;
 		//////////////////////////////////////////////////////////////////////////
 		// POST RENDERER
 		//////////////////////////////////////////////////////////////////////////
-		if (!startupParams.bSkipRenderer && m_env.pRenderer)
+		if (!startupParams.bSkipRenderer && m_env.pRenderer && startupParams.bMoonEnable)
 		{
 			m_env.pRenderer->PostInit();
 
@@ -3365,7 +3365,7 @@ L_done:;
 		//////////////////////////////////////////////////////////////////////////
 		// Init 3d engine
 		//////////////////////////////////////////////////////////////////////////
-		if (!startupParams.bSkipRenderer && !startupParams.bShaderCacheGen)
+		if (!startupParams.bSkipRenderer && !startupParams.bShaderCacheGen && startupParams.bMoonEnable)
 		{
 			CryLogAlways("Initializing 3D Engine");
 			INDENT_LOG_DURING_SCOPE();
@@ -3397,7 +3397,7 @@ L_done:;
 		// We need script materials for now
 
 		// if (!startupParams.bPreview)
-		if (!startupParams.bSkipRenderer && !startupParams.bShaderCacheGen)
+		if (!startupParams.bSkipRenderer && !startupParams.bShaderCacheGen && startupParams.bMoonEnable)
 		{
 			CryLogAlways("Script System Initialization");
 			INDENT_LOG_DURING_SCOPE();
@@ -3551,7 +3551,7 @@ L_done:;
 		//////////////////////////////////////////////////////////////////////////
 		// Initialize task threads.
 		//////////////////////////////////////////////////////////////////////////
-		if (!startupParams.bSkipRenderer)
+		if (!startupParams.bSkipRenderer && startupParams.bMoonEnable)
 		{
 			SetAffinity();
 			assert(IsHeapValid());

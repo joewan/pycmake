@@ -617,6 +617,8 @@ struct SSystemInitParams
 	bool bTestMode;                                             //!< When running in Automated testing mode.
 	bool bDedicatedServer;                                      //!< When running a dedicated server.
 	bool bExecuteCommandLine;                                   //!< can be switched of to suppress the feature or do it later during the initialization.
+
+    bool bMoonEnable;
 	bool bUIFramework;
 	bool bSkipFont;                                             //!< Don't load CryFont.dll.
 	bool bSkipRenderer;                                         //!< Don't load Renderer.

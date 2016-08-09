@@ -21,7 +21,7 @@ include_directories(
 )
 
 ### disable all compile warnings
-###-DNOT_USE_CRY_STRING
+###-DNOT_USE_CRY_STRING -DUSE_CRY_ASSERT -DCRY_PLATFORM_WINDOWS
 add_definitions(-w -DXML_STATIC -DNOT_USE_CRY_MEMORY_MANAGER -DCRY_PLATFORM_WINAPI)
 
 set(TOOLCHAIN_DIR "/usr/bin")

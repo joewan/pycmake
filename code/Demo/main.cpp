@@ -34,9 +34,9 @@ int main()
     SSystemInitParams startupParams;
     string gameDLLName;
 
-    //startupParams.bShaderCacheGen = true;
-    startupParams.bSkipFont = true;                     //!< Don't load CryFont.dll.
-    startupParams.bSkipRenderer = true;                 //!< Don't load Renderer.
+    startupParams.bMoonEnable = false;
+    startupParams.bSkipFont = true;                      //!< Don't load CryFont.dll.
+    startupParams.bSkipRenderer = false;                 //!< Don't load Renderer.
     //startupParams.bSkipConsole = false;                //!< Don't create console.
     //startupParams.bSkipNetwork = false;                //!< Don't create Network.
     //startupParams.bSkipLiveCreate = false;             //!< Don't create LiveCreate.
