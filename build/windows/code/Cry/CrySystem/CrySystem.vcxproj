@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{7A4A89EE-BE18-3BF7-A5F5-F9C4A57468B7}</ProjectGUID>
+    <ProjectGUID>{A0BB0947-E26F-3951-9B00-02791DE524A0}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
     <ProjectName>CrySystem</ProjectName>
@@ -58,19 +58,19 @@
   <PropertyGroup Label="UserMacros" />
     <PropertyGroup>
       <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\workspace\pycmake\build\output\Lib\Shipping\Debug\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\workspace\pycmake\build\windows\output\Lib\Shipping\Debug\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CrySystem.dir\Debug\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CrySystem</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\workspace\pycmake\build\output\Lib\Shipping\Release\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\workspace\pycmake\build\windows\output\Lib\Shipping\Release\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CrySystem.dir\Release\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CrySystem</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\workspace\pycmake\build\output\Lib\Shipping\MinSizeRel\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\workspace\pycmake\build\windows\output\Lib\Shipping\MinSizeRel\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CrySystem.dir\MinSizeRel\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CrySystem</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\workspace\pycmake\build\output\Lib\Shipping\RelWithDebInfo\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\workspace\pycmake\build\windows\output\Lib\Shipping\RelWithDebInfo\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CrySystem.dir\RelWithDebInfo\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CrySystem</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
@@ -212,7 +212,7 @@
     <CustomBuild Include="C:\workspace\pycmake\code\Cry\CrySystem\CMakeLists.txt">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/workspace/pycmake/code/Cry/CrySystem/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/workspace/pycmake -BC:/workspace/pycmake/build --check-stamp-file C:\workspace\pycmake\build\code\Cry\CrySystem\CMakeFiles\generate.stamp
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/workspace/pycmake -BC:/workspace/pycmake/build/windows --check-stamp-file C:\workspace\pycmake\build\windows\code\Cry\CrySystem\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -221,11 +221,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/workspace/pycmake/code/Cry/CrySystem/CMakeLists.txt;C:\workspace\pycmake\code\Cry\CrySystem\CMakeLists.txt;C:\workspace\pycmake\code\Cry\CrySystem\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\workspace\pycmake\build\code\Cry\CrySystem\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\workspace\pycmake\build\windows\code\Cry\CrySystem\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/workspace/pycmake/code/Cry/CrySystem/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/workspace/pycmake -BC:/workspace/pycmake/build --check-stamp-file C:\workspace\pycmake\build\code\Cry\CrySystem\CMakeFiles\generate.stamp
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/workspace/pycmake -BC:/workspace/pycmake/build/windows --check-stamp-file C:\workspace\pycmake\build\windows\code\Cry\CrySystem\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -234,11 +234,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/workspace/pycmake/code/Cry/CrySystem/CMakeLists.txt;C:\workspace\pycmake\code\Cry\CrySystem\CMakeLists.txt;C:\workspace\pycmake\code\Cry\CrySystem\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\workspace\pycmake\build\code\Cry\CrySystem\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\workspace\pycmake\build\windows\code\Cry\CrySystem\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/workspace/pycmake/code/Cry/CrySystem/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/workspace/pycmake -BC:/workspace/pycmake/build --check-stamp-file C:\workspace\pycmake\build\code\Cry\CrySystem\CMakeFiles\generate.stamp
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/workspace/pycmake -BC:/workspace/pycmake/build/windows --check-stamp-file C:\workspace\pycmake\build\windows\code\Cry\CrySystem\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -247,11 +247,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/workspace/pycmake/code/Cry/CrySystem/CMakeLists.txt;C:\workspace\pycmake\code\Cry\CrySystem\CMakeLists.txt;C:\workspace\pycmake\code\Cry\CrySystem\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\workspace\pycmake\build\code\Cry\CrySystem\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\workspace\pycmake\build\windows\code\Cry\CrySystem\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/workspace/pycmake/code/Cry/CrySystem/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/workspace/pycmake -BC:/workspace/pycmake/build --check-stamp-file C:\workspace\pycmake\build\code\Cry\CrySystem\CMakeFiles\generate.stamp
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/workspace/pycmake -BC:/workspace/pycmake/build/windows --check-stamp-file C:\workspace\pycmake\build\windows\code\Cry\CrySystem\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -260,7 +260,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/workspace/pycmake/code/Cry/CrySystem/CMakeLists.txt;C:\workspace\pycmake\code\Cry\CrySystem\CMakeLists.txt;C:\workspace\pycmake\code\Cry\CrySystem\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\workspace\pycmake\build\code\Cry\CrySystem\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\workspace\pycmake\build\windows\code\Cry\CrySystem\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
@@ -612,8 +612,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <None Include="C:\workspace\pycmake\code\Cry\CrySystem\crash_face.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:/workspace/pycmake/build/ZERO_CHECK.vcxproj">
-      <Project>59442FC1-5F1E-34E8-9D91-0CE4C1742C9E</Project>
+    <ProjectReference Include="C:/workspace/pycmake/build/windows/ZERO_CHECK.vcxproj">
+      <Project>F9C1A568-46FE-39F2-BA41-C8D3FF5CC66A</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

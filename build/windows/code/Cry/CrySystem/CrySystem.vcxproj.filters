@@ -1032,128 +1032,128 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <Filter Include="JobManager\BlockingBackend">
-      <UniqueIdentifier>{D7D7F0CB-6197-3341-870D-51F8CAC4FDCD}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="JobManager\FallbackBackend">
-      <UniqueIdentifier>{1216CD53-D97F-31C2-B928-24DA0AFDE59B}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="JobManager\ThreadBackEnd">
-      <UniqueIdentifier>{87980466-760F-3AA0-84D7-051E2F3C6D20}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="VR\Oculus">
-      <UniqueIdentifier>{77E6FB8C-13AA-30D0-ABA2-714952A39F83}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="VR\OpenVR">
-      <UniqueIdentifier>{09D5CF61-30C5-3A56-B798-B4F10D1B01B1}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="VR\Osvr">
-      <UniqueIdentifier>{584B4807-EF62-3103-9CF4-3449ED7FE54D}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{2E77EA1D-B677-3096-BB9B-118AD1C353E6}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{5BE17EE1-B393-3376-918F-FEAD9704860E}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="CodeCoverage">
-      <UniqueIdentifier>{AEDCB7F9-8750-3D36-89DF-4F3206B37984}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="ExtensionSystem">
-      <UniqueIdentifier>{77B2E5BA-88BC-3D2B-A354-953FA35C9B0B}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="HTTPDownloader">
-      <UniqueIdentifier>{52301660-AE82-35D6-81D1-7B2353C8ED80}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="HuffmanEncoding">
-      <UniqueIdentifier>{97C7C450-03E9-3234-A9F4-0FB35BC33F6F}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="JobManager">
-      <UniqueIdentifier>{DE121BCB-94AE-35C8-A372-A9F5153B3AEB}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="LZ4Decompressor">
-      <UniqueIdentifier>{51EF47B0-EB1D-31A1-83D3-98B811F6503F}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Localization">
-      <UniqueIdentifier>{66773482-6772-3B86-A423-E0ACBB2617FE}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Mac">
-      <UniqueIdentifier>{5103C52D-4FB7-3475-A28B-02AB55D406E9}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="MemoryManager">
-      <UniqueIdentifier>{018E1EF8-A66E-3CCD-86E5-57747A7D7A18}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="MiniGUI">
-      <UniqueIdentifier>{BD6F14B6-9CD4-3038-8F6E-9B03ECC4A666}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="NullImplementation">
-      <UniqueIdentifier>{0E657685-4ED7-3100-8D89-FD54C19FE976}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="OverloadSceneManager">
-      <UniqueIdentifier>{C68CED93-EDCE-3CED-B343-CFA38FC2321A}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="PlatformOS">
-      <UniqueIdentifier>{8132D7E5-5467-34ED-9978-B34D360FB48F}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Profiler">
-      <UniqueIdentifier>{C467068A-1B08-393E-A252-B2D87921FC21}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="RemoteConsole">
-      <UniqueIdentifier>{163E9BFD-F2FE-341C-ACD2-141EAF96B00E}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{9B784B65-2F93-3842-B505-7E10227A76B6}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Scaleform">
-      <UniqueIdentifier>{6BC1C303-4C0E-3D17-A5FE-29FA29B7C69A}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Serialization">
-      <UniqueIdentifier>{85EF9B01-0215-3B68-99F7-F5F2FC08B12C}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Services">
-      <UniqueIdentifier>{C5D9D337-1099-312B-9A5D-4A4794B89AF0}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Statistics">
-      <UniqueIdentifier>{1683DAE2-11B4-363D-AF0D-9B1F6251C7A3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Statoscope">
-      <UniqueIdentifier>{78C15B4E-54FE-3849-AB8A-0610AE821CC8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="StreamEngine">
-      <UniqueIdentifier>{DBE90044-C2EF-390D-BED2-DC4F0F9C482F}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Stroboscope">
-      <UniqueIdentifier>{935141F1-72C9-3D24-94DB-6A896D6B88C2}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="TestSystem">
-      <UniqueIdentifier>{BAFF9C7F-B4C7-357D-9568-10E53D425771}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Threading">
-      <UniqueIdentifier>{9901BF5D-55D1-36BB-A70B-4289C7D01462}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="VR">
-      <UniqueIdentifier>{A12D3B52-DBFD-3163-BEF8-8A973354D2B5}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Windows">
-      <UniqueIdentifier>{66F8880C-60CC-3042-904F-6734712C0404}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="XML">
-      <UniqueIdentifier>{9C70556E-44B4-37BF-9765-150D9E77863B}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="ZLibCompressor">
-      <UniqueIdentifier>{B8838B5B-5861-3FF1-8EBB-E66FE2D8FA8D}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="ZLibDecompressor">
-      <UniqueIdentifier>{EDCE453E-6B6C-3B1D-87FC-64FF014E38BB}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="ZipDir">
-      <UniqueIdentifier>{53335F04-A432-32AE-ACB7-8AE6079524E6}</UniqueIdentifier>
-    </Filter>
     <Filter Include="ExtensionSystem\TestCases">
-      <UniqueIdentifier>{76C32E28-D60B-301E-A10D-4603456B86E1}</UniqueIdentifier>
+      <UniqueIdentifier>{CC7F9CD6-0683-36B6-93EB-CFCDEA91DB38}</UniqueIdentifier>
     </Filter>
     <Filter Include="XML\XMLSink">
-      <UniqueIdentifier>{2EA08E93-6AA3-3AE3-94EF-FDD7B7660A6B}</UniqueIdentifier>
+      <UniqueIdentifier>{7E07072C-E048-3962-886A-D676C24FBAF2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{40C3A39C-41A6-3DA1-AFCD-E984503AE490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{74AB8875-C48E-3CA7-B560-893F681F3DEF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CodeCoverage">
+      <UniqueIdentifier>{6CF176B4-7EC2-3275-B884-0F62B0918CAA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExtensionSystem">
+      <UniqueIdentifier>{4856D10F-7033-3294-9873-3F3FBA7F9145}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTPDownloader">
+      <UniqueIdentifier>{0C889D9D-2135-3098-A2DF-B9DA8447E64B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HuffmanEncoding">
+      <UniqueIdentifier>{6C6DC21C-29EF-3CB6-84B2-6838FBE2DB7D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JobManager">
+      <UniqueIdentifier>{49B0276A-CBD6-3B58-932C-230C7278AE83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LZ4Decompressor">
+      <UniqueIdentifier>{E4C158A1-FCF4-38BC-A7AE-455B7FABC7A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Localization">
+      <UniqueIdentifier>{9ADAFA29-5DCB-3CCB-A90F-215402309717}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mac">
+      <UniqueIdentifier>{3E8F24AF-234B-3688-BAFD-58BACE2DAD26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MemoryManager">
+      <UniqueIdentifier>{1AA833C6-88B4-30CC-941D-6C8D152A903C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MiniGUI">
+      <UniqueIdentifier>{F39DA946-9C6E-3927-BACA-3F94985958EE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NullImplementation">
+      <UniqueIdentifier>{382B0C35-CC4F-3A1F-93A4-D1F7B0C119AD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OverloadSceneManager">
+      <UniqueIdentifier>{3A4A12D2-84F3-312D-B3F3-AA5468A0E3AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlatformOS">
+      <UniqueIdentifier>{A80FB5AA-8877-329A-8B2D-B44A6BFED6CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Profiler">
+      <UniqueIdentifier>{FAFB8770-76DD-31DA-A4A1-94ED4050B3CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RemoteConsole">
+      <UniqueIdentifier>{0DB40FAE-BADB-34C5-88A3-235ADFA65BE5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{909778A0-7D85-3C0B-85EE-2705A4D31C6A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scaleform">
+      <UniqueIdentifier>{31E2D505-028A-30D9-9811-2F662928A28E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Serialization">
+      <UniqueIdentifier>{0B99AF9C-5FCA-3AF6-A604-0B94BC98D1EC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Services">
+      <UniqueIdentifier>{0A410D32-1A52-313C-9CD7-66EFA5B8C902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Statistics">
+      <UniqueIdentifier>{D6713983-8C30-3932-A8CC-480430FD7542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Statoscope">
+      <UniqueIdentifier>{99E7A39A-DA80-3A06-80E5-A42824C19135}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StreamEngine">
+      <UniqueIdentifier>{C5F179BB-751E-3EAC-AC19-13A86637C04C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stroboscope">
+      <UniqueIdentifier>{D068D076-86FC-3FE9-AE8F-09C3AF25545C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestSystem">
+      <UniqueIdentifier>{5C51FE9A-BD94-3459-B69D-5CDE47F6E5A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Threading">
+      <UniqueIdentifier>{57697D11-B7D7-3137-8A95-9698FDBE02D8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VR">
+      <UniqueIdentifier>{6FED5492-CB6D-3544-96C0-197FB216E9C0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows">
+      <UniqueIdentifier>{62ABB8AD-C2A8-3D14-A27C-00FD1CA91D20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML">
+      <UniqueIdentifier>{E63CAD13-1890-3374-88DA-E8411109573B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZLibCompressor">
+      <UniqueIdentifier>{54FDEDE2-62B8-3EEB-A6B8-9ED50706F732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZLibDecompressor">
+      <UniqueIdentifier>{387CB1CE-D04B-391C-890C-AA5115B6A8D5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZipDir">
+      <UniqueIdentifier>{931D4754-5F5B-3AA6-A3C5-1196D251A83D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JobManager\BlockingBackend">
+      <UniqueIdentifier>{9835A653-18BE-326F-B64B-2A3D10567928}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JobManager\FallbackBackend">
+      <UniqueIdentifier>{FCF87A55-AF2E-3601-AE60-23B3A304A71C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JobManager\ThreadBackEnd">
+      <UniqueIdentifier>{776E16CC-5B12-3663-BD6D-FE3323171325}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VR\Oculus">
+      <UniqueIdentifier>{B0FAB1E6-D4EC-3391-B77C-BBAACC5F3797}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VR\OpenVR">
+      <UniqueIdentifier>{BBE642ED-E0EE-39D3-9DC2-CD209FC2016D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VR\Osvr">
+      <UniqueIdentifier>{3B8495D6-D140-3D50-AF14-B90FAED6BE2A}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

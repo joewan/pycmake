@@ -1660,47 +1660,47 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Filter Include="Common_h\Behavior Tree">
-      <UniqueIdentifier>{21E03A93-18ED-30D9-ABF1-F15CD2B2181D}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Common_h\RenderElements">
-      <UniqueIdentifier>{DC50AE6C-3377-351E-9660-F4771D485821}</UniqueIdentifier>
-    </Filter>
     <Filter Include="CryExtension\Impl">
-      <UniqueIdentifier>{5E03EAB7-7529-37FA-8A4A-EBB9DDCBD1EF}</UniqueIdentifier>
+      <UniqueIdentifier>{792C6D9C-4C41-39AB-9701-9C20D585AD50}</UniqueIdentifier>
     </Filter>
     <Filter Include="Interfaces_h\AI Interfaces">
-      <UniqueIdentifier>{419A55FC-E049-3BB4-83F6-AB6687A23752}</UniqueIdentifier>
+      <UniqueIdentifier>{124EB800-EAE0-3C69-9C27-2093FCFE52B7}</UniqueIdentifier>
     </Filter>
     <Filter Include="MathLib\Consoles">
-      <UniqueIdentifier>{6414229B-0FA5-3AB7-AEEB-51B303AE286E}</UniqueIdentifier>
+      <UniqueIdentifier>{FE54AEEE-F9A9-329F-AF38-2507261C2D58}</UniqueIdentifier>
     </Filter>
     <Filter Include="Serialization\Decorators">
-      <UniqueIdentifier>{37CBCAD4-4B1F-37BE-B858-EF3D62D90525}</UniqueIdentifier>
+      <UniqueIdentifier>{2EC7026C-8532-33D1-9EE7-0ED1AAC743D8}</UniqueIdentifier>
     </Filter>
     <Filter Include="Common_h">
-      <UniqueIdentifier>{18EBC35D-940D-39C8-A875-58E81EF4CDD7}</UniqueIdentifier>
+      <UniqueIdentifier>{60CD5737-4CCB-3355-B9A3-E02A73CA3540}</UniqueIdentifier>
     </Filter>
     <Filter Include="CryExtension">
-      <UniqueIdentifier>{DCE81F56-B6FE-39D4-A75F-D8BD66060C47}</UniqueIdentifier>
+      <UniqueIdentifier>{42172557-E51F-3C5A-85EA-0ADB3EAE8E62}</UniqueIdentifier>
     </Filter>
     <Filter Include="CryInterop">
-      <UniqueIdentifier>{46D13384-3A98-34B6-949B-ADD65E2A0AAA}</UniqueIdentifier>
+      <UniqueIdentifier>{5E9D4C9E-E25C-3A79-A773-C43B2FB8E4BE}</UniqueIdentifier>
     </Filter>
     <Filter Include="CryPool">
-      <UniqueIdentifier>{FCD2060A-F61E-3589-A668-CA2FFCC977B4}</UniqueIdentifier>
+      <UniqueIdentifier>{35F7806B-324E-3F29-A519-A44409762C48}</UniqueIdentifier>
     </Filter>
     <Filter Include="Interfaces_h">
-      <UniqueIdentifier>{99FCE39E-ECB7-3E14-AA10-F7CD805EF210}</UniqueIdentifier>
+      <UniqueIdentifier>{E4D5963D-A570-3D2B-8C17-1A077DA22640}</UniqueIdentifier>
     </Filter>
     <Filter Include="MathLib">
-      <UniqueIdentifier>{56F3D13D-A1AB-3945-8AFF-71A25C37ADF0}</UniqueIdentifier>
+      <UniqueIdentifier>{75CF33DB-F60E-39EB-A65F-D658C48B9EB5}</UniqueIdentifier>
     </Filter>
     <Filter Include="Platform_h">
-      <UniqueIdentifier>{8291C5EB-D552-3308-B0C9-9A17A9AB9F65}</UniqueIdentifier>
+      <UniqueIdentifier>{52CF4D42-C273-3539-BF2D-BFA5A39D075D}</UniqueIdentifier>
     </Filter>
     <Filter Include="Serialization">
-      <UniqueIdentifier>{85EF9B01-0215-3B68-99F7-F5F2FC08B12C}</UniqueIdentifier>
+      <UniqueIdentifier>{0B99AF9C-5FCA-3AF6-A604-0B94BC98D1EC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_h\Behavior Tree">
+      <UniqueIdentifier>{D01EA482-A43C-3CBC-8FBD-CA8A3F5F5FB0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_h\RenderElements">
+      <UniqueIdentifier>{9D62E0D1-A3ED-3F5F-99F7-4BCFC6B2BC43}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
