@@ -4,10 +4,13 @@ set(THIS_PROJECT MoonDemo)
 project( ${THIS_PROJECT} )
 message("PROJECT " ${THIS_PROJECT} "|" ${CMAKE_CURRENT_LIST_DIR})
 
-#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -DAPPLE")
-#set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -DAPPLE")
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -DWIN64")
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -DWIN64")
+if($ENV{MOON_PROJECT_PLATFORM} STREQUAL "moon_platform_apple")
+        set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -DAPPLE")
+        set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -DAPPLE")
+elseif($ENV{MOON_PROJECT_PLATFORM} STREQUAL "moon_platform_win64")
+        set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -DWIN64")
+        set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -DWIN64")
+endif()
 
 include_directories(
         ${PROJECT_ROOT}/code/Cry

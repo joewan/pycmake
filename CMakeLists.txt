@@ -8,12 +8,30 @@ function(moon_cmake_project_registry)
     set(ENV{MOON_PROJECT_VERSION} "0.01")
 endfunction(moon_cmake_project_registry)
 
-moon_cmake_project_registry()
+function(moon_cmake_project_env)
+    if(APPLE)
+        set(ENV{MOON_PROJECT_PLATFORM} "moon_platform_apple")
+    endif(APPLE)
+endfunction(moon_cmake_project_env)
 
-#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -DAPPLE")
-#set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -DAPPLE")
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -DWIN64")
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -DWIN64")
+function(moon_cmake_project_dump_info)
+    #message("===================")
+    #message($ENV{MOON_PROJECT_PLATFORM})
+    #message("===================")
+endfunction(moon_cmake_project_dump_info)
+
+moon_cmake_project_registry()
+moon_cmake_project_env()
+moon_cmake_project_dump_info()
+
+
+if($ENV{MOON_PROJECT_PLATFORM} STREQUAL "moon_platform_apple")
+        set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -DAPPLE")
+        set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -DAPPLE")
+elseif($ENV{MOON_PROJECT_PLATFORM} STREQUAL "moon_platform_win64")
+        set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -DWIN64")
+        set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -DWIN64")
+endif()
 
 include_directories(
         ${CMAKE_CURRENT_SOURCE_DIR}/code/Cry
