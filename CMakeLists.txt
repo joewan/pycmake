@@ -28,19 +28,19 @@ moon_cmake_project_dump_info()
 if($ENV{MOON_PROJECT_PLATFORM} STREQUAL "moon_platform_apple")
         set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -DAPPLE")
         set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -DAPPLE")
+        add_definitions(-w -DXML_STATIC)
 elseif($ENV{MOON_PROJECT_PLATFORM} STREQUAL "moon_platform_win64")
         set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -DWIN64")
         set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -DWIN64")
+        ### disable all compile warnings
+        ###-DNOT_USE_CRY_STRING -DUSE_CRY_ASSERT -DCRY_PLATFORM_WINDOWS
+        add_definitions(-w -DXML_STATIC -DNOT_USE_CRY_MEMORY_MANAGER -DCRY_PLATFORM_WINAPI)
 endif()
 
 include_directories(
         ${CMAKE_CURRENT_SOURCE_DIR}/code/Cry
         ${CMAKE_CURRENT_SOURCE_DIR}/code/Cry/CryCommon
 )
-
-### disable all compile warnings
-###-DNOT_USE_CRY_STRING -DUSE_CRY_ASSERT -DCRY_PLATFORM_WINDOWS
-add_definitions(-w -DXML_STATIC -DNOT_USE_CRY_MEMORY_MANAGER -DCRY_PLATFORM_WINAPI)
 
 set(TOOLCHAIN_DIR "/usr/bin")
 #set(CMAKE_C_COMPILER ${TOOLCHAIN_DIR}/clang)
