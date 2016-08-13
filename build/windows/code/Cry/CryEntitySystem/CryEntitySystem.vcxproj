@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{24240DC4-B610-38F9-A612-2BF0E566C512}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>CryEntitySystem</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\workspace\pycmake\build\windows\output\Bin\Shipping\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CryEntitySystem.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CryEntitySystem</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\workspace\pycmake\build\windows\output\Bin\Shipping\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CryEntitySystem.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CryEntitySystem</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\workspace\pycmake\build\windows\output\Bin\Shipping\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CryEntitySystem.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CryEntitySystem</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\workspace\pycmake\build\windows\output\Bin\Shipping\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CryEntitySystem.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CryEntitySystem</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions> -w %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\workspace\pycmake\code\Cry;C:\workspace\pycmake\code\Cry\CryCommon;C:\workspace\pycmake\code\Cry\CryEntitySystem;C:\workspace\pycmake\code\SDKs\yasli;C:\workspace\pycmake\code\Libs\yasli;C:\workspace\pycmake\code\SDKs\boost;C:\workspace\pycmake\code\SDKs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WIN64;_DEBUG;XML_STATIC;NOT_USE_CRY_MEMORY_MANAGER;CRY_PLATFORM_WINAPI;CMAKE_INTDIR="Debug";CryEntitySystem_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WIN64;_DEBUG;XML_STATIC;NOT_USE_CRY_MEMORY_MANAGER;CRY_PLATFORM_WINAPI;CMAKE_INTDIR=\"Debug\";CryEntitySystem_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\workspace\pycmake\code\Cry;C:\workspace\pycmake\code\Cry\CryCommon;C:\workspace\pycmake\code\Cry\CryEntitySystem;C:\workspace\pycmake\code\SDKs\yasli;C:\workspace\pycmake\code\Libs\yasli;C:\workspace\pycmake\code\SDKs\boost;C:\workspace\pycmake\code\SDKs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\workspace\pycmake\code\Cry;C:\workspace\pycmake\code\Cry\CryCommon;C:\workspace\pycmake\code\Cry\CryEntitySystem;C:\workspace\pycmake\code\SDKs\yasli;C:\workspace\pycmake\code\Libs\yasli;C:\workspace\pycmake\code\SDKs\boost;C:\workspace\pycmake\code\SDKs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/workspace/pycmake/build/windows/output/Lib/Shipping/Debug/CryEntitySystem.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/workspace/pycmake/build/windows/output/Bin/Shipping/Debug/CryEntitySystem.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions> -w %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\workspace\pycmake\code\Cry;C:\workspace\pycmake\code\Cry\CryCommon;C:\workspace\pycmake\code\Cry\CryEntitySystem;C:\workspace\pycmake\code\SDKs\yasli;C:\workspace\pycmake\code\Libs\yasli;C:\workspace\pycmake\code\SDKs\boost;C:\workspace\pycmake\code\SDKs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WIN64;NDEBUG;XML_STATIC;NOT_USE_CRY_MEMORY_MANAGER;CRY_PLATFORM_WINAPI;CMAKE_INTDIR="Release";CryEntitySystem_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WIN64;NDEBUG;XML_STATIC;NOT_USE_CRY_MEMORY_MANAGER;CRY_PLATFORM_WINAPI;CMAKE_INTDIR=\"Release\";CryEntitySystem_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\workspace\pycmake\code\Cry;C:\workspace\pycmake\code\Cry\CryCommon;C:\workspace\pycmake\code\Cry\CryEntitySystem;C:\workspace\pycmake\code\SDKs\yasli;C:\workspace\pycmake\code\Libs\yasli;C:\workspace\pycmake\code\SDKs\boost;C:\workspace\pycmake\code\SDKs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\workspace\pycmake\code\Cry;C:\workspace\pycmake\code\Cry\CryCommon;C:\workspace\pycmake\code\Cry\CryEntitySystem;C:\workspace\pycmake\code\SDKs\yasli;C:\workspace\pycmake\code\Libs\yasli;C:\workspace\pycmake\code\SDKs\boost;C:\workspace\pycmake\code\SDKs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/workspace/pycmake/build/windows/output/Lib/Shipping/Release/CryEntitySystem.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/workspace/pycmake/build/windows/output/Bin/Shipping/Release/CryEntitySystem.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalOptions> -w %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\workspace\pycmake\code\Cry;C:\workspace\pycmake\code\Cry\CryCommon;C:\workspace\pycmake\code\Cry\CryEntitySystem;C:\workspace\pycmake\code\SDKs\yasli;C:\workspace\pycmake\code\Libs\yasli;C:\workspace\pycmake\code\SDKs\boost;C:\workspace\pycmake\code\SDKs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WIN64;NDEBUG;XML_STATIC;NOT_USE_CRY_MEMORY_MANAGER;CRY_PLATFORM_WINAPI;CMAKE_INTDIR="MinSizeRel";CryEntitySystem_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WIN64;NDEBUG;XML_STATIC;NOT_USE_CRY_MEMORY_MANAGER;CRY_PLATFORM_WINAPI;CMAKE_INTDIR=\"MinSizeRel\";CryEntitySystem_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\workspace\pycmake\code\Cry;C:\workspace\pycmake\code\Cry\CryCommon;C:\workspace\pycmake\code\Cry\CryEntitySystem;C:\workspace\pycmake\code\SDKs\yasli;C:\workspace\pycmake\code\Libs\yasli;C:\workspace\pycmake\code\SDKs\boost;C:\workspace\pycmake\code\SDKs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\workspace\pycmake\code\Cry;C:\workspace\pycmake\code\Cry\CryCommon;C:\workspace\pycmake\code\Cry\CryEntitySystem;C:\workspace\pycmake\code\SDKs\yasli;C:\workspace\pycmake\code\Libs\yasli;C:\workspace\pycmake\code\SDKs\boost;C:\workspace\pycmake\code\SDKs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/workspace/pycmake/build/windows/output/Lib/Shipping/MinSizeRel/CryEntitySystem.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/workspace/pycmake/build/windows/output/Bin/Shipping/MinSizeRel/CryEntitySystem.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalOptions> -w %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\workspace\pycmake\code\Cry;C:\workspace\pycmake\code\Cry\CryCommon;C:\workspace\pycmake\code\Cry\CryEntitySystem;C:\workspace\pycmake\code\SDKs\yasli;C:\workspace\pycmake\code\Libs\yasli;C:\workspace\pycmake\code\SDKs\boost;C:\workspace\pycmake\code\SDKs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WIN64;NDEBUG;XML_STATIC;NOT_USE_CRY_MEMORY_MANAGER;CRY_PLATFORM_WINAPI;CMAKE_INTDIR="RelWithDebInfo";CryEntitySystem_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WIN64;NDEBUG;XML_STATIC;NOT_USE_CRY_MEMORY_MANAGER;CRY_PLATFORM_WINAPI;CMAKE_INTDIR=\"RelWithDebInfo\";CryEntitySystem_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\workspace\pycmake\code\Cry;C:\workspace\pycmake\code\Cry\CryCommon;C:\workspace\pycmake\code\Cry\CryEntitySystem;C:\workspace\pycmake\code\SDKs\yasli;C:\workspace\pycmake\code\Libs\yasli;C:\workspace\pycmake\code\SDKs\boost;C:\workspace\pycmake\code\SDKs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\workspace\pycmake\code\Cry;C:\workspace\pycmake\code\Cry\CryCommon;C:\workspace\pycmake\code\Cry\CryEntitySystem;C:\workspace\pycmake\code\SDKs\yasli;C:\workspace\pycmake\code\Libs\yasli;C:\workspace\pycmake\code\SDKs\boost;C:\workspace\pycmake\code\SDKs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/workspace/pycmake/build/windows/output/Lib/Shipping/RelWithDebInfo/CryEntitySystem.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/workspace/pycmake/build/windows/output/Bin/Shipping/RelWithDebInfo/CryEntitySystem.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/workspace/pycmake/code/Cry/CryEntitySystem/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/workspace/pycmake -BC:/workspace/pycmake/build/windows --check-stamp-file C:\workspace\pycmake\build\windows\code\Cry\CryEntitySystem\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/workspace/pycmake/code/Cry/CryEntitySystem/CMakeLists.txt;C:\workspace\pycmake\code\Cry\CryEntitySystem\CMakeLists.txt;C:\workspace\pycmake\code\Cry\CryEntitySystem\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\workspace\pycmake\build\windows\code\Cry\CryEntitySystem\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/workspace/pycmake/code/Cry/CryEntitySystem/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/workspace/pycmake -BC:/workspace/pycmake/build/windows --check-stamp-file C:\workspace\pycmake\build\windows\code\Cry\CryEntitySystem\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/workspace/pycmake/code/Cry/CryEntitySystem/CMakeLists.txt;C:\workspace\pycmake\code\Cry\CryEntitySystem\CMakeLists.txt;C:\workspace\pycmake\code\Cry\CryEntitySystem\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\workspace\pycmake\build\windows\code\Cry\CryEntitySystem\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/workspace/pycmake/code/Cry/CryEntitySystem/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/workspace/pycmake -BC:/workspace/pycmake/build/windows --check-stamp-file C:\workspace\pycmake\build\windows\code\Cry\CryEntitySystem\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/workspace/pycmake/code/Cry/CryEntitySystem/CMakeLists.txt;C:\workspace\pycmake\code\Cry\CryEntitySystem\CMakeLists.txt;C:\workspace\pycmake\code\Cry\CryEntitySystem\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\workspace\pycmake\build\windows\code\Cry\CryEntitySystem\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/workspace/pycmake/code/Cry/CryEntitySystem/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/workspace/pycmake -BC:/workspace/pycmake/build/windows --check-stamp-file C:\workspace\pycmake\build\windows\code\Cry\CryEntitySystem\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/workspace/pycmake/code/Cry/CryEntitySystem/CMakeLists.txt;C:\workspace\pycmake\code\Cry\CryEntitySystem\CMakeLists.txt;C:\workspace\pycmake\code\Cry\CryEntitySystem\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\workspace\pycmake\build\windows\code\Cry\CryEntitySystem\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\AreaProxy.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityAttributesProxy.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityAudioProxy.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\CameraProxy.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\ClipVolumeProxy.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\DynamicResponseProxy.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\FlowGraphProxy.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\PhysicsEventListener.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\PhysicsProxy.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\RopeProxy.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityObject.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\RenderProxy.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityScript.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\ScriptBind_Entity.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\ScriptProperties.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\ScriptProxy.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\SubstitutionProxy.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityNodeProxy.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\TriggerProxy.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityClass.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityClassRegistry.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\AreaSolid.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\AreaUtil.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\BSPTree3D.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\resource.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\stdafx.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\AffineParts.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\CharacterBoneAttachmentManager.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\ComponentEventDistributer.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\Entity.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityArchetype.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityCVars.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityIt.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityLayer.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntitySystem.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityTimeoutList.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\GeomCacheAttachmentManager.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\SaltBufferArray.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\SaltHandle.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\Area.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\AreaGrid.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\AreaManager.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\BreakableManager.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\BreakablePlane.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityLoadManager.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\PartitionGrid.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\ProximityTriggerSystem.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\RadixSort.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityPool.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityPoolCommon.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityPoolDefinition.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityPoolManager.h" />
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityPoolSignature.h" />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\AreaProxy.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityAttributesProxy.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityAudioProxy.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\CameraProxy.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\ClipVolumeProxy.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\DynamicResponseProxy.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\FlowGraphProxy.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\PhysicsEventListener.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\PhysicsProxy.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\RopeProxy.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityObject.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\RenderProxy.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityScript.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\ScriptBind_Entity.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\ScriptProperties.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\ScriptProxy.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\SubstitutionProxy.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityNodeProxy.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\TriggerProxy.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityClass.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityClassRegistry.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\stdafx.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\AffineParts.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\AreaSolid.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\BSPTree3D.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\CharacterBoneAttachmentManager.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\ComponentEventDistributer.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\CryEntityDLL.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\Entity.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityArchetype.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityCVars.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityLayer.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntitySystem.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityTimeoutList.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\GeomCacheAttachmentManager.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\Area.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\AreaGrid.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\AreaManager.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\BreakableManager.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\BreakablePlane.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityLoadManager.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\PartitionGrid.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\ProximityTriggerSystem.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\RadixSort.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityPool.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityPoolDefinition.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityPoolManager.cpp"  />
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityPoolSignature.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/workspace/pycmake/build/windows/ZERO_CHECK.vcxproj">
+      <Project>F9C1A568-46FE-39F2-BA41-C8D3FF5CC66A</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

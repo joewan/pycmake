@@ -1,0 +1,1706 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\workspace\pycmake\code\Cry\CryCommon\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\AIFormationDescriptor.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\AISystemListener.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\AgePriorityQueue.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\AnimKey.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\AnimKey_impl.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\AnimTime.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Base64.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\BaseTypes.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Bezier.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Bezier_impl.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\BitFiddling.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\BitMask.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\BitmapDilation.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\BoostHelpers.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\BucketAllocator.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\BucketAllocatorImpl.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\BucketAllocatorPolicy.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CGFContent.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CGFContent_info.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CREGeomCache.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CoherentValue.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Common_TypeInfo.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Common_TypeInfo2.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CompileTimeAssert.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CompileTimeUtils.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CountedValue.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CrtDebugStats.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryArray.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryAssert.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryBufferedFileReader.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryCharAnimationParams.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryCharMorphParams.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryCrc32.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryCustomTypes.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryEndian.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryEngineDecalInfo.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryFile.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryFixedArray.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryFixedString.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryFlags.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryFunction.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryHeaders.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryHeaders_info.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryListenerSet.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryLobbyPacket.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryMemBlock.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryMemReplay.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryMemReplayTrackedPtr.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryMemoryAllocator.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryMemoryManager.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryModuleDefs.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryName.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryPath.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryPhysics.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryPodArray.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryPtrArray.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryRandomInternal.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CrySignal.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CrySizer.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CrySocks.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryString.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryThread.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryThreadImpl.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryThreadSafeRendererContainer.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryThreadSafeWorkerContainer.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryTypeInfo.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryTypeInfo.inl">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryUnitTest.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryUtils.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryVersion.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\DeferredActionQueue.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\EngineSettingsManager.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\EngineSettingsManager.inl">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\EntityDesc.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ExtensionDefines.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\FindZeroRanges.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\FixedAllocator.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\FixedPoint.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Force.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\FunctorBaseFunction.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\FunctorBaseMember.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\GameUtils.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\GeomCacheFileFormat.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\HardwareBreakpoint.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\HashGrid.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\HashedString.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\HeapAllocator.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\HeapContainer.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\HidespotQueryContext.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IAIActionSequence.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IAVI_Reader.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IAudioInterfacesCommonData.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IAudioSystem.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IBreakableGlassSystem.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IBreakableManager.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IDMap.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IDiskProfiler.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IFaceGen.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IFunctorBase.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IGeomCache.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IGoalPipe.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IHMDDevice.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IHMDManager.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IInterestSystem.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ILZ4Decompressor.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ILipSync.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ILipSyncProvider.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ILiveCreateCommon.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ILiveCreateHost.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ILiveCreateManager.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ILiveCreatePlatform.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IMovementSystem.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IPerceptionHandler.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IPerceptionHandlerModifier.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IRemoteCommand.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IResourceManager.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ISelectionTreeManager.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IServiceNetwork.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IStatoscope.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ITargetTrackManager.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IZlibDecompressor.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\InplaceFactory.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\InterpolationHelpers.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IntersectionTestQueue.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\LCGRandom.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\LineStreamBuffer.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\MTPseudoRandom.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\MemoryAccess.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\MetaUtils.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\MiniQueue.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\MovementBlock.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\MovementRequest.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\MovementRequestID.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\MovementStyle.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\MovementUpdateContext.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\MultiThread_Containers.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\NameCRCHelper.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Name_TypeInfo.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\NetHelpers.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Octree.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\OctreeDebug.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Options.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\PNoise3.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ParseEngineConfig.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ParticleParams_TypeInfo.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Pipe.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\PoolAllocator.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ProfileLog.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ProjectDefines.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ProjectDefinesInclude.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Random.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Range.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\RayCastQueue.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ResourceCompilerHelper.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ResourceCompilerHelper.inl">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\RingBuffer.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\SFunctor.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\STLAlignedAlloc.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\STLGlobalAllocator.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\STLPoolAllocator.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\STLPoolAllocator_ManyElems.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ScopedVariableSetter.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ScreenPlotter.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ScriptHelpers.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\SerializationTypes.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\SerializeBuffer.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\SerializeFwd.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\SettingsManagerHelpers.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\SettingsManagerHelpers.inl">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\SimpleHashLookUp.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\SimpleSerialize.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\StackContainer.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\StaticInstanceList.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\StlDbgAlloc.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\StlUtils.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\StringUtils.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Synchronization.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Tarray.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ThreadProfilerSupport.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\TimeValue.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\TimeValue_info.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Timer.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\TypeInfo_decl.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\TypeInfo_impl.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Typelist.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\TypelistUtils.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\UnicodeBinding.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\UnicodeEncoding.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\UnicodeFunctions.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\UnicodeIterator.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\VariableCollection.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\VectorMap.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\VectorSet.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\VertexFormats.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\VisionMapTypes.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\WinBase.inl">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\XMLAttrReader.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\XMLBinaryHeaders.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\branchmask.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\functor.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\intrusive_list.hpp">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\primitives.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\primitives_info.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\smartptr.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\stridedptr.h">
+      <Filter>Common_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\BehaviorTree\Action.h">
+      <Filter>Common_h\Behavior Tree</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\BehaviorTree\Composite.h">
+      <Filter>Common_h\Behavior Tree</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\BehaviorTree\Decorator.h">
+      <Filter>Common_h\Behavior Tree</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\BehaviorTree\Node.h">
+      <Filter>Common_h\Behavior Tree</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\BehaviorTree\NodeFactory.h">
+      <Filter>Common_h\Behavior Tree</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\BehaviorTree\Readme.txt">
+      <Filter>Common_h\Behavior Tree</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\BehaviorTree\SerializationSupport.h">
+      <Filter>Common_h\Behavior Tree</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\BehaviorTree\TimestampCollection.h">
+      <Filter>Common_h\Behavior Tree</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\BehaviorTree\XmlLoader.h">
+      <Filter>Common_h\Behavior Tree</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CREBaseCloud.h">
+      <Filter>Common_h\RenderElements</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CREBreakableGlass.h">
+      <Filter>Common_h\RenderElements</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CREBreakableGlassConfig.h">
+      <Filter>Common_h\RenderElements</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CREBreakableGlassHelpers.h">
+      <Filter>Common_h\RenderElements</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CREFarTreeSprites.h">
+      <Filter>Common_h\RenderElements</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CREFogVolume.h">
+      <Filter>Common_h\RenderElements</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CREGameEffect.h">
+      <Filter>Common_h\RenderElements</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CREImposter.h">
+      <Filter>Common_h\RenderElements</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CRELightPropagationVolume.h">
+      <Filter>Common_h\RenderElements</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CREMesh.h">
+      <Filter>Common_h\RenderElements</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CREOcclusionQuery.h">
+      <Filter>Common_h\RenderElements</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CREParticle.h">
+      <Filter>Common_h\RenderElements</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CREPostProcess.h">
+      <Filter>Common_h\RenderElements</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CRESky.h">
+      <Filter>Common_h\RenderElements</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CREVolumeObject.h">
+      <Filter>Common_h\RenderElements</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CREWaterOcean.h">
+      <Filter>Common_h\RenderElements</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CREWaterVolume.h">
+      <Filter>Common_h\RenderElements</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\RendElement.h">
+      <Filter>Common_h\RenderElements</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryExtension\CryCreateClassInstance.h">
+      <Filter>CryExtension</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryExtension\CryGUID.h">
+      <Filter>CryExtension</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryExtension\CryTypeID.h">
+      <Filter>CryExtension</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryExtension\ICryFactory.h">
+      <Filter>CryExtension</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryExtension\ICryFactoryRegistry.h">
+      <Filter>CryExtension</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryExtension\ICryUnknown.h">
+      <Filter>CryExtension</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryExtension\Impl\ClassWeaver.h">
+      <Filter>CryExtension\Impl</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryExtension\Impl\Conversion.h">
+      <Filter>CryExtension\Impl</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryExtension\Impl\CryGUIDHelper.h">
+      <Filter>CryExtension\Impl</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryExtension\Impl\ICryFactoryRegistryImpl.h">
+      <Filter>CryExtension\Impl</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryExtension\Impl\RegFactoryNode.h">
+      <Filter>CryExtension\Impl</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryExtension\Impl\TypeList.h">
+      <Filter>CryExtension\Impl</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryInterop.h">
+      <Filter>CryInterop</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryPool\Allocator.h">
+      <Filter>CryPool</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryPool\Container.h">
+      <Filter>CryPool</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryPool\Defrag.h">
+      <Filter>CryPool</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryPool\Fallback.h">
+      <Filter>CryPool</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryPool\Inspector.h">
+      <Filter>CryPool</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryPool\List.h">
+      <Filter>CryPool</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryPool\Memory.h">
+      <Filter>CryPool</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryPool\PAUnitTest.cpp">
+      <Filter>CryPool</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryPool\PoolAlloc.h">
+      <Filter>CryPool</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryPool\STLWrapper.h">
+      <Filter>CryPool</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryPool\ThreadSafe.h">
+      <Filter>CryPool</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryPool\example.h">
+      <Filter>CryPool</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\AgentParams.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Allocator.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryLobbyEvent.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\FinalizingSpline.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\I3DEngine.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\I3DEngine_info.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\I3DSampler.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IAnimEventPlayer.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IAnimationPoseModifier.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IAttachment.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IBitStream.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IBudgetingSystem.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IChunkFile.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ICmdLine.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ICodeCheckpointMgr.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IColorGradingController.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IComponent.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IConsole.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ICryAnimation.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ICryFriends.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ICryFriendsManagement.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ICryLobby.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ICryLobbyUI.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ICryMatchMaking.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ICryMiniGUI.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ICryOnlineStorage.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ICryPak.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ICryReward.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ICrySignIn.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ICryStats.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ICryTCPService.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ICryVoice.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ICustomActions.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ICustomEvents.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IDebugHistory.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IDeferredCollisionEvent.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IDefragAllocator.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IDialogSystem.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IDynamicResponseAction.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IDynamicResponseCondition.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IDynamicResponseSystem.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IEdgeConnectivityBuilder.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IEditorGame.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IEngineModule.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IEntity.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IEntityAttributesProxy.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IEntityClass.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IEntityLayer.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IEntityPoolManager.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IEntityProxy.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IEntityRenderState.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IEntityRenderState_info.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IEntitySerialize.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IEntitySystem.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IFacialAnimation.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IFileChangeMonitor.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IFlares.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IFlashPlayer.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IFlashUI.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IFlowGraphDebugger.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IFlowGraphModuleManager.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IFlowSystem.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IFont.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IFuncVariable.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IGame.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IGameFramework.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IGameFrameworkExtension.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IGameRef.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IGameStartup.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IGameStatistics.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IGameTokens.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IGameVolumes.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IGameWebDebug.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IGeneralMemoryHeap.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IHardwareMouse.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IImage.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IIndexedMesh.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IIndexedMesh_info.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IInput.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IJobManager.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IJobManager_JobDelegator.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IJoystick.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ILMSerializationManager.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ILocalMemoryUsage.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ILocalizationManager.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ILog.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IMaterial.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IMaterialEffects.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IMemory.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IMeshBaking.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IMiniLog.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IMonoRuntime.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IMovieSystem.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\INetwork.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\INetworkService.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\INetworkingState.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\INotificationNetwork.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IOverloadSceneManager.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IParticles.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IParticlesPfx2.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IPerfHud.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IPhysics.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IPhysicsDebugRenderer.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IPlatformOS.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IProcess.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IReadWriteXMLSink.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IRealtimeRemoteUpdate.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IRemoteControl.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IRenderAuxGeom.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IRenderMesh.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IRenderer.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IResourceCollector.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IScriptSystem.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ISerialize.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ISerializeHelper.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ISerialize_info.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IShader.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IShaderParamCallback.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IShader_info.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ISimpleHttpServer.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ISplines.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IStatObj.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IStereoRenderer.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IStreamEngine.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IStreamEngineDefs.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IStreamPersist.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ISurfaceType.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ISystem.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ISystemScheduler.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ITacticalPointSystem.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ITestSystem.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ITextModeConsole.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ITexture.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IThreadConfigManager.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IThreadManager.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ITimeOfDay.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ITimer.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IUIFramework.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IValidator.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IVertexAnimation.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IWindowMessageHandler.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IXml.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IZLibCompressor.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ParticleParams.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ParticleParams_info.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\RenderObject.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Version.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Version_override.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\physinterface.h">
+      <Filter>Interfaces_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\BehaviorTree\IBehaviorTree.h">
+      <Filter>Interfaces_h\AI Interfaces</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\BehaviorTree\IBehaviorTreeGraft.h">
+      <Filter>Interfaces_h\AI Interfaces</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IAIAction.h">
+      <Filter>Interfaces_h\AI Interfaces</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IAIActor.h">
+      <Filter>Interfaces_h\AI Interfaces</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IAIActorProxy.h">
+      <Filter>Interfaces_h\AI Interfaces</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IAIDebugRenderer.h">
+      <Filter>Interfaces_h\AI Interfaces</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IAIGroup.h">
+      <Filter>Interfaces_h\AI Interfaces</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IAIGroupProxy.h">
+      <Filter>Interfaces_h\AI Interfaces</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IAIMannequin.h">
+      <Filter>Interfaces_h\AI Interfaces</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IAIObject.h">
+      <Filter>Interfaces_h\AI Interfaces</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IAIObjectManager.h">
+      <Filter>Interfaces_h\AI Interfaces</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IAIRateOfDeathHandler.h">
+      <Filter>Interfaces_h\AI Interfaces</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IAIRecorder.h">
+      <Filter>Interfaces_h\AI Interfaces</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IAISystem.h">
+      <Filter>Interfaces_h\AI Interfaces</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IAgent.h">
+      <Filter>Interfaces_h\AI Interfaces</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IBlackBoard.h">
+      <Filter>Interfaces_h\AI Interfaces</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IClusterDetector.h">
+      <Filter>Interfaces_h\AI Interfaces</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ICommunicationManager.h">
+      <Filter>Interfaces_h\AI Interfaces</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\ICoverSystem.h">
+      <Filter>Interfaces_h\AI Interfaces</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IFactionMap.h">
+      <Filter>Interfaces_h\AI Interfaces</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IMNM.h">
+      <Filter>Interfaces_h\AI Interfaces</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IMovementActor.h">
+      <Filter>Interfaces_h\AI Interfaces</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\INavigation.h">
+      <Filter>Interfaces_h\AI Interfaces</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\INavigationSystem.h">
+      <Filter>Interfaces_h\AI Interfaces</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IOffMeshNavigationManager.h">
+      <Filter>Interfaces_h\AI Interfaces</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IPathfinder.h">
+      <Filter>Interfaces_h\AI Interfaces</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\IVisionMap.h">
+      <Filter>Interfaces_h\AI Interfaces</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\AABBSV.h">
+      <Filter>MathLib</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryHalf.inl">
+      <Filter>MathLib</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryHalf_info.h">
+      <Filter>MathLib</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Cry_Camera.h">
+      <Filter>MathLib</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Cry_Color.h">
+      <Filter>MathLib</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Cry_Geo.h">
+      <Filter>MathLib</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Cry_GeoDistance.h">
+      <Filter>MathLib</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Cry_GeoIntersect.h">
+      <Filter>MathLib</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Cry_GeoOverlap.h">
+      <Filter>MathLib</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Cry_Math.h">
+      <Filter>MathLib</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Cry_Matrix33.h">
+      <Filter>MathLib</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Cry_Matrix34.h">
+      <Filter>MathLib</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Cry_Matrix44.h">
+      <Filter>MathLib</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Cry_MatrixDiag.h">
+      <Filter>MathLib</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Cry_Quat.h">
+      <Filter>MathLib</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Cry_ValidNumber.h">
+      <Filter>MathLib</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Cry_Vector2.h">
+      <Filter>MathLib</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Cry_Vector3.h">
+      <Filter>MathLib</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Cry_Vector4.h">
+      <Filter>MathLib</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Cry_XOptimise.h">
+      <Filter>MathLib</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\GeomQuery.h">
+      <Filter>MathLib</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\QTangent.h">
+      <Filter>MathLib</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Cry_HWMatrix.h">
+      <Filter>MathLib\Consoles</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Cry_HWVector3.h">
+      <Filter>MathLib\Consoles</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\AndroidSpecific.h">
+      <Filter>Platform_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\AppleSpecific.h">
+      <Filter>Platform_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryAssert_Android.h">
+      <Filter>Platform_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryAssert_Durango.h">
+      <Filter>Platform_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryAssert_iOS.h">
+      <Filter>Platform_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryAssert_Linux.h">
+      <Filter>Platform_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryAssert_Mac.h">
+      <Filter>Platform_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryAssert_Orbis.h">
+      <Filter>Platform_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryAssert_Windows.h">
+      <Filter>Platform_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryAssert_impl.h">
+      <Filter>Platform_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryAtlMfc.h">
+      <Filter>Platform_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryDLMalloc.h">
+      <Filter>Platform_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryLibrary.h">
+      <Filter>Platform_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryMemoryManager_impl.h">
+      <Filter>Platform_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryPlatform.Darwin.h">
+      <Filter>Platform_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryPlatform.Durango.h">
+      <Filter>Platform_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryPlatform.Linux.h">
+      <Filter>Platform_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryPlatform.Orbis.h">
+      <Filter>Platform_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryPlatform.Win32.h">
+      <Filter>Platform_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryPlatform.Win64.h">
+      <Filter>Platform_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryPlatform.h">
+      <Filter>Platform_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryPlatformDefines.h">
+      <Filter>Platform_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryStlConfig.h">
+      <Filter>Platform_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryThread_dummy.h">
+      <Filter>Platform_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryWindows.h">
+      <Filter>Platform_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\DurangoSpecific.h">
+      <Filter>Platform_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Durango_Win32Legacy.h">
+      <Filter>Platform_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\LevelHeap.h">
+      <Filter>Platform_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Linux32Specific.h">
+      <Filter>Platform_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Linux64Specific.h">
+      <Filter>Platform_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\LinuxSpecific.h">
+      <Filter>Platform_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Linux_Win32Wrapper.h">
+      <Filter>Platform_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\MSVCspecific.h">
+      <Filter>Platform_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\MacSpecific.h">
+      <Filter>Platform_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\OrbisSpecific.h">
+      <Filter>Platform_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Orbis_Win32Wrapper.h">
+      <Filter>Platform_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Win32specific.h">
+      <Filter>Platform_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Win64specific.h">
+      <Filter>Platform_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\WindowsUtils.h">
+      <Filter>Platform_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\platform.h">
+      <Filter>Platform_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\platform_impl.inl">
+      <Filter>Platform_h</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\CryEngine.natvis" />
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\BlackBox.h">
+      <Filter>Serialization</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\CRCRef.h">
+      <Filter>Serialization</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\CRCRefImpl.h">
+      <Filter>Serialization</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\ClassFactory.h">
+      <Filter>Serialization</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Color.h">
+      <Filter>Serialization</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\ColorImpl.h">
+      <Filter>Serialization</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\CryExtension.h">
+      <Filter>Serialization</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\CryExtensionImpl.h">
+      <Filter>Serialization</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\CryName.h">
+      <Filter>Serialization</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\CryNameImpl.h">
+      <Filter>Serialization</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\CryStrings.h">
+      <Filter>Serialization</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\CryStringsImpl.h">
+      <Filter>Serialization</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\DynArray.h">
+      <Filter>Serialization</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\DynArrayImpl.h">
+      <Filter>Serialization</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Enum.h">
+      <Filter>Serialization</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\IArchive.h">
+      <Filter>Serialization</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\IArchiveHost.h">
+      <Filter>Serialization</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\IClassFactory.h">
+      <Filter>Serialization</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\IntrusiveFactory.h">
+      <Filter>Serialization</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Math.h">
+      <Filter>Serialization</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\MathImpl.h">
+      <Filter>Serialization</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\NameGeneration.h">
+      <Filter>Serialization</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\STL.h">
+      <Filter>Serialization</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Serializer.h">
+      <Filter>Serialization</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\SharedPtr.h">
+      <Filter>Serialization</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\SmartPtr.h">
+      <Filter>Serialization</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\SmartPtrImpl.h">
+      <Filter>Serialization</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\StringList.h">
+      <Filter>Serialization</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\TypeID.h">
+      <Filter>Serialization</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\TypeInfo.h">
+      <Filter>Serialization</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\TypeInfoImpl.h">
+      <Filter>Serialization</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Decorators\ActionButton.h">
+      <Filter>Serialization\Decorators</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Decorators\BitFlags.h">
+      <Filter>Serialization\Decorators</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Decorators\BitFlagsImpl.h">
+      <Filter>Serialization\Decorators</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Decorators\JointName.h">
+      <Filter>Serialization\Decorators</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Decorators\JointNameImpl.h">
+      <Filter>Serialization\Decorators</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Decorators\LocalFrame.h">
+      <Filter>Serialization\Decorators</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Decorators\LocalFrameImpl.h">
+      <Filter>Serialization\Decorators</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Decorators\OutputFilePath.h">
+      <Filter>Serialization\Decorators</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Decorators\OutputFilePathImpl.h">
+      <Filter>Serialization\Decorators</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Decorators\Range.h">
+      <Filter>Serialization\Decorators</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Decorators\RangeImpl.h">
+      <Filter>Serialization\Decorators</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Decorators\ResourceFilePath.h">
+      <Filter>Serialization\Decorators</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Decorators\ResourceFilePathImpl.h">
+      <Filter>Serialization\Decorators</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Decorators\ResourceFolderPath.h">
+      <Filter>Serialization\Decorators</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Decorators\ResourceFolderPathImpl.h">
+      <Filter>Serialization\Decorators</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Decorators\ResourceSelector.h">
+      <Filter>Serialization\Decorators</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Decorators\Resources.h">
+      <Filter>Serialization\Decorators</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Decorators\ResourcesAudio.h">
+      <Filter>Serialization\Decorators</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Decorators\Slider.h">
+      <Filter>Serialization\Decorators</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Decorators\SliderImpl.h">
+      <Filter>Serialization\Decorators</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Decorators\TagList.h">
+      <Filter>Serialization\Decorators</Filter>
+    </None>
+    <None Include="C:\workspace\pycmake\code\Cry\CryCommon\Serialization\Decorators\TagListImpl.h">
+      <Filter>Serialization\Decorators</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CryExtension\Impl">
+      <UniqueIdentifier>{792C6D9C-4C41-39AB-9701-9C20D585AD50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces_h\AI Interfaces">
+      <UniqueIdentifier>{124EB800-EAE0-3C69-9C27-2093FCFE52B7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MathLib\Consoles">
+      <UniqueIdentifier>{FE54AEEE-F9A9-329F-AF38-2507261C2D58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Serialization\Decorators">
+      <UniqueIdentifier>{2EC7026C-8532-33D1-9EE7-0ED1AAC743D8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_h">
+      <UniqueIdentifier>{60CD5737-4CCB-3355-B9A3-E02A73CA3540}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CryExtension">
+      <UniqueIdentifier>{42172557-E51F-3C5A-85EA-0ADB3EAE8E62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CryInterop">
+      <UniqueIdentifier>{5E9D4C9E-E25C-3A79-A773-C43B2FB8E4BE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CryPool">
+      <UniqueIdentifier>{35F7806B-324E-3F29-A519-A44409762C48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces_h">
+      <UniqueIdentifier>{E4D5963D-A570-3D2B-8C17-1A077DA22640}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MathLib">
+      <UniqueIdentifier>{75CF33DB-F60E-39EB-A65F-D658C48B9EB5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform_h">
+      <UniqueIdentifier>{52CF4D42-C273-3539-BF2D-BFA5A39D075D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Serialization">
+      <UniqueIdentifier>{0B99AF9C-5FCA-3AF6-A604-0B94BC98D1EC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_h\Behavior Tree">
+      <UniqueIdentifier>{D01EA482-A43C-3CBC-8FBD-CA8A3F5F5FB0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_h\RenderElements">
+      <UniqueIdentifier>{9D62E0D1-A3ED-3F5F-99F7-4BCFC6B2BC43}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

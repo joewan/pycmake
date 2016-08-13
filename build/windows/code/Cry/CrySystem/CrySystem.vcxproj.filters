@@ -1,0 +1,1159 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\CryMemoryManager.cpp">
+      <Filter>MemoryManager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\CustomMemoryHeap.cpp">
+      <Filter>MemoryManager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\DefragAllocator.cpp">
+      <Filter>MemoryManager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\MTSafeAllocator.cpp">
+      <Filter>MemoryManager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\MemoryAddressRange.cpp">
+      <Filter>MemoryManager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\MemoryManager.cpp">
+      <Filter>MemoryManager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\PageMappingHeap.cpp">
+      <Filter>MemoryManager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\StreamEngine\StreamAsyncFileRequest.cpp">
+      <Filter>StreamEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\StreamEngine\StreamAsyncFileRequest_Jobs.cpp">
+      <Filter>StreamEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\StreamEngine\StreamEngine.cpp">
+      <Filter>StreamEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\StreamEngine\StreamIOThread.cpp">
+      <Filter>StreamEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\StreamEngine\StreamReadStream.cpp">
+      <Filter>StreamEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\XML\SerializeXMLReader.cpp">
+      <Filter>XML</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\XML\SerializeXMLWriter.cpp">
+      <Filter>XML</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\XML\XMLBinaryNode.cpp">
+      <Filter>XML</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\XML\XMLBinaryReader.cpp">
+      <Filter>XML</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\XML\XMLBinaryWriter.cpp">
+      <Filter>XML</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\XML\XMLPatcher.cpp">
+      <Filter>XML</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\XML\XmlUtils.cpp">
+      <Filter>XML</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\XML\xml.cpp">
+      <Filter>XML</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\XML\ReadXMLSink.cpp">
+      <Filter>XML\XMLSink</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\XML\WriteXMLSource.cpp">
+      <Filter>XML\XMLSink</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ZipDirCache.cpp">
+      <Filter>ZipDir</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ZipDirCacheFactory.cpp">
+      <Filter>ZipDir</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ZipDirCacheRW.cpp">
+      <Filter>ZipDir</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ZipDirFind.cpp">
+      <Filter>ZipDir</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ZipDirFindRW.cpp">
+      <Filter>ZipDir</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ZipDirList.cpp">
+      <Filter>ZipDir</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ZipDirStructures.cpp">
+      <Filter>ZipDir</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ZipDirTree.cpp">
+      <Filter>ZipDir</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ZipEncrypt.cpp">
+      <Filter>ZipDir</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\DownloadManager.cpp">
+      <Filter>HTTPDownloader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\HTTPDownloader.cpp">
+      <Filter>HTTPDownloader</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\LocalizedStringManager.cpp">
+      <Filter>Localization</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\DiskProfiler.cpp">
+      <Filter>Profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\FrameProfileRender.cpp">
+      <Filter>Profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\FrameProfileSystem.cpp">
+      <Filter>Profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\LoadingProfiler.cpp">
+      <Filter>Profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\PerfHUD.cpp">
+      <Filter>Profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ProfileLogSystem.cpp">
+      <Filter>Profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Sampler.cpp">
+      <Filter>Profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\WindowsErrorReporting.cpp">
+      <Filter>Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\ConfigScaleform.cpp">
+      <Filter>Scaleform</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\FlashPlayerInstance.cpp">
+      <Filter>Scaleform</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\GAllocatorCryMem.cpp">
+      <Filter>Scaleform</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\GFileCryPak.cpp">
+      <Filter>Scaleform</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\GFxVideoSoundCrySound.cpp">
+      <Filter>Scaleform</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\GFxVideoWrapper.cpp">
+      <Filter>Scaleform</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\GImageInfoXRender.cpp">
+      <Filter>Scaleform</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\GImeHelper.cpp">
+      <Filter>Scaleform</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\GRendererXRender.cpp">
+      <Filter>Scaleform</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\GTextureXRender.cpp">
+      <Filter>Scaleform</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\SharedResources.cpp">
+      <Filter>Scaleform</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\SharedStates.cpp">
+      <Filter>Scaleform</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ExcelExport.cpp">
+      <Filter>TestSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Statistics.cpp">
+      <Filter>TestSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\TestSystemLegacy.cpp">
+      <Filter>TestSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\UnitTestExcelReporter.cpp">
+      <Filter>TestSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\UnitTestSystem.cpp">
+      <Filter>TestSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\VisRegTest.cpp">
+      <Filter>TestSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ExtensionSystem\CryFactoryRegistryImpl.cpp">
+      <Filter>ExtensionSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ExtensionSystem\TestCases\TestExtensions.cpp">
+      <Filter>ExtensionSystem\TestCases</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\MiniGUI\DrawContext.cpp">
+      <Filter>MiniGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\MiniGUI\MiniButton.cpp">
+      <Filter>MiniGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\MiniGUI\MiniGUI.cpp">
+      <Filter>MiniGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\MiniGUI\MiniInfoBox.cpp">
+      <Filter>MiniGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\MiniGUI\MiniMenu.cpp">
+      <Filter>MiniGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\MiniGUI\MiniTable.cpp">
+      <Filter>MiniGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\NullImplementation\NULLRenderAuxGeom.cpp">
+      <Filter>NullImplementation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\SystemThreading.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ThreadConfigManager.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ThreadInfo.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ThreadProfiler.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ThreadSampler.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\CodeCoverage\CodeCheckpointMgr.cpp">
+      <Filter>CodeCoverage</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Statistics\LocalMemoryUsage.cpp">
+      <Filter>Statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Statoscope.cpp">
+      <Filter>Statoscope</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\StatoscopeStreamingIntervalGroup.cpp">
+      <Filter>Statoscope</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\StatoscopeTextureStreamingIntervalGroup.cpp">
+      <Filter>Statoscope</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ZLibCompressor.cpp">
+      <Filter>ZLibCompressor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Huffman.cpp">
+      <Filter>HuffmanEncoding</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\JobManager\JobManager.cpp">
+      <Filter>JobManager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\JobManager\BlockingBackend\BlockingBackEnd.cpp">
+      <Filter>JobManager\BlockingBackend</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\JobManager\FallbackBackend\FallbackBackend.cpp">
+      <Filter>JobManager\FallbackBackend</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\JobManager\PCBackEnd\ThreadBackEnd.cpp">
+      <Filter>JobManager\ThreadBackEnd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\OverloadSceneManager\OverloadSceneManager.cpp">
+      <Filter>OverloadSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\LZ4Decompressor.cpp">
+      <Filter>LZ4Decompressor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\RemoteConsole\RemoteConsole.cpp">
+      <Filter>RemoteConsole</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Serialization\ArchiveHost.cpp">
+      <Filter>Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Serialization\Test_ArchiveHost.cpp">
+      <Filter>Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Serialization\XmlIArchive.cpp">
+      <Filter>Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Serialization\XmlOArchive.cpp">
+      <Filter>Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\RemoteCommand.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\RemoteCommandClient.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\RemoteCommandHelpers.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\RemoteCommandServer.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ServiceNetwork.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Stroboscope\Stroboscope.cpp">
+      <Filter>Stroboscope</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\HMDCVars.cpp">
+      <Filter>VR</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\HMDManager.cpp">
+      <Filter>VR</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Oculus\OculusDevice.cpp">
+      <Filter>VR\Oculus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Oculus\OculusResources.cpp">
+      <Filter>VR\Oculus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Oculus\OculusTouchController.cpp">
+      <Filter>VR\Oculus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\OpenVR\OpenVRController.cpp">
+      <Filter>VR\OpenVR</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\OpenVR\OpenVRDevice.cpp">
+      <Filter>VR\OpenVR</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\OpenVR\OpenVRResources.cpp">
+      <Filter>VR\OpenVR</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Osvr\OsvrDevice.cpp">
+      <Filter>VR\Osvr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Osvr\OsvrResources.cpp">
+      <Filter>VR\Osvr</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ZLibDecompressor.cpp">
+      <Filter>ZLibDecompressor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\PlatformOS\PlatformOS_PC.cpp">
+      <Filter>PlatformOS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\PlatformOS\SaveReaderWriter_CryPak.cpp">
+      <Filter>PlatformOS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\PlatformOS\SaveReaderWriter_Memory.cpp">
+      <Filter>PlatformOS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\PlatformOS\SaveReaderWriter_Steam.cpp">
+      <Filter>PlatformOS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\AVI_Reader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\AsyncPakManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\AutoDetectCPUTestSuit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\AutoDetectSpec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\BootProfiler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\BudgetingSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\CPUDetect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ClientHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\CmdLine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\CmdLineArg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\CompressedFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ConsoleBatchFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ConsoleHelpGen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\CryArchive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\CryAsyncMemcpy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\CryDLMalloc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\CryPak.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\CrySizerImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\CrySizerStats.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\DebugCallStack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\DllMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\FileIOWrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\GeneralMemoryHeap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\HandlerBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\HardwareMouse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\IDebugCallStack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ImeManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\JiraClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\LevelHeap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\MemReplay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\NotificationNetwork.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\PhysRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ResourceManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ServerHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\ServerThrottle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\SyncLock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\System.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\SystemCFG.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\SystemEventDispatcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\SystemInit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\SystemRender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\SystemScheduler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\SystemWin32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\UnixConsole.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\WindowsConsole.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\XConsole.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\XConsoleVariable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\BootProfiler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\BudgetingSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\CPUDetect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\CmdLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\CmdLineArg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ConsoleBatchFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ConsoleHelpGen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\CryPak.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\CryPakHandleCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\CrySizerImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\CrySizerStats.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\CryWaterMark.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\DebugCallStack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\GeneralMemoryHeap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\HardwareMouse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\HotUpdate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\IDebugCallStack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\MemoryFragmentationProfiler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\NotificationNetwork.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\PakVars.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\PlatformOS\PatternMatcher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Serialization\ArchiveHost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\SimpleStringPool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Statistics\LocalMemoryUsage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\System.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\SystemCFG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\SystemEventDispatcher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\SystemInit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Validator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\XConsole.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\XConsoleVariable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\XML\ReadWriteXMLSink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\CustomMemoryHeap.h">
+      <Filter>MemoryManager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\DefragAllocator.h">
+      <Filter>MemoryManager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\MTSafeAllocator.h">
+      <Filter>MemoryManager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\MemReplay.h">
+      <Filter>MemoryManager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\MemoryAddressRange.h">
+      <Filter>MemoryManager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\MemoryManager.h">
+      <Filter>MemoryManager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\PageMappingHeap.h">
+      <Filter>MemoryManager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\StreamEngine\StreamAsyncFileRequest.h">
+      <Filter>StreamEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\StreamEngine\StreamEngine.h">
+      <Filter>StreamEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\StreamEngine\StreamIOThread.h">
+      <Filter>StreamEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\StreamEngine\StreamReadStream.h">
+      <Filter>StreamEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\XML\SerializeXMLReader.h">
+      <Filter>XML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\XML\SerializeXMLWriter.h">
+      <Filter>XML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\XML\XMLBinaryNode.h">
+      <Filter>XML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\XML\XMLBinaryReader.h">
+      <Filter>XML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\XML\XMLBinaryWriter.h">
+      <Filter>XML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\XML\XMLPatcher.h">
+      <Filter>XML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\XML\XmlUtils.h">
+      <Filter>XML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\XML\xml.h">
+      <Filter>XML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\XML\xml_string.h">
+      <Filter>XML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ZipDir.h">
+      <Filter>ZipDir</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ZipDirCache.h">
+      <Filter>ZipDir</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ZipDirCacheFactory.h">
+      <Filter>ZipDir</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ZipDirCacheRW.h">
+      <Filter>ZipDir</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ZipDirFind.h">
+      <Filter>ZipDir</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ZipDirFindRW.h">
+      <Filter>ZipDir</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ZipDirList.h">
+      <Filter>ZipDir</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ZipDirStructures.h">
+      <Filter>ZipDir</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ZipDirTree.h">
+      <Filter>ZipDir</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ZipEncrypt.h">
+      <Filter>ZipDir</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ZipFile.h">
+      <Filter>ZipDir</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ZipFileFormat.h">
+      <Filter>ZipDir</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ZipFileFormat_info.h">
+      <Filter>ZipDir</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\DownloadManager.h">
+      <Filter>HTTPDownloader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\HTTPDownloader.h">
+      <Filter>HTTPDownloader</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\LocalizedStringManager.h">
+      <Filter>Localization</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\DiskProfiler.h">
+      <Filter>Profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\FrameProfileSystem.h">
+      <Filter>Profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\LoadingProfiler.h">
+      <Filter>Profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\PerfHUD.h">
+      <Filter>Profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ProfileLogSystem.h">
+      <Filter>Profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Sampler.h">
+      <Filter>Profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\ConfigScaleform.h">
+      <Filter>Scaleform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\FlashPlayerInstance.h">
+      <Filter>Scaleform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\GAllocatorCryMem.h">
+      <Filter>Scaleform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\GFileCryPak.h">
+      <Filter>Scaleform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\GFxVideoSoundCrySound.h">
+      <Filter>Scaleform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\GFxVideoWrapper.h">
+      <Filter>Scaleform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\GImageInfoXRender.h">
+      <Filter>Scaleform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\GImeHelper.h">
+      <Filter>Scaleform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\GMemorySTLAlloc.h">
+      <Filter>Scaleform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\GRendererXRender.h">
+      <Filter>Scaleform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\GTextureXRender.h">
+      <Filter>Scaleform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\SharedResources.h">
+      <Filter>Scaleform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Scaleform\SharedStates.h">
+      <Filter>Scaleform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ExcelExport.h">
+      <Filter>TestSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Statistics.h">
+      <Filter>TestSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\TestSystemLegacy.h">
+      <Filter>TestSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\UnitTestExcelReporter.h">
+      <Filter>TestSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\UnitTestSystem.h">
+      <Filter>TestSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\VisRegTest.h">
+      <Filter>TestSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ExtensionSystem\CryFactoryRegistryImpl.h">
+      <Filter>ExtensionSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ExtensionSystem\TestCases\TestExtensions.h">
+      <Filter>ExtensionSystem\TestCases</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\MiniGUI\DrawContext.h">
+      <Filter>MiniGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\MiniGUI\MiniButton.h">
+      <Filter>MiniGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\MiniGUI\MiniGUI.h">
+      <Filter>MiniGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\MiniGUI\MiniInfoBox.h">
+      <Filter>MiniGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\MiniGUI\MiniMenu.h">
+      <Filter>MiniGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\MiniGUI\MiniTable.h">
+      <Filter>MiniGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\NullImplementation\NULLAudioSystems.h">
+      <Filter>NullImplementation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\NullImplementation\NULLRenderAuxGeom.h">
+      <Filter>NullImplementation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\NullImplementation\NullInput.h">
+      <Filter>NullImplementation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\NullImplementation\NullLiveCreate.h">
+      <Filter>NullImplementation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\NullImplementation\NullResponseSystem.h">
+      <Filter>NullImplementation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\CryThreadUtil_posix.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\CryThreadUtil_win32.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ThreadConfigManager.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ThreadInfo.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ThreadProfiler.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ThreadSampler.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\CodeCoverage\CodeCheckpointMgr.h">
+      <Filter>CodeCoverage</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Statoscope.h">
+      <Filter>Statoscope</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\StatoscopeStreamingIntervalGroup.h">
+      <Filter>Statoscope</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\StatoscopeTextureStreamingIntervalGroup.h">
+      <Filter>Statoscope</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ZLibCompressor.h">
+      <Filter>ZLibCompressor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Huffman.h">
+      <Filter>HuffmanEncoding</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\JobManager\JobManager.h">
+      <Filter>JobManager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\JobManager\JobStructs.h">
+      <Filter>JobManager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\JobManager\BlockingBackend\BlockingBackEnd.h">
+      <Filter>JobManager\BlockingBackend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\JobManager\FallbackBackend\FallBackBackend.h">
+      <Filter>JobManager\FallbackBackend</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\JobManager\PCBackEnd\ThreadBackEnd.h">
+      <Filter>JobManager\ThreadBackEnd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\OverloadSceneManager\OverloadSceneManager.h">
+      <Filter>OverloadSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\LZ4Decompressor.h">
+      <Filter>LZ4Decompressor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\RemoteConsole\RemoteConsole.h">
+      <Filter>RemoteConsole</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Serialization\Token.h">
+      <Filter>Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Serialization\XmlIArchive.h">
+      <Filter>Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Serialization\XmlOArchive.h">
+      <Filter>Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\RemoteCommand.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\RemoteCommandHelpers.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ServiceNetwork.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Stroboscope\Stroboscope.h">
+      <Filter>Stroboscope</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\HMDCVars.h">
+      <Filter>VR</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\HMDManager.h">
+      <Filter>VR</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Oculus\OculusConfig.h">
+      <Filter>VR\Oculus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Oculus\OculusDevice.h">
+      <Filter>VR\Oculus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Oculus\OculusResources.h">
+      <Filter>VR\Oculus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Oculus\OculusTouchController.h">
+      <Filter>VR\Oculus</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\OpenVR\OpenVRConfig.h">
+      <Filter>VR\OpenVR</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\OpenVR\OpenVRController.h">
+      <Filter>VR\OpenVR</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\OpenVR\OpenVRDevice.h">
+      <Filter>VR\OpenVR</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\OpenVR\OpenVRResources.h">
+      <Filter>VR\OpenVR</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Osvr\OsvrDevice.h">
+      <Filter>VR\Osvr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\Osvr\OsvrResources.h">
+      <Filter>VR\Osvr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ZLibDecompressor.h">
+      <Filter>ZLibDecompressor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\SystemUtilsApple.h">
+      <Filter>Mac</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\SystemUtilsApple.mm">
+      <Filter>Mac</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\PlatformOS\PlatformOS_PC.h">
+      <Filter>PlatformOS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\PlatformOS\SaveReaderWriter_CryPak.h">
+      <Filter>PlatformOS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\PlatformOS\SaveReaderWriter_Memory.h">
+      <Filter>PlatformOS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\PlatformOS\SaveReaderWriter_Steam.h">
+      <Filter>PlatformOS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\AVI_Reader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\AsyncPakManager.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\AutoDetectCPUTestSuit.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\AutoDetectSpec.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ClientHandler.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\CryArchive.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\DxDiag.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\FileIOWrapper.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\HandlerBase.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ImeManager.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\JiraClient.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\PhysRenderer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ResourceManager.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ServerHandler.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\ServerThrottle.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\SyncLock.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\SystemScheduler.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\UnixConsole.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CrySystem\WindowsConsole.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\workspace\pycmake\code\Cry\CrySystem\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\workspace\pycmake\code\Cry\CrySystem\crash_face.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\workspace\pycmake\code\Cry\CrySystem\CrashHandler.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ExtensionSystem\TestCases">
+      <UniqueIdentifier>{CC7F9CD6-0683-36B6-93EB-CFCDEA91DB38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML\XMLSink">
+      <UniqueIdentifier>{7E07072C-E048-3962-886A-D676C24FBAF2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{40C3A39C-41A6-3DA1-AFCD-E984503AE490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{74AB8875-C48E-3CA7-B560-893F681F3DEF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CodeCoverage">
+      <UniqueIdentifier>{6CF176B4-7EC2-3275-B884-0F62B0918CAA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExtensionSystem">
+      <UniqueIdentifier>{4856D10F-7033-3294-9873-3F3FBA7F9145}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTTPDownloader">
+      <UniqueIdentifier>{0C889D9D-2135-3098-A2DF-B9DA8447E64B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HuffmanEncoding">
+      <UniqueIdentifier>{6C6DC21C-29EF-3CB6-84B2-6838FBE2DB7D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JobManager">
+      <UniqueIdentifier>{49B0276A-CBD6-3B58-932C-230C7278AE83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LZ4Decompressor">
+      <UniqueIdentifier>{E4C158A1-FCF4-38BC-A7AE-455B7FABC7A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Localization">
+      <UniqueIdentifier>{9ADAFA29-5DCB-3CCB-A90F-215402309717}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mac">
+      <UniqueIdentifier>{3E8F24AF-234B-3688-BAFD-58BACE2DAD26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MemoryManager">
+      <UniqueIdentifier>{1AA833C6-88B4-30CC-941D-6C8D152A903C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MiniGUI">
+      <UniqueIdentifier>{F39DA946-9C6E-3927-BACA-3F94985958EE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NullImplementation">
+      <UniqueIdentifier>{382B0C35-CC4F-3A1F-93A4-D1F7B0C119AD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OverloadSceneManager">
+      <UniqueIdentifier>{3A4A12D2-84F3-312D-B3F3-AA5468A0E3AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlatformOS">
+      <UniqueIdentifier>{A80FB5AA-8877-329A-8B2D-B44A6BFED6CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Profiler">
+      <UniqueIdentifier>{FAFB8770-76DD-31DA-A4A1-94ED4050B3CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RemoteConsole">
+      <UniqueIdentifier>{0DB40FAE-BADB-34C5-88A3-235ADFA65BE5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{909778A0-7D85-3C0B-85EE-2705A4D31C6A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scaleform">
+      <UniqueIdentifier>{31E2D505-028A-30D9-9811-2F662928A28E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Serialization">
+      <UniqueIdentifier>{0B99AF9C-5FCA-3AF6-A604-0B94BC98D1EC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Services">
+      <UniqueIdentifier>{0A410D32-1A52-313C-9CD7-66EFA5B8C902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Statistics">
+      <UniqueIdentifier>{D6713983-8C30-3932-A8CC-480430FD7542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Statoscope">
+      <UniqueIdentifier>{99E7A39A-DA80-3A06-80E5-A42824C19135}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StreamEngine">
+      <UniqueIdentifier>{C5F179BB-751E-3EAC-AC19-13A86637C04C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stroboscope">
+      <UniqueIdentifier>{D068D076-86FC-3FE9-AE8F-09C3AF25545C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestSystem">
+      <UniqueIdentifier>{5C51FE9A-BD94-3459-B69D-5CDE47F6E5A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Threading">
+      <UniqueIdentifier>{57697D11-B7D7-3137-8A95-9698FDBE02D8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VR">
+      <UniqueIdentifier>{6FED5492-CB6D-3544-96C0-197FB216E9C0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows">
+      <UniqueIdentifier>{62ABB8AD-C2A8-3D14-A27C-00FD1CA91D20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML">
+      <UniqueIdentifier>{E63CAD13-1890-3374-88DA-E8411109573B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZLibCompressor">
+      <UniqueIdentifier>{54FDEDE2-62B8-3EEB-A6B8-9ED50706F732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZLibDecompressor">
+      <UniqueIdentifier>{387CB1CE-D04B-391C-890C-AA5115B6A8D5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZipDir">
+      <UniqueIdentifier>{931D4754-5F5B-3AA6-A3C5-1196D251A83D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JobManager\BlockingBackend">
+      <UniqueIdentifier>{9835A653-18BE-326F-B64B-2A3D10567928}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JobManager\FallbackBackend">
+      <UniqueIdentifier>{FCF87A55-AF2E-3601-AE60-23B3A304A71C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JobManager\ThreadBackEnd">
+      <UniqueIdentifier>{776E16CC-5B12-3663-BD6D-FE3323171325}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VR\Oculus">
+      <UniqueIdentifier>{B0FAB1E6-D4EC-3391-B77C-BBAACC5F3797}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VR\OpenVR">
+      <UniqueIdentifier>{BBE642ED-E0EE-39D3-9DC2-CD209FC2016D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VR\Osvr">
+      <UniqueIdentifier>{3B8495D6-D140-3D50-AF14-B90FAED6BE2A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

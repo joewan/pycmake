@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryInput\DXInput.cpp">
+      <Filter>DX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryInput\DXInputDevice.cpp">
+      <Filter>DX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryInput\Keyboard.cpp">
+      <Filter>DX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryInput\Mouse.cpp">
+      <Filter>DX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryInput\LinuxInput.cpp">
+      <Filter>Linux</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryInput\CryInput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryInput\InputCVars.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryInput\StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryInput\SDLKeyboard.cpp">
+      <Filter>SDL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryInput\SDLMouse.cpp">
+      <Filter>SDL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryInput\SDLPad.cpp">
+      <Filter>SDL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryInput\BaseInput.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryInput\InputDevice.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryInput\XInputDevice.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryInput\Synergy\SynergyContext.cpp">
+      <Filter>Synergy</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryInput\Synergy\SynergyKeyboard.cpp">
+      <Filter>Synergy</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryInput\Synergy\SynergyMouse.cpp">
+      <Filter>Synergy</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryInput\DXInput.h">
+      <Filter>DX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryInput\DXInputDevice.h">
+      <Filter>DX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryInput\Keyboard.h">
+      <Filter>DX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryInput\Mouse.h">
+      <Filter>DX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryInput\LinuxInput.h">
+      <Filter>Linux</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryInput\CryInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryInput\InputCVars.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryInput\StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryInput\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryInput\SDLKeyboard.h">
+      <Filter>SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryInput\SDLMouse.h">
+      <Filter>SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryInput\SDLPad.h">
+      <Filter>SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryInput\BaseInput.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryInput\InputDevice.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryInput\XInputDevice.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryInput\Synergy\SynergyContext.h">
+      <Filter>Synergy</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryInput\Synergy\SynergyKeyboard.h">
+      <Filter>Synergy</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryInput\Synergy\SynergyMouse.h">
+      <Filter>Synergy</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryInput\NaturalPointInputNULL.h">
+      <Filter>TrackIR</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\workspace\pycmake\code\Cry\CryInput\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{40C3A39C-41A6-3DA1-AFCD-E984503AE490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{74AB8875-C48E-3CA7-B560-893F681F3DEF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DX">
+      <UniqueIdentifier>{8E558A72-265A-33EC-BAC8-C1D3A387F1DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Linux">
+      <UniqueIdentifier>{32D5C7A2-AFC1-3648-A4DA-94B9F00E530E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDL">
+      <UniqueIdentifier>{3A4F749B-2A0E-38AB-BD1A-81763B66D1AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared">
+      <UniqueIdentifier>{707D86E5-25F7-3F42-B78B-DED7F1B23B2C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Synergy">
+      <UniqueIdentifier>{639937A3-C950-31DF-9D94-A7C34A937A60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TrackIR">
+      <UniqueIdentifier>{95098F92-0FFE-3F3A-A06E-A42EBBFDC759}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

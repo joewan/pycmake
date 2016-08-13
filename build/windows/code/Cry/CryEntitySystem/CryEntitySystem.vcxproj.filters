@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\AreaProxy.cpp">
+      <Filter>Proxy\Area</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityAttributesProxy.cpp">
+      <Filter>Proxy\Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityAudioProxy.cpp">
+      <Filter>Proxy\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\CameraProxy.cpp">
+      <Filter>Proxy\CameraProxy</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\ClipVolumeProxy.cpp">
+      <Filter>Proxy\ClipVolume</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\DynamicResponseProxy.cpp">
+      <Filter>Proxy\DynamicResponse</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\FlowGraphProxy.cpp">
+      <Filter>Proxy\FlowGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\PhysicsEventListener.cpp">
+      <Filter>Proxy\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\PhysicsProxy.cpp">
+      <Filter>Proxy\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\RopeProxy.cpp">
+      <Filter>Proxy\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityObject.cpp">
+      <Filter>Proxy\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\RenderProxy.cpp">
+      <Filter>Proxy\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityScript.cpp">
+      <Filter>Proxy\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\ScriptBind_Entity.cpp">
+      <Filter>Proxy\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\ScriptProperties.cpp">
+      <Filter>Proxy\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\ScriptProxy.cpp">
+      <Filter>Proxy\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\SubstitutionProxy.cpp">
+      <Filter>Proxy\SubstitutionProxy</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityNodeProxy.cpp">
+      <Filter>Proxy\TrackView</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\TriggerProxy.cpp">
+      <Filter>Proxy\TriggerProxy</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityClass.cpp">
+      <Filter>EntityClass</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityClassRegistry.cpp">
+      <Filter>EntityClass</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\AffineParts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\AreaSolid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\BSPTree3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\CharacterBoneAttachmentManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\ComponentEventDistributer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\CryEntityDLL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\Entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityArchetype.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityCVars.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityLayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntitySystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityTimeoutList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\GeomCacheAttachmentManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\Area.cpp">
+      <Filter>AreaManager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\AreaGrid.cpp">
+      <Filter>AreaManager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\AreaManager.cpp">
+      <Filter>AreaManager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\BreakableManager.cpp">
+      <Filter>BreakableManager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\BreakablePlane.cpp">
+      <Filter>BreakableManager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityLoadManager.cpp">
+      <Filter>Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\PartitionGrid.cpp">
+      <Filter>PartitionGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\ProximityTriggerSystem.cpp">
+      <Filter>PartitionGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\RadixSort.cpp">
+      <Filter>PartitionGrid</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityPool.cpp">
+      <Filter>Pool</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityPoolDefinition.cpp">
+      <Filter>Pool</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityPoolManager.cpp">
+      <Filter>Pool</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityPoolSignature.cpp">
+      <Filter>Pool</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\AreaProxy.h">
+      <Filter>Proxy\Area</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityAttributesProxy.h">
+      <Filter>Proxy\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityAudioProxy.h">
+      <Filter>Proxy\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\CameraProxy.h">
+      <Filter>Proxy\CameraProxy</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\ClipVolumeProxy.h">
+      <Filter>Proxy\ClipVolume</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\DynamicResponseProxy.h">
+      <Filter>Proxy\DynamicResponse</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\FlowGraphProxy.h">
+      <Filter>Proxy\FlowGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\PhysicsEventListener.h">
+      <Filter>Proxy\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\PhysicsProxy.h">
+      <Filter>Proxy\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\RopeProxy.h">
+      <Filter>Proxy\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityObject.h">
+      <Filter>Proxy\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\RenderProxy.h">
+      <Filter>Proxy\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityScript.h">
+      <Filter>Proxy\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\ScriptBind_Entity.h">
+      <Filter>Proxy\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\ScriptProperties.h">
+      <Filter>Proxy\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\ScriptProxy.h">
+      <Filter>Proxy\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\SubstitutionProxy.h">
+      <Filter>Proxy\SubstitutionProxy</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityNodeProxy.h">
+      <Filter>Proxy\TrackView</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\TriggerProxy.h">
+      <Filter>Proxy\TriggerProxy</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityClass.h">
+      <Filter>EntityClass</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityClassRegistry.h">
+      <Filter>EntityClass</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\AreaSolid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\AreaUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\BSPTree3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\AffineParts.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\CharacterBoneAttachmentManager.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\ComponentEventDistributer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\Entity.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityArchetype.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityCVars.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityIt.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityLayer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntitySystem.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityTimeoutList.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\GeomCacheAttachmentManager.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\SaltBufferArray.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\SaltHandle.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\Area.h">
+      <Filter>AreaManager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\AreaGrid.h">
+      <Filter>AreaManager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\AreaManager.h">
+      <Filter>AreaManager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\BreakableManager.h">
+      <Filter>BreakableManager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\BreakablePlane.h">
+      <Filter>BreakableManager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityLoadManager.h">
+      <Filter>Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\PartitionGrid.h">
+      <Filter>PartitionGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\ProximityTriggerSystem.h">
+      <Filter>PartitionGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\RadixSort.h">
+      <Filter>PartitionGrid</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityPool.h">
+      <Filter>Pool</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityPoolCommon.h">
+      <Filter>Pool</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityPoolDefinition.h">
+      <Filter>Pool</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityPoolManager.h">
+      <Filter>Pool</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\EntityPoolSignature.h">
+      <Filter>Pool</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\workspace\pycmake\code\Cry\CryEntitySystem\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Proxy\Area">
+      <UniqueIdentifier>{10CED07B-286E-3367-ABD9-7DA7068EFBCF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Proxy\Attributes">
+      <UniqueIdentifier>{E58C2909-6522-3C47-AE5A-E38AF93D4759}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Proxy\Audio">
+      <UniqueIdentifier>{BDB384E5-E538-3F48-9374-3720D85241E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Proxy\CameraProxy">
+      <UniqueIdentifier>{12D667C4-C778-39B0-8F47-0429BBCF8975}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Proxy\ClipVolume">
+      <UniqueIdentifier>{B01DD390-3170-3740-BD92-70B5E0D2F2C3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Proxy\DynamicResponse">
+      <UniqueIdentifier>{F6DB48C2-69A6-3027-85E8-B5C5FC721F6C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Proxy\FlowGraph">
+      <UniqueIdentifier>{84DD4A74-63FF-34A7-9B41-FFE3A6CABFB6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Proxy\Physics">
+      <UniqueIdentifier>{4EA89E82-A4F3-3824-9BB5-7682F879E622}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Proxy\Render">
+      <UniqueIdentifier>{F0366099-2AA7-3BA5-BD44-8E36EFB777FD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Proxy\Script">
+      <UniqueIdentifier>{BB3733EE-CE98-3992-8AC4-D244147A0D3A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Proxy\SubstitutionProxy">
+      <UniqueIdentifier>{5DFBDEA1-5B01-3009-B87B-DDD454545007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Proxy\TrackView">
+      <UniqueIdentifier>{56BC9763-6835-357C-BC5B-5F638D239742}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Proxy\TriggerProxy">
+      <UniqueIdentifier>{9C72D772-2B89-3068-B7AA-AADC70AD11FC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{40C3A39C-41A6-3DA1-AFCD-E984503AE490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{74AB8875-C48E-3CA7-B560-893F681F3DEF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AreaManager">
+      <UniqueIdentifier>{8378127D-8FA1-33ED-8E58-4A125BA4318A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BreakableManager">
+      <UniqueIdentifier>{AFB9AAE5-54BD-3EB6-9A05-FE881F3C34C5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EntityClass">
+      <UniqueIdentifier>{B19974DD-935B-385F-9581-350B34E0C15D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Loading">
+      <UniqueIdentifier>{FAE59852-636C-367C-A877-2ECF21696A9F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PartitionGrid">
+      <UniqueIdentifier>{DDF16FB8-39A9-36C4-9CA8-8BA64B1C6F24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pool">
+      <UniqueIdentifier>{185E1AD2-8156-3BE9-8E30-F555E3AEADAA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Proxy">
+      <UniqueIdentifier>{DCB71B2A-BA74-3DE5-9BB7-694F45DDC015}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
